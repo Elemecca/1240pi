@@ -3,6 +3,9 @@
   This file is intended to be loaded by Logisim-evolution v3.8.0dev(https://github.com/logisim-evolution/).
 
   <lib desc="#Wiring" name="0">
+    <tool name="Splitter">
+      <a name="appear" val="right"/>
+    </tool>
     <tool name="Pin">
       <a name="appearance" val="classic"/>
     </tool>
@@ -60,6 +63,19 @@
     <a name="circuit" val="display"/>
     <a name="circuitnamedboxfixedsize" val="true"/>
     <a name="simulationFrequency" val="1.0"/>
+    <comp lib="0" loc="(1000,2300)" name="Splitter">
+      <a name="appear" val="right"/>
+      <a name="bit1" val="none"/>
+      <a name="bit2" val="1"/>
+      <a name="bit3" val="none"/>
+      <a name="bit4" val="2"/>
+      <a name="bit5" val="none"/>
+      <a name="bit6" val="3"/>
+      <a name="facing" val="west"/>
+      <a name="fanout" val="4"/>
+      <a name="incoming" val="7"/>
+      <a name="spacing" val="4"/>
+    </comp>
     <comp lib="0" loc="(1010,720)" name="Splitter">
       <a name="appear" val="right"/>
       <a name="bit0" val="none"/>
@@ -77,6 +93,7 @@
       <a name="incoming" val="11"/>
       <a name="spacing" val="2"/>
     </comp>
+    <comp lib="0" loc="(1050,3350)" name="NoConnect"/>
     <comp lib="0" loc="(110,350)" name="Pin">
       <a name="appearance" val="NewPins"/>
       <a name="label" val="ID"/>
@@ -88,6 +105,23 @@
       <a name="label" val="IA"/>
       <a name="radix" val="16"/>
       <a name="width" val="14"/>
+    </comp>
+    <comp lib="0" loc="(1130,2320)" name="Splitter">
+      <a name="bit1" val="none"/>
+      <a name="bit2" val="1"/>
+      <a name="bit3" val="none"/>
+      <a name="bit4" val="2"/>
+      <a name="bit5" val="none"/>
+      <a name="bit6" val="none"/>
+      <a name="fanout" val="3"/>
+      <a name="incoming" val="7"/>
+      <a name="spacing" val="4"/>
+    </comp>
+    <comp lib="0" loc="(1150,2740)" name="Splitter">
+      <a name="appear" val="right"/>
+      <a name="fanout" val="8"/>
+      <a name="incoming" val="8"/>
+      <a name="spacing" val="2"/>
     </comp>
     <comp lib="0" loc="(1150,760)" name="Splitter">
       <a name="appear" val="right"/>
@@ -105,6 +139,29 @@
       <a name="bit9" val="none"/>
       <a name="incoming" val="14"/>
       <a name="spacing" val="2"/>
+    </comp>
+    <comp lib="0" loc="(1160,2140)" name="Splitter">
+      <a name="appear" val="right"/>
+      <a name="bit4" val="none"/>
+      <a name="bit5" val="none"/>
+      <a name="bit6" val="none"/>
+      <a name="bit7" val="none"/>
+      <a name="fanout" val="4"/>
+      <a name="incoming" val="8"/>
+      <a name="spacing" val="2"/>
+    </comp>
+    <comp lib="0" loc="(1160,2340)" name="Splitter">
+      <a name="bit0" val="none"/>
+      <a name="bit1" val="0"/>
+      <a name="bit2" val="none"/>
+      <a name="bit3" val="1"/>
+      <a name="bit4" val="none"/>
+      <a name="bit5" val="2"/>
+      <a name="bit6" val="none"/>
+      <a name="bit7" val="none"/>
+      <a name="fanout" val="3"/>
+      <a name="incoming" val="8"/>
+      <a name="spacing" val="4"/>
     </comp>
     <comp lib="0" loc="(1180,680)" name="Splitter">
       <a name="appear" val="right"/>
@@ -130,6 +187,117 @@
     </comp>
     <comp lib="0" loc="(1280,810)" name="Constant">
       <a name="value" val="0x0"/>
+    </comp>
+    <comp lib="0" loc="(1310,2170)" name="NoConnect"/>
+    <comp lib="0" loc="(1310,2190)" name="NoConnect"/>
+    <comp lib="0" loc="(1350,2160)" name="Splitter">
+      <a name="appear" val="right"/>
+      <a name="bit1" val="none"/>
+      <a name="bit2" val="none"/>
+      <a name="bit3" val="none"/>
+      <a name="bit4" val="none"/>
+      <a name="bit5" val="none"/>
+      <a name="bit6" val="none"/>
+      <a name="bit7" val="none"/>
+      <a name="facing" val="west"/>
+      <a name="fanout" val="1"/>
+      <a name="incoming" val="8"/>
+    </comp>
+    <comp lib="0" loc="(1350,2300)" name="Splitter">
+      <a name="appear" val="right"/>
+      <a name="bit0" val="none"/>
+      <a name="bit1" val="0"/>
+      <a name="bit2" val="1"/>
+      <a name="bit3" val="2"/>
+      <a name="bit4" val="none"/>
+      <a name="bit5" val="none"/>
+      <a name="bit6" val="none"/>
+      <a name="bit7" val="none"/>
+      <a name="facing" val="west"/>
+      <a name="fanout" val="3"/>
+      <a name="incoming" val="8"/>
+      <a name="spacing" val="2"/>
+    </comp>
+    <comp lib="0" loc="(1370,2910)" name="Constant"/>
+    <comp lib="0" loc="(1370,2930)" name="Constant">
+      <a name="value" val="0x0"/>
+    </comp>
+    <comp lib="0" loc="(1370,2950)" name="Constant">
+      <a name="value" val="0x0"/>
+    </comp>
+    <comp lib="0" loc="(140,2430)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="label" val="CLK_2_4_MHz"/>
+    </comp>
+    <comp lib="0" loc="(140,2520)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="label" val="G_0"/>
+    </comp>
+    <comp lib="0" loc="(140,2550)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="label" val="T_1"/>
+    </comp>
+    <comp lib="0" loc="(140,2680)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="label" val="EXPM"/>
+    </comp>
+    <comp lib="0" loc="(140,2730)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="label" val="R"/>
+      <a name="width" val="8"/>
+    </comp>
+    <comp lib="0" loc="(140,2760)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="label" val="L"/>
+      <a name="width" val="3"/>
+    </comp>
+    <comp lib="0" loc="(140,2940)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="label" val="HD"/>
+    </comp>
+    <comp lib="0" loc="(140,2970)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="label" val="CLK_19_6_MHz"/>
+    </comp>
+    <comp lib="0" loc="(140,3000)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="label" val="CLK_4_8_MHz"/>
+    </comp>
+    <comp lib="0" loc="(140,3050)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="label" val="CLK_9_8_MHz"/>
+    </comp>
+    <comp lib="0" loc="(140,3080)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="label" val="CLK_2_4_MHz"/>
+    </comp>
+    <comp lib="0" loc="(140,3110)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="label" val="GT_BLNK"/>
+    </comp>
+    <comp lib="0" loc="(140,3140)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="label" val="CB"/>
+    </comp>
+    <comp lib="0" loc="(140,3290)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="label" val="CB_L"/>
+    </comp>
+    <comp lib="0" loc="(140,3500)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="label" val="BIT0"/>
+    </comp>
+    <comp lib="0" loc="(140,3530)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="label" val="BIT1"/>
+    </comp>
+    <comp lib="0" loc="(140,3560)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="label" val="VDRIVE_GREEN"/>
+    </comp>
+    <comp lib="0" loc="(140,3650)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="label" val="CLK_1_2_MHz"/>
     </comp>
     <comp lib="0" loc="(140,760)" name="Splitter">
       <a name="appear" val="right"/>
@@ -212,9 +380,51 @@
       <a name="facing" val="east"/>
       <a name="label" val="LOE_L"/>
     </comp>
+    <comp lib="0" loc="(150,2010)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="label" val="Y"/>
+      <a name="width" val="8"/>
+    </comp>
     <comp lib="0" loc="(1540,1280)" name="Splitter">
       <a name="appear" val="right"/>
       <a name="fanout" val="8"/>
+      <a name="incoming" val="8"/>
+      <a name="spacing" val="2"/>
+    </comp>
+    <comp lib="0" loc="(1540,2280)" name="Splitter">
+      <a name="bit0" val="none"/>
+      <a name="bit1" val="none"/>
+      <a name="bit2" val="none"/>
+      <a name="bit3" val="none"/>
+      <a name="bit4" val="0"/>
+      <a name="bit5" val="none"/>
+      <a name="bit6" val="1"/>
+      <a name="incoming" val="7"/>
+      <a name="spacing" val="4"/>
+    </comp>
+    <comp lib="0" loc="(1570,2300)" name="Splitter">
+      <a name="bit0" val="none"/>
+      <a name="bit1" val="none"/>
+      <a name="bit2" val="none"/>
+      <a name="bit3" val="none"/>
+      <a name="bit4" val="none"/>
+      <a name="bit5" val="0"/>
+      <a name="bit6" val="none"/>
+      <a name="bit7" val="1"/>
+      <a name="incoming" val="8"/>
+      <a name="spacing" val="4"/>
+    </comp>
+    <comp lib="0" loc="(1580,2140)" name="Splitter">
+      <a name="appear" val="right"/>
+      <a name="bit0" val="none"/>
+      <a name="bit1" val="none"/>
+      <a name="bit2" val="none"/>
+      <a name="bit3" val="none"/>
+      <a name="bit4" val="0"/>
+      <a name="bit5" val="1"/>
+      <a name="bit6" val="2"/>
+      <a name="bit7" val="3"/>
+      <a name="fanout" val="4"/>
       <a name="incoming" val="8"/>
       <a name="spacing" val="2"/>
     </comp>
@@ -259,6 +469,8 @@
       <a name="incoming" val="14"/>
       <a name="spacing" val="2"/>
     </comp>
+    <comp lib="0" loc="(1640,2900)" name="NoConnect"/>
+    <comp lib="0" loc="(1640,2960)" name="NoConnect"/>
     <comp lib="0" loc="(1660,680)" name="Splitter">
       <a name="appear" val="right"/>
       <a name="bit0" val="none"/>
@@ -273,6 +485,7 @@
       <a name="incoming" val="8"/>
       <a name="spacing" val="2"/>
     </comp>
+    <comp lib="0" loc="(1670,2910)" name="NoConnect"/>
     <comp lib="0" loc="(170,1380)" name="Splitter">
       <a name="appear" val="right"/>
       <a name="bit10" val="none"/>
@@ -286,6 +499,12 @@
       <a name="incoming" val="11"/>
       <a name="spacing" val="4"/>
     </comp>
+    <comp lib="0" loc="(170,2760)" name="Splitter">
+      <a name="appear" val="right"/>
+      <a name="fanout" val="3"/>
+      <a name="incoming" val="3"/>
+      <a name="spacing" val="4"/>
+    </comp>
     <comp lib="0" loc="(170,680)" name="Splitter">
       <a name="appear" val="right"/>
       <a name="bit4" val="none"/>
@@ -296,6 +515,8 @@
       <a name="incoming" val="8"/>
       <a name="spacing" val="2"/>
     </comp>
+    <comp lib="0" loc="(1740,2170)" name="NoConnect"/>
+    <comp lib="0" loc="(1740,2190)" name="NoConnect"/>
     <comp lib="0" loc="(1760,810)" name="Constant">
       <a name="value" val="0x0"/>
     </comp>
@@ -303,6 +524,35 @@
       <a name="appear" val="right"/>
       <a name="facing" val="west"/>
       <a name="fanout" val="8"/>
+      <a name="incoming" val="8"/>
+      <a name="spacing" val="2"/>
+    </comp>
+    <comp lib="0" loc="(1780,2160)" name="Splitter">
+      <a name="appear" val="right"/>
+      <a name="bit0" val="none"/>
+      <a name="bit1" val="none"/>
+      <a name="bit2" val="none"/>
+      <a name="bit3" val="none"/>
+      <a name="bit4" val="0"/>
+      <a name="bit5" val="none"/>
+      <a name="bit6" val="none"/>
+      <a name="bit7" val="none"/>
+      <a name="facing" val="west"/>
+      <a name="fanout" val="1"/>
+      <a name="incoming" val="8"/>
+    </comp>
+    <comp lib="0" loc="(1780,2300)" name="Splitter">
+      <a name="appear" val="right"/>
+      <a name="bit0" val="none"/>
+      <a name="bit1" val="none"/>
+      <a name="bit2" val="none"/>
+      <a name="bit3" val="none"/>
+      <a name="bit4" val="none"/>
+      <a name="bit5" val="0"/>
+      <a name="bit6" val="1"/>
+      <a name="bit7" val="2"/>
+      <a name="facing" val="west"/>
+      <a name="fanout" val="3"/>
       <a name="incoming" val="8"/>
       <a name="spacing" val="2"/>
     </comp>
@@ -365,6 +615,28 @@
       <a name="incoming" val="8"/>
       <a name="spacing" val="2"/>
     </comp>
+    <comp lib="0" loc="(2060,2460)" name="Splitter">
+      <a name="bit1" val="none"/>
+      <a name="bit2" val="none"/>
+      <a name="bit3" val="none"/>
+      <a name="bit4" val="none"/>
+      <a name="bit5" val="none"/>
+      <a name="bit6" val="none"/>
+      <a name="fanout" val="1"/>
+      <a name="incoming" val="7"/>
+    </comp>
+    <comp lib="0" loc="(2060,2490)" name="Splitter">
+      <a name="bit0" val="none"/>
+      <a name="bit1" val="0"/>
+      <a name="bit2" val="none"/>
+      <a name="bit3" val="none"/>
+      <a name="bit4" val="none"/>
+      <a name="bit5" val="none"/>
+      <a name="bit6" val="none"/>
+      <a name="bit7" val="none"/>
+      <a name="fanout" val="1"/>
+      <a name="incoming" val="8"/>
+    </comp>
     <comp lib="0" loc="(2060,830)" name="Splitter">
       <a name="appear" val="right"/>
       <a name="bit0" val="none"/>
@@ -391,6 +663,36 @@
       <a name="label" val="Y"/>
       <a name="width" val="8"/>
     </comp>
+    <comp lib="0" loc="(2080,2450)" name="Tunnel">
+      <a name="label" val="G0"/>
+    </comp>
+    <comp lib="0" loc="(2080,2480)" name="Tunnel">
+      <a name="label" val="T1"/>
+    </comp>
+    <comp lib="0" loc="(2080,2950)" name="Pin">
+      <a name="appearance" val="NewPins"/>
+      <a name="facing" val="west"/>
+      <a name="label" val="VIDEO"/>
+      <a name="output" val="true"/>
+    </comp>
+    <comp lib="0" loc="(2080,3190)" name="Tunnel">
+      <a name="label" val="GTMODE"/>
+    </comp>
+    <comp lib="0" loc="(2080,3350)" name="Tunnel">
+      <a name="label" val="PRE_GT_BLINK_L"/>
+    </comp>
+    <comp lib="0" loc="(2080,3480)" name="Tunnel">
+      <a name="label" val="TMODE_L"/>
+    </comp>
+    <comp lib="0" loc="(2080,3590)" name="Tunnel">
+      <a name="label" val="GTMODE_L"/>
+    </comp>
+    <comp lib="0" loc="(2080,3680)" name="Tunnel">
+      <a name="label" val="IDP_LOCKOUT"/>
+    </comp>
+    <comp lib="0" loc="(2080,3710)" name="Tunnel">
+      <a name="label" val="LOADC_L"/>
+    </comp>
     <comp lib="0" loc="(2080,470)" name="Tunnel">
       <a name="label" val="R"/>
       <a name="width" val="8"/>
@@ -412,9 +714,34 @@
     <comp lib="0" loc="(2080,970)" name="Tunnel">
       <a name="label" val="BIT1"/>
     </comp>
+    <comp lib="0" loc="(210,2780)" name="Splitter">
+      <a name="appear" val="right"/>
+      <a name="bit0" val="none"/>
+      <a name="bit1" val="0"/>
+      <a name="bit2" val="1"/>
+      <a name="bit3" val="2"/>
+      <a name="bit4" val="none"/>
+      <a name="bit5" val="none"/>
+      <a name="bit6" val="none"/>
+      <a name="bit7" val="none"/>
+      <a name="fanout" val="3"/>
+      <a name="incoming" val="8"/>
+      <a name="spacing" val="4"/>
+    </comp>
     <comp lib="0" loc="(240,810)" name="Constant">
       <a name="value" val="0x0"/>
     </comp>
+    <comp lib="0" loc="(250,2180)" name="Splitter">
+      <a name="appear" val="right"/>
+      <a name="fanout" val="8"/>
+      <a name="incoming" val="8"/>
+      <a name="spacing" val="2"/>
+    </comp>
+    <comp lib="0" loc="(250,2710)" name="Constant">
+      <a name="value" val="0x0"/>
+    </comp>
+    <comp lib="0" loc="(250,2730)" name="NoConnect"/>
+    <comp lib="0" loc="(250,2750)" name="NoConnect"/>
     <comp lib="0" loc="(260,1350)" name="Constant">
       <a name="value" val="0x0"/>
     </comp>
@@ -450,6 +777,7 @@
       <a name="facing" val="east"/>
       <a name="label" val="DROM_L"/>
     </comp>
+    <comp lib="0" loc="(300,2170)" name="Constant"/>
     <comp lib="0" loc="(330,1140)" name="Splitter">
       <a name="appear" val="right"/>
       <a name="bit0" val="none"/>
@@ -466,6 +794,7 @@
       <a name="fanout" val="1"/>
       <a name="incoming" val="11"/>
     </comp>
+    <comp lib="0" loc="(350,2740)" name="NoConnect"/>
     <comp lib="0" loc="(400,1510)" name="Splitter">
       <a name="appear" val="right"/>
       <a name="bit10" val="none"/>
@@ -505,6 +834,12 @@
       <a name="incoming" val="11"/>
       <a name="spacing" val="4"/>
     </comp>
+    <comp lib="0" loc="(480,2090)" name="Constant">
+      <a name="value" val="0x0"/>
+    </comp>
+    <comp lib="0" loc="(480,2110)" name="Constant">
+      <a name="value" val="0x0"/>
+    </comp>
     <comp lib="0" loc="(500,1360)" name="Splitter">
       <a name="appear" val="right"/>
       <a name="bit0" val="none"/>
@@ -524,6 +859,29 @@
       <a name="fanout" val="4"/>
       <a name="incoming" val="14"/>
       <a name="spacing" val="4"/>
+    </comp>
+    <comp lib="0" loc="(500,3410)" name="Splitter">
+      <a name="appear" val="right"/>
+      <a name="bit1" val="none"/>
+      <a name="bit2" val="1"/>
+      <a name="bit3" val="none"/>
+      <a name="bit4" val="2"/>
+      <a name="bit5" val="none"/>
+      <a name="bit6" val="3"/>
+      <a name="fanout" val="4"/>
+      <a name="incoming" val="7"/>
+    </comp>
+    <comp lib="0" loc="(530,3350)" name="Splitter">
+      <a name="appear" val="right"/>
+      <a name="bit0" val="none"/>
+      <a name="bit1" val="0"/>
+      <a name="bit2" val="none"/>
+      <a name="bit4" val="none"/>
+      <a name="bit5" val="2"/>
+      <a name="bit6" val="none"/>
+      <a name="bit7" val="1"/>
+      <a name="fanout" val="4"/>
+      <a name="incoming" val="8"/>
     </comp>
     <comp lib="0" loc="(550,760)" name="Splitter">
       <a name="appear" val="right"/>
@@ -575,6 +933,12 @@
     </comp>
     <comp lib="0" loc="(620,370)" name="Splitter">
       <a name="appear" val="right"/>
+      <a name="facing" val="west"/>
+      <a name="fanout" val="8"/>
+      <a name="incoming" val="8"/>
+      <a name="spacing" val="2"/>
+    </comp>
+    <comp lib="0" loc="(640,2160)" name="Splitter">
       <a name="facing" val="west"/>
       <a name="fanout" val="8"/>
       <a name="incoming" val="8"/>
@@ -664,6 +1028,12 @@
       <a name="incoming" val="14"/>
       <a name="spacing" val="4"/>
     </comp>
+    <comp lib="0" loc="(780,2160)" name="Splitter">
+      <a name="appear" val="right"/>
+      <a name="fanout" val="8"/>
+      <a name="incoming" val="8"/>
+      <a name="spacing" val="2"/>
+    </comp>
     <comp lib="0" loc="(800,1640)" name="Splitter">
       <a name="bit0" val="none"/>
       <a name="bit1" val="none"/>
@@ -681,7 +1051,9 @@
       <a name="incoming" val="12"/>
     </comp>
     <comp lib="0" loc="(810,1590)" name="Constant"/>
+    <comp lib="0" loc="(830,2150)" name="Constant"/>
     <comp lib="0" loc="(860,670)" name="Constant"/>
+    <comp lib="0" loc="(950,3350)" name="NoConnect"/>
     <comp lib="0" loc="(960,1510)" name="Splitter">
       <a name="appear" val="right"/>
       <a name="bit0" val="none"/>
@@ -703,6 +1075,21 @@
     </comp>
     <comp lib="0" loc="(960,730)" name="NoConnect"/>
     <comp lib="0" loc="(960,750)" name="NoConnect"/>
+    <comp lib="0" loc="(970,2320)" name="Splitter">
+      <a name="appear" val="right"/>
+      <a name="bit0" val="none"/>
+      <a name="bit1" val="0"/>
+      <a name="bit2" val="none"/>
+      <a name="bit3" val="1"/>
+      <a name="bit4" val="none"/>
+      <a name="bit5" val="2"/>
+      <a name="bit6" val="none"/>
+      <a name="bit7" val="3"/>
+      <a name="facing" val="west"/>
+      <a name="fanout" val="4"/>
+      <a name="incoming" val="8"/>
+      <a name="spacing" val="4"/>
+    </comp>
     <comp lib="0" loc="(990,1500)" name="Splitter">
       <a name="bit11" val="none"/>
       <a name="fanout" val="11"/>
@@ -714,8 +1101,43 @@
       <a name="negate0" val="true"/>
       <a name="negate1" val="true"/>
     </comp>
+    <comp lib="1" loc="(1170,3540)" name="AND Gate">
+      <a name="label" val="U108D"/>
+    </comp>
+    <comp lib="1" loc="(1190,3480)" name="NOT Gate">
+      <a name="label" val="U100F"/>
+    </comp>
+    <comp lib="1" loc="(1250,3010)" name="XOR Gate">
+      <a name="label" val="U265D"/>
+    </comp>
+    <comp lib="1" loc="(1250,3090)" name="XOR Gate">
+      <a name="label" val="U265C"/>
+    </comp>
+    <comp lib="1" loc="(1280,3370)" name="NOT Gate">
+      <a name="label" val="U208A"/>
+    </comp>
+    <comp lib="1" loc="(1290,3420)" name="AND Gate">
+      <a name="label" val="U210A"/>
+    </comp>
+    <comp lib="1" loc="(1320,3050)" name="AND Gate">
+      <a name="inputs" val="3"/>
+      <a name="label" val="U270B"/>
+    </comp>
+    <comp lib="1" loc="(1390,3350)" name="OR Gate">
+      <a name="label" val="U115A"/>
+    </comp>
+    <comp lib="1" loc="(1430,3520)" name="OR Gate">
+      <a name="label" val="U105C"/>
+    </comp>
+    <comp lib="1" loc="(1560,2910)" name="OR Gate">
+      <a name="label" val="U405F"/>
+    </comp>
     <comp lib="1" loc="(1710,240)" name="NAND Gate">
       <a name="label" val="U275B"/>
+    </comp>
+    <comp lib="1" loc="(260,2660)" name="NAND Gate"/>
+    <comp lib="1" loc="(320,3130)" name="OR Gate">
+      <a name="label" val="U405A"/>
     </comp>
     <comp lib="1" loc="(330,1190)" name="OR Gate">
       <a name="label" val="U105D"/>
@@ -724,21 +1146,55 @@
     <comp lib="1" loc="(410,1170)" name="AND Gate">
       <a name="label" val="U170A"/>
     </comp>
+    <comp lib="1" loc="(640,2880)" name="NAND Gate">
+      <a name="label" val="U275A"/>
+    </comp>
+    <comp lib="1" loc="(640,3410)" name="NAND Gate">
+      <a name="inputs" val="8"/>
+      <a name="label" val="U430"/>
+    </comp>
     <comp lib="1" loc="(680,1180)" name="AND Gate">
       <a name="label" val="U170B"/>
     </comp>
     <comp lib="1" loc="(680,1250)" name="AND Gate">
       <a name="label" val="U170D"/>
     </comp>
+    <comp lib="1" loc="(720,2840)" name="OR Gate">
+      <a name="label" val="U115D"/>
+    </comp>
+    <comp lib="1" loc="(720,3410)" name="NOT Gate">
+      <a name="label" val="U100A"/>
+    </comp>
+    <comp lib="1" loc="(740,2410)" name="XOR Gate">
+      <a name="label" val="U310A"/>
+    </comp>
+    <comp lib="1" loc="(790,3390)" name="AND Gate">
+      <a name="label" val="U108A"/>
+    </comp>
+    <comp lib="1" loc="(800,2800)" name="OR Gate">
+      <a name="label" val="U115C"/>
+    </comp>
+    <comp lib="1" loc="(800,3450)" name="NAND Gate">
+      <a name="label" val="U205D"/>
+    </comp>
     <comp lib="1" loc="(860,290)" name="NAND Gate">
       <a name="inputs" val="3"/>
       <a name="label" val="U270C"/>
     </comp>
+    <comp lib="1" loc="(860,3370)" name="OR Gate">
+      <a name="label" val="U110F"/>
+    </comp>
     <comp lib="1" loc="(860,350)" name="NAND Gate">
       <a name="label" val="U275D"/>
     </comp>
+    <comp lib="1" loc="(870,2820)" name="OR Gate">
+      <a name="label" val="U110C"/>
+    </comp>
     <comp lib="1" loc="(900,1610)" name="XOR Gate">
       <a name="label" val="U265A"/>
+    </comp>
+    <comp lib="12" loc="(1050,3310)" name="ttl_74273">
+      <a name="label" val="U125"/>
     </comp>
     <comp lib="12" loc="(1160,1340)" name="mem_6116P_2">
       <a name="label" val="U245"/>
@@ -747,12 +1203,16 @@
       <a name="label" val="U480C"/>
       <a name="labelloc" val="west"/>
     </comp>
+    <comp lib="12" loc="(1310,2750)" name="ttl_74273">
+      <a name="label" val="U225"/>
+    </comp>
     <comp lib="12" loc="(1380,690)" name="ttl_74670">
       <a name="label" val="U285"/>
     </comp>
     <comp lib="12" loc="(1420,1340)" name="mem_6116P_2">
       <a name="label" val="U145"/>
     </comp>
+    <comp lib="12" loc="(1470,2890)" name="ttl_74166"/>
     <comp lib="12" loc="(1500,240)" name="ttl_74279_ssr">
       <a name="label" val="U480A"/>
       <a name="labelloc" val="west"/>
@@ -775,9 +1235,16 @@
     <comp lib="12" loc="(340,690)" name="ttl_74670">
       <a name="label" val="U295"/>
     </comp>
+    <comp lib="12" loc="(350,2740)" name="ttl_74157">
+      <a name="label" val="U120"/>
+      <a name="labelloc" val="south"/>
+    </comp>
     <comp lib="12" loc="(360,1380)" name="ttl_74157">
       <a name="label" val="U260"/>
       <a name="labelloc" val="south"/>
+    </comp>
+    <comp lib="12" loc="(400,2190)" name="ttl_74273">
+      <a name="label" val="U140"/>
     </comp>
     <comp lib="12" loc="(530,650)" name="ttl_74163">
       <a name="label" val="U298"/>
@@ -797,6 +1264,9 @@
       <a name="label" val="U160"/>
       <a name="labelloc" val="south"/>
     </comp>
+    <comp lib="12" loc="(930,2170)" name="ttl_74273">
+      <a name="label" val="U240"/>
+    </comp>
     <comp lib="12" loc="(960,650)" name="ttl_74163">
       <a name="label" val="U198"/>
       <a name="labelloc" val="south"/>
@@ -805,9 +1275,24 @@
       <a name="label" val="U480B"/>
       <a name="labelloc" val="west"/>
     </comp>
+    <comp lib="4" loc="(1620,2900)" name="D Flip-Flop">
+      <a name="appearance" val="logisim_evolution"/>
+      <a name="label" val="U415B"/>
+    </comp>
+    <comp loc="(1310,2150)" name="pal_3358">
+      <a name="label" val="U230"/>
+    </comp>
+    <comp loc="(1740,2150)" name="pal_3358">
+      <a name="label" val="U235"/>
+    </comp>
     <comp loc="(1950,140)" name="rom_drom">
       <a name="label" val="U175"/>
     </comp>
+    <comp loc="(580,2170)" name="rom_char">
+      <a name="label" val="U130"/>
+    </comp>
+    <wire from="(1000,2300)" to="(1000,2460)"/>
+    <wire from="(1000,2460)" to="(1130,2460)"/>
     <wire from="(1010,1090)" to="(1580,1090)"/>
     <wire from="(1010,1290)" to="(1060,1290)"/>
     <wire from="(1010,1310)" to="(1060,1310)"/>
@@ -832,14 +1317,47 @@
     <wire from="(1050,1550)" to="(1050,1720)"/>
     <wire from="(1050,1550)" to="(1060,1550)"/>
     <wire from="(1050,1720)" to="(1290,1720)"/>
+    <wire from="(1050,3310)" to="(1070,3310)"/>
+    <wire from="(1050,3330)" to="(1340,3330)"/>
+    <wire from="(1050,3370)" to="(1090,3370)"/>
+    <wire from="(1050,3390)" to="(1150,3390)"/>
+    <wire from="(1050,3410)" to="(1170,3410)"/>
+    <wire from="(1050,3430)" to="(1130,3430)"/>
+    <wire from="(1050,3450)" to="(1110,3450)"/>
     <wire from="(1070,170)" to="(1070,240)"/>
     <wire from="(1070,170)" to="(1160,170)"/>
     <wire from="(1070,240)" to="(1070,590)"/>
+    <wire from="(1070,3230)" to="(1070,3310)"/>
     <wire from="(1070,590)" to="(2080,590)"/>
+    <wire from="(1090,2580)" to="(1090,3210)"/>
+    <wire from="(1090,2580)" to="(1380,2580)"/>
+    <wire from="(1090,3210)" to="(1090,3370)"/>
+    <wire from="(1090,3370)" to="(1090,3480)"/>
+    <wire from="(1090,3480)" to="(1090,3520)"/>
+    <wire from="(1090,3480)" to="(1160,3480)"/>
+    <wire from="(1090,3520)" to="(1120,3520)"/>
     <wire from="(110,350)" to="(170,350)"/>
     <wire from="(110,380)" to="(140,380)"/>
     <wire from="(1100,630)" to="(1120,630)"/>
+    <wire from="(1110,3190)" to="(1110,3370)"/>
+    <wire from="(1110,3190)" to="(2080,3190)"/>
+    <wire from="(1110,3370)" to="(1110,3450)"/>
+    <wire from="(1110,3370)" to="(1220,3370)"/>
+    <wire from="(1120,2990)" to="(1120,3000)"/>
+    <wire from="(1120,2990)" to="(1190,2990)"/>
+    <wire from="(1120,3070)" to="(1120,3080)"/>
+    <wire from="(1120,3070)" to="(1190,3070)"/>
     <wire from="(1120,630)" to="(1120,910)"/>
+    <wire from="(1130,2320)" to="(1130,2460)"/>
+    <wire from="(1130,2460)" to="(1540,2460)"/>
+    <wire from="(1130,3160)" to="(1130,3430)"/>
+    <wire from="(1150,2230)" to="(1210,2230)"/>
+    <wire from="(1150,2270)" to="(1210,2270)"/>
+    <wire from="(1150,2310)" to="(1210,2310)"/>
+    <wire from="(1150,2640)" to="(1150,2740)"/>
+    <wire from="(1150,2640)" to="(1350,2640)"/>
+    <wire from="(1150,3030)" to="(1150,3390)"/>
+    <wire from="(1150,3030)" to="(1190,3030)"/>
     <wire from="(1150,530)" to="(1150,760)"/>
     <wire from="(1150,530)" to="(1630,530)"/>
     <wire from="(1160,1340)" to="(1200,1340)"/>
@@ -852,31 +1370,66 @@
     <wire from="(1160,1480)" to="(1200,1480)"/>
     <wire from="(1160,170)" to="(1160,190)"/>
     <wire from="(1160,170)" to="(1440,170)"/>
+    <wire from="(1160,2060)" to="(1160,2140)"/>
+    <wire from="(1160,2060)" to="(1580,2060)"/>
+    <wire from="(1160,2340)" to="(1160,2490)"/>
+    <wire from="(1160,2490)" to="(1570,2490)"/>
+    <wire from="(1170,2750)" to="(1210,2750)"/>
+    <wire from="(1170,2770)" to="(1210,2770)"/>
+    <wire from="(1170,2790)" to="(1210,2790)"/>
+    <wire from="(1170,2810)" to="(1210,2810)"/>
+    <wire from="(1170,2830)" to="(1210,2830)"/>
+    <wire from="(1170,2850)" to="(1210,2850)"/>
+    <wire from="(1170,2870)" to="(1210,2870)"/>
+    <wire from="(1170,2890)" to="(1210,2890)"/>
     <wire from="(1170,290)" to="(1170,350)"/>
+    <wire from="(1170,3110)" to="(1170,3410)"/>
+    <wire from="(1170,3110)" to="(1190,3110)"/>
+    <wire from="(1170,3540)" to="(1380,3540)"/>
     <wire from="(1170,770)" to="(1280,770)"/>
     <wire from="(1170,790)" to="(1280,790)"/>
     <wire from="(1180,140)" to="(1180,190)"/>
     <wire from="(1180,140)" to="(1330,140)"/>
+    <wire from="(1180,2150)" to="(1210,2150)"/>
+    <wire from="(1180,2170)" to="(1210,2170)"/>
+    <wire from="(1180,2190)" to="(1210,2190)"/>
+    <wire from="(1180,2210)" to="(1210,2210)"/>
+    <wire from="(1180,2250)" to="(1210,2250)"/>
+    <wire from="(1180,2290)" to="(1210,2290)"/>
+    <wire from="(1180,2330)" to="(1210,2330)"/>
     <wire from="(1180,500)" to="(1180,680)"/>
     <wire from="(1180,500)" to="(1660,500)"/>
+    <wire from="(1190,3480)" to="(1220,3480)"/>
     <wire from="(1200,690)" to="(1280,690)"/>
     <wire from="(1200,710)" to="(1280,710)"/>
     <wire from="(1200,730)" to="(1280,730)"/>
     <wire from="(1200,750)" to="(1280,750)"/>
+    <wire from="(1210,2720)" to="(1210,2730)"/>
+    <wire from="(1210,2900)" to="(1210,2910)"/>
     <wire from="(1210,440)" to="(1210,830)"/>
     <wire from="(1210,440)" to="(1690,440)"/>
     <wire from="(1210,830)" to="(1280,830)"/>
     <wire from="(1220,1490)" to="(1220,1630)"/>
     <wire from="(1220,1630)" to="(1480,1630)"/>
     <wire from="(1220,240)" to="(1230,240)"/>
+    <wire from="(1220,3370)" to="(1220,3400)"/>
+    <wire from="(1220,3370)" to="(1250,3370)"/>
+    <wire from="(1220,3400)" to="(1240,3400)"/>
+    <wire from="(1220,3440)" to="(1220,3480)"/>
+    <wire from="(1220,3440)" to="(1240,3440)"/>
+    <wire from="(1220,3480)" to="(2080,3480)"/>
     <wire from="(1230,240)" to="(1230,370)"/>
     <wire from="(1230,370)" to="(1230,870)"/>
     <wire from="(1230,370)" to="(1710,370)"/>
     <wire from="(1230,870)" to="(1280,870)"/>
     <wire from="(1250,1520)" to="(1250,1660)"/>
+    <wire from="(1250,3010)" to="(1270,3010)"/>
+    <wire from="(1250,3090)" to="(1260,3090)"/>
     <wire from="(1250,340)" to="(1250,850)"/>
     <wire from="(1250,340)" to="(1510,340)"/>
     <wire from="(1250,850)" to="(1280,850)"/>
+    <wire from="(1260,3070)" to="(1260,3090)"/>
+    <wire from="(1260,3070)" to="(1270,3070)"/>
     <wire from="(1270,1290)" to="(1320,1290)"/>
     <wire from="(1270,1310)" to="(1320,1310)"/>
     <wire from="(1270,1330)" to="(1320,1330)"/>
@@ -891,18 +1444,72 @@
     <wire from="(1270,1510)" to="(1320,1510)"/>
     <wire from="(1270,1530)" to="(1270,1690)"/>
     <wire from="(1270,1530)" to="(1320,1530)"/>
+    <wire from="(1270,3010)" to="(1270,3030)"/>
+    <wire from="(1280,3370)" to="(1320,3370)"/>
     <wire from="(1290,1550)" to="(1290,1720)"/>
     <wire from="(1290,1550)" to="(1320,1550)"/>
     <wire from="(1290,1720)" to="(1660,1720)"/>
+    <wire from="(1290,3420)" to="(1350,3420)"/>
+    <wire from="(1310,2150)" to="(1330,2150)"/>
+    <wire from="(1310,2210)" to="(1400,2210)"/>
+    <wire from="(1310,2230)" to="(1380,2230)"/>
+    <wire from="(1310,2250)" to="(1330,2250)"/>
+    <wire from="(1310,2270)" to="(1330,2270)"/>
+    <wire from="(1310,2290)" to="(1330,2290)"/>
+    <wire from="(1310,2750)" to="(1370,2750)"/>
+    <wire from="(1310,2770)" to="(1370,2770)"/>
+    <wire from="(1310,2790)" to="(1370,2790)"/>
+    <wire from="(1310,2810)" to="(1370,2810)"/>
+    <wire from="(1310,2830)" to="(1370,2830)"/>
+    <wire from="(1310,2850)" to="(1370,2850)"/>
+    <wire from="(1310,2870)" to="(1370,2870)"/>
+    <wire from="(1310,2890)" to="(1370,2890)"/>
+    <wire from="(1320,3050)" to="(1370,3050)"/>
+    <wire from="(1320,3370)" to="(1320,3590)"/>
+    <wire from="(1320,3370)" to="(1340,3370)"/>
+    <wire from="(1320,3590)" to="(2080,3590)"/>
     <wire from="(1330,140)" to="(1330,300)"/>
     <wire from="(1330,300)" to="(1450,300)"/>
+    <wire from="(1350,2160)" to="(1350,2300)"/>
+    <wire from="(1350,2300)" to="(1350,2640)"/>
+    <wire from="(1350,2640)" to="(1780,2640)"/>
+    <wire from="(1350,2970)" to="(1350,3090)"/>
+    <wire from="(1350,2970)" to="(1370,2970)"/>
+    <wire from="(1350,3090)" to="(1570,3090)"/>
+    <wire from="(1350,3420)" to="(1350,3500)"/>
+    <wire from="(1350,3500)" to="(1350,3620)"/>
+    <wire from="(1350,3500)" to="(1380,3500)"/>
+    <wire from="(1370,2990)" to="(1370,3050)"/>
+    <wire from="(1380,2230)" to="(1380,2580)"/>
+    <wire from="(1380,2580)" to="(1810,2580)"/>
     <wire from="(1380,690)" to="(1460,690)"/>
     <wire from="(1380,710)" to="(1460,710)"/>
     <wire from="(1380,730)" to="(1460,730)"/>
     <wire from="(1380,750)" to="(1460,750)"/>
+    <wire from="(1390,3350)" to="(2080,3350)"/>
+    <wire from="(140,2430)" to="(280,2430)"/>
+    <wire from="(140,2520)" to="(1600,2520)"/>
+    <wire from="(140,2550)" to="(1620,2550)"/>
+    <wire from="(140,2680)" to="(200,2680)"/>
+    <wire from="(140,2730)" to="(210,2730)"/>
+    <wire from="(140,2760)" to="(170,2760)"/>
+    <wire from="(140,2940)" to="(790,2940)"/>
+    <wire from="(140,2970)" to="(1350,2970)"/>
+    <wire from="(140,3000)" to="(1120,3000)"/>
+    <wire from="(140,3050)" to="(1270,3050)"/>
+    <wire from="(140,3080)" to="(1120,3080)"/>
+    <wire from="(140,3110)" to="(270,3110)"/>
+    <wire from="(140,3140)" to="(260,3140)"/>
+    <wire from="(140,3290)" to="(950,3290)"/>
+    <wire from="(140,3500)" to="(870,3500)"/>
+    <wire from="(140,3530)" to="(890,3530)"/>
+    <wire from="(140,3560)" to="(1120,3560)"/>
+    <wire from="(140,3650)" to="(2010,3650)"/>
     <wire from="(140,380)" to="(140,530)"/>
     <wire from="(140,530)" to="(140,760)"/>
     <wire from="(140,530)" to="(580,530)"/>
+    <wire from="(1400,2210)" to="(1400,2610)"/>
+    <wire from="(1400,2610)" to="(1830,2610)"/>
     <wire from="(1410,400)" to="(1410,470)"/>
     <wire from="(1410,470)" to="(1410,760)"/>
     <wire from="(1410,470)" to="(1880,470)"/>
@@ -914,6 +1521,7 @@
     <wire from="(1420,1440)" to="(1460,1440)"/>
     <wire from="(1420,1460)" to="(1460,1460)"/>
     <wire from="(1420,1480)" to="(1460,1480)"/>
+    <wire from="(1430,3520)" to="(1830,3520)"/>
     <wire from="(1430,770)" to="(1460,770)"/>
     <wire from="(1430,790)" to="(1460,790)"/>
     <wire from="(1430,810)" to="(1460,810)"/>
@@ -922,8 +1530,11 @@
     <wire from="(1450,290)" to="(1450,300)"/>
     <wire from="(1460,170)" to="(1460,190)"/>
     <wire from="(1460,170)" to="(1730,170)"/>
+    <wire from="(1470,2890)" to="(1510,2890)"/>
     <wire from="(1480,1490)" to="(1480,1630)"/>
     <wire from="(1480,1630)" to="(1770,1630)"/>
+    <wire from="(1480,2930)" to="(1480,3130)"/>
+    <wire from="(1480,2930)" to="(1510,2930)"/>
     <wire from="(150,1000)" to="(190,1000)"/>
     <wire from="(150,1030)" to="(210,1030)"/>
     <wire from="(150,1060)" to="(230,1060)"/>
@@ -935,11 +1546,14 @@
     <wire from="(150,1720)" to="(1050,1720)"/>
     <wire from="(150,1750)" to="(1820,1750)"/>
     <wire from="(150,1780)" to="(1840,1780)"/>
+    <wire from="(150,2010)" to="(250,2010)"/>
     <wire from="(1500,240)" to="(1510,240)"/>
     <wire from="(1510,240)" to="(1510,340)"/>
     <wire from="(1510,340)" to="(1730,340)"/>
     <wire from="(1540,1120)" to="(1540,1280)"/>
     <wire from="(1540,1120)" to="(1660,1120)"/>
+    <wire from="(1540,2280)" to="(1540,2460)"/>
+    <wire from="(1540,2460)" to="(2060,2460)"/>
     <wire from="(1560,1290)" to="(1610,1290)"/>
     <wire from="(1560,1310)" to="(1610,1310)"/>
     <wire from="(1560,1330)" to="(1610,1330)"/>
@@ -948,16 +1562,32 @@
     <wire from="(1560,1390)" to="(1610,1390)"/>
     <wire from="(1560,1410)" to="(1610,1410)"/>
     <wire from="(1560,1430)" to="(1610,1430)"/>
+    <wire from="(1560,2230)" to="(1640,2230)"/>
+    <wire from="(1560,2270)" to="(1640,2270)"/>
+    <wire from="(1560,2910)" to="(1610,2910)"/>
     <wire from="(1560,670)" to="(1600,670)"/>
     <wire from="(1560,700)" to="(1590,700)"/>
     <wire from="(1560,740)" to="(1590,740)"/>
     <wire from="(1560,780)" to="(1590,780)"/>
+    <wire from="(1570,2300)" to="(1570,2490)"/>
+    <wire from="(1570,2490)" to="(2060,2490)"/>
+    <wire from="(1570,2950)" to="(1570,3090)"/>
+    <wire from="(1570,2950)" to="(1610,2950)"/>
     <wire from="(1580,1090)" to="(2060,1090)"/>
+    <wire from="(1580,2060)" to="(1580,2140)"/>
     <wire from="(1580,830)" to="(1580,1090)"/>
+    <wire from="(1590,2250)" to="(1640,2250)"/>
+    <wire from="(1590,2290)" to="(1640,2290)"/>
     <wire from="(160,770)" to="(240,770)"/>
     <wire from="(160,790)" to="(240,790)"/>
     <wire from="(1600,110)" to="(1600,220)"/>
+    <wire from="(1600,2150)" to="(1640,2150)"/>
+    <wire from="(1600,2170)" to="(1640,2170)"/>
+    <wire from="(1600,2190)" to="(1640,2190)"/>
     <wire from="(1600,220)" to="(1650,220)"/>
+    <wire from="(1600,2210)" to="(1640,2210)"/>
+    <wire from="(1600,2310)" to="(1600,2520)"/>
+    <wire from="(1600,2310)" to="(1640,2310)"/>
     <wire from="(1600,260)" to="(1600,560)"/>
     <wire from="(1600,260)" to="(1650,260)"/>
     <wire from="(1600,560)" to="(2050,560)"/>
@@ -965,6 +1595,8 @@
     <wire from="(1600,620)" to="(1920,620)"/>
     <wire from="(1610,1000)" to="(2080,1000)"/>
     <wire from="(1610,790)" to="(1610,1000)"/>
+    <wire from="(1620,2330)" to="(1620,2550)"/>
+    <wire from="(1620,2330)" to="(1640,2330)"/>
     <wire from="(1630,530)" to="(1630,760)"/>
     <wire from="(1630,530)" to="(1790,530)"/>
     <wire from="(1650,770)" to="(1760,770)"/>
@@ -974,6 +1606,7 @@
     <wire from="(1660,500)" to="(1660,680)"/>
     <wire from="(1660,500)" to="(2000,500)"/>
     <wire from="(1660,680)" to="(1660,1120)"/>
+    <wire from="(1670,2950)" to="(2080,2950)"/>
     <wire from="(1680,690)" to="(1760,690)"/>
     <wire from="(1680,710)" to="(1760,710)"/>
     <wire from="(1680,730)" to="(1760,730)"/>
@@ -999,10 +1632,21 @@
     <wire from="(1730,170)" to="(1730,240)"/>
     <wire from="(1730,340)" to="(1730,850)"/>
     <wire from="(1730,850)" to="(1760,850)"/>
+    <wire from="(1740,2150)" to="(1760,2150)"/>
+    <wire from="(1740,2210)" to="(1830,2210)"/>
+    <wire from="(1740,2230)" to="(1810,2230)"/>
+    <wire from="(1740,2250)" to="(1760,2250)"/>
+    <wire from="(1740,2270)" to="(1760,2270)"/>
+    <wire from="(1740,2290)" to="(1760,2290)"/>
     <wire from="(1770,1440)" to="(1770,1630)"/>
     <wire from="(1770,1630)" to="(1800,1630)"/>
+    <wire from="(1780,2160)" to="(1780,2300)"/>
+    <wire from="(1780,2300)" to="(1780,2640)"/>
     <wire from="(1790,350)" to="(1790,530)"/>
     <wire from="(1790,530)" to="(2080,530)"/>
+    <wire from="(180,2610)" to="(180,2640)"/>
+    <wire from="(180,2610)" to="(470,2610)"/>
+    <wire from="(180,2640)" to="(200,2640)"/>
     <wire from="(1800,1440)" to="(1800,1630)"/>
     <wire from="(1800,1630)" to="(2080,1630)"/>
     <wire from="(1810,100)" to="(1850,100)"/>
@@ -1012,6 +1656,7 @@
     <wire from="(1810,180)" to="(1850,180)"/>
     <wire from="(1810,200)" to="(1850,200)"/>
     <wire from="(1810,220)" to="(1850,220)"/>
+    <wire from="(1810,2230)" to="(1810,2580)"/>
     <wire from="(1810,240)" to="(1850,240)"/>
     <wire from="(1810,260)" to="(1850,260)"/>
     <wire from="(1810,280)" to="(1850,280)"/>
@@ -1030,6 +1675,8 @@
     <wire from="(1820,1450)" to="(1860,1450)"/>
     <wire from="(1820,60)" to="(1820,80)"/>
     <wire from="(1820,80)" to="(1850,80)"/>
+    <wire from="(1830,2210)" to="(1830,2610)"/>
+    <wire from="(1830,2610)" to="(1830,3520)"/>
     <wire from="(1840,1470)" to="(1840,1780)"/>
     <wire from="(1840,1470)" to="(1860,1470)"/>
     <wire from="(1840,30)" to="(1840,60)"/>
@@ -1046,6 +1693,9 @@
     <wire from="(190,1430)" to="(260,1430)"/>
     <wire from="(190,1470)" to="(260,1470)"/>
     <wire from="(190,1510)" to="(260,1510)"/>
+    <wire from="(190,2770)" to="(250,2770)"/>
+    <wire from="(190,2810)" to="(250,2810)"/>
+    <wire from="(190,2850)" to="(250,2850)"/>
     <wire from="(190,690)" to="(240,690)"/>
     <wire from="(190,710)" to="(240,710)"/>
     <wire from="(190,730)" to="(240,730)"/>
@@ -1078,11 +1728,13 @@
     <wire from="(200,1120)" to="(500,1120)"/>
     <wire from="(2000,290)" to="(2000,500)"/>
     <wire from="(2000,500)" to="(2080,500)"/>
+    <wire from="(2010,3140)" to="(2010,3650)"/>
     <wire from="(2030,1120)" to="(2030,1280)"/>
     <wire from="(2040,670)" to="(2050,670)"/>
     <wire from="(2050,560)" to="(2050,670)"/>
     <wire from="(2060,830)" to="(2060,1090)"/>
     <wire from="(210,1030)" to="(610,1030)"/>
+    <wire from="(210,2730)" to="(210,2780)"/>
     <wire from="(210,850)" to="(210,1030)"/>
     <wire from="(210,850)" to="(240,850)"/>
     <wire from="(220,1370)" to="(260,1370)"/>
@@ -1090,11 +1742,30 @@
     <wire from="(220,1450)" to="(260,1450)"/>
     <wire from="(220,1490)" to="(260,1490)"/>
     <wire from="(230,1060)" to="(390,1060)"/>
+    <wire from="(230,2790)" to="(250,2790)"/>
+    <wire from="(230,2830)" to="(250,2830)"/>
+    <wire from="(230,2870)" to="(250,2870)"/>
     <wire from="(230,870)" to="(230,1060)"/>
     <wire from="(230,870)" to="(240,870)"/>
     <wire from="(250,1210)" to="(250,1240)"/>
     <wire from="(250,1210)" to="(280,1210)"/>
     <wire from="(250,1240)" to="(560,1240)"/>
+    <wire from="(250,2010)" to="(250,2180)"/>
+    <wire from="(250,2010)" to="(780,2010)"/>
+    <wire from="(260,2660)" to="(300,2660)"/>
+    <wire from="(260,3140)" to="(260,3150)"/>
+    <wire from="(260,3150)" to="(270,3150)"/>
+    <wire from="(270,2190)" to="(300,2190)"/>
+    <wire from="(270,2210)" to="(300,2210)"/>
+    <wire from="(270,2230)" to="(300,2230)"/>
+    <wire from="(270,2250)" to="(300,2250)"/>
+    <wire from="(270,2270)" to="(300,2270)"/>
+    <wire from="(270,2290)" to="(300,2290)"/>
+    <wire from="(270,2310)" to="(300,2310)"/>
+    <wire from="(270,2330)" to="(300,2330)"/>
+    <wire from="(280,2350)" to="(280,2430)"/>
+    <wire from="(280,2350)" to="(300,2350)"/>
+    <wire from="(280,2430)" to="(590,2430)"/>
     <wire from="(290,110)" to="(1600,110)"/>
     <wire from="(290,140)" to="(930,140)"/>
     <wire from="(290,220)" to="(440,220)"/>
@@ -1103,8 +1774,10 @@
     <wire from="(290,470)" to="(1010,470)"/>
     <wire from="(290,560)" to="(360,560)"/>
     <wire from="(290,60)" to="(1820,60)"/>
+    <wire from="(300,2660)" to="(300,2670)"/>
     <wire from="(310,1300)" to="(310,1310)"/>
     <wire from="(310,1300)" to="(610,1300)"/>
+    <wire from="(320,3130)" to="(1480,3130)"/>
     <wire from="(330,1090)" to="(330,1140)"/>
     <wire from="(330,1090)" to="(470,1090)"/>
     <wire from="(330,1190)" to="(360,1190)"/>
@@ -1113,6 +1786,9 @@
     <wire from="(340,730)" to="(370,730)"/>
     <wire from="(340,750)" to="(430,750)"/>
     <wire from="(350,1150)" to="(360,1150)"/>
+    <wire from="(350,2780)" to="(410,2780)"/>
+    <wire from="(350,2820)" to="(430,2820)"/>
+    <wire from="(350,2860)" to="(450,2860)"/>
     <wire from="(350,710)" to="(350,970)"/>
     <wire from="(350,710)" to="(430,710)"/>
     <wire from="(350,970)" to="(2080,970)"/>
@@ -1129,7 +1805,18 @@
     <wire from="(390,770)" to="(430,770)"/>
     <wire from="(400,1510)" to="(400,1660)"/>
     <wire from="(400,1660)" to="(710,1660)"/>
+    <wire from="(400,2190)" to="(480,2190)"/>
+    <wire from="(400,2210)" to="(480,2210)"/>
+    <wire from="(400,2230)" to="(480,2230)"/>
+    <wire from="(400,2250)" to="(480,2250)"/>
+    <wire from="(400,2270)" to="(480,2270)"/>
+    <wire from="(400,2290)" to="(480,2290)"/>
+    <wire from="(400,2310)" to="(480,2310)"/>
+    <wire from="(400,2330)" to="(480,2330)"/>
     <wire from="(410,1170)" to="(430,1170)"/>
+    <wire from="(410,2130)" to="(410,2780)"/>
+    <wire from="(410,2130)" to="(480,2130)"/>
+    <wire from="(410,2780)" to="(750,2780)"/>
     <wire from="(410,790)" to="(410,910)"/>
     <wire from="(410,790)" to="(430,790)"/>
     <wire from="(410,910)" to="(840,910)"/>
@@ -1138,16 +1825,29 @@
     <wire from="(420,400)" to="(570,400)"/>
     <wire from="(430,1170)" to="(430,1510)"/>
     <wire from="(430,1510)" to="(560,1510)"/>
+    <wire from="(430,2150)" to="(430,2820)"/>
+    <wire from="(430,2150)" to="(480,2150)"/>
+    <wire from="(430,2820)" to="(670,2820)"/>
     <wire from="(450,1390)" to="(450,1630)"/>
     <wire from="(450,1390)" to="(560,1390)"/>
+    <wire from="(450,2170)" to="(450,2860)"/>
+    <wire from="(450,2170)" to="(480,2170)"/>
+    <wire from="(450,2860)" to="(580,2860)"/>
     <wire from="(470,1090)" to="(470,1420)"/>
     <wire from="(470,1090)" to="(550,1090)"/>
+    <wire from="(470,2350)" to="(470,2400)"/>
+    <wire from="(470,2350)" to="(480,2350)"/>
+    <wire from="(470,2400)" to="(470,2610)"/>
+    <wire from="(470,2400)" to="(590,2400)"/>
+    <wire from="(470,2610)" to="(890,2610)"/>
     <wire from="(480,560)" to="(480,610)"/>
     <wire from="(480,560)" to="(910,560)"/>
     <wire from="(490,1430)" to="(560,1430)"/>
     <wire from="(490,1470)" to="(560,1470)"/>
     <wire from="(500,1120)" to="(500,1360)"/>
     <wire from="(500,1120)" to="(580,1120)"/>
+    <wire from="(500,2460)" to="(1000,2460)"/>
+    <wire from="(500,2460)" to="(500,3410)"/>
     <wire from="(520,1060)" to="(520,1200)"/>
     <wire from="(520,1060)" to="(670,1060)"/>
     <wire from="(520,1200)" to="(630,1200)"/>
@@ -1155,6 +1855,12 @@
     <wire from="(520,1410)" to="(560,1410)"/>
     <wire from="(520,1450)" to="(560,1450)"/>
     <wire from="(520,1490)" to="(560,1490)"/>
+    <wire from="(520,3420)" to="(580,3420)"/>
+    <wire from="(520,3430)" to="(580,3430)"/>
+    <wire from="(520,3440)" to="(580,3440)"/>
+    <wire from="(520,3450)" to="(580,3450)"/>
+    <wire from="(530,2490)" to="(530,3350)"/>
+    <wire from="(530,2490)" to="(970,2490)"/>
     <wire from="(530,650)" to="(550,650)"/>
     <wire from="(540,220)" to="(600,220)"/>
     <wire from="(540,240)" to="(600,240)"/>
@@ -1165,17 +1871,40 @@
     <wire from="(540,340)" to="(600,340)"/>
     <wire from="(540,360)" to="(600,360)"/>
     <wire from="(550,1090)" to="(730,1090)"/>
+    <wire from="(550,3360)" to="(660,3360)"/>
+    <wire from="(550,3370)" to="(580,3370)"/>
+    <wire from="(550,3380)" to="(580,3380)"/>
+    <wire from="(550,3390)" to="(580,3390)"/>
+    <wire from="(550,3400)" to="(550,3590)"/>
+    <wire from="(550,3400)" to="(580,3400)"/>
+    <wire from="(550,3590)" to="(720,3590)"/>
     <wire from="(550,620)" to="(550,650)"/>
     <wire from="(550,620)" to="(840,620)"/>
     <wire from="(550,760)" to="(550,1090)"/>
     <wire from="(560,1230)" to="(560,1240)"/>
     <wire from="(560,1230)" to="(630,1230)"/>
+    <wire from="(560,2900)" to="(560,3160)"/>
+    <wire from="(560,2900)" to="(580,2900)"/>
+    <wire from="(560,3160)" to="(1130,3160)"/>
     <wire from="(570,280)" to="(570,400)"/>
     <wire from="(570,280)" to="(600,280)"/>
     <wire from="(580,1120)" to="(760,1120)"/>
+    <wire from="(580,2170)" to="(620,2170)"/>
+    <wire from="(580,2190)" to="(620,2190)"/>
+    <wire from="(580,2210)" to="(620,2210)"/>
+    <wire from="(580,2230)" to="(620,2230)"/>
+    <wire from="(580,2250)" to="(620,2250)"/>
+    <wire from="(580,2270)" to="(620,2270)"/>
+    <wire from="(580,2290)" to="(620,2290)"/>
+    <wire from="(580,2310)" to="(620,2310)"/>
     <wire from="(580,530)" to="(1150,530)"/>
     <wire from="(580,530)" to="(580,760)"/>
     <wire from="(580,760)" to="(580,1120)"/>
+    <wire from="(590,2390)" to="(590,2400)"/>
+    <wire from="(590,2390)" to="(680,2390)"/>
+    <wire from="(590,2430)" to="(590,2580)"/>
+    <wire from="(590,2430)" to="(680,2430)"/>
+    <wire from="(590,2580)" to="(910,2580)"/>
     <wire from="(600,770)" to="(690,770)"/>
     <wire from="(600,790)" to="(690,790)"/>
     <wire from="(610,1030)" to="(610,1160)"/>
@@ -1193,12 +1922,25 @@
     <wire from="(630,710)" to="(690,710)"/>
     <wire from="(630,730)" to="(690,730)"/>
     <wire from="(630,750)" to="(690,750)"/>
+    <wire from="(640,2060)" to="(1160,2060)"/>
+    <wire from="(640,2060)" to="(640,2160)"/>
+    <wire from="(640,2880)" to="(650,2880)"/>
+    <wire from="(640,3410)" to="(660,3410)"/>
     <wire from="(640,850)" to="(640,1030)"/>
     <wire from="(640,850)" to="(690,850)"/>
+    <wire from="(650,2860)" to="(650,2880)"/>
+    <wire from="(650,2860)" to="(670,2860)"/>
     <wire from="(660,1380)" to="(690,1380)"/>
     <wire from="(660,1420)" to="(690,1420)"/>
     <wire from="(660,1460)" to="(690,1460)"/>
     <wire from="(660,1500)" to="(690,1500)"/>
+    <wire from="(660,3360)" to="(660,3370)"/>
+    <wire from="(660,3370)" to="(740,3370)"/>
+    <wire from="(660,3410)" to="(660,3430)"/>
+    <wire from="(660,3410)" to="(690,3410)"/>
+    <wire from="(660,3430)" to="(660,3710)"/>
+    <wire from="(660,3430)" to="(740,3430)"/>
+    <wire from="(660,3710)" to="(2080,3710)"/>
     <wire from="(670,1060)" to="(810,1060)"/>
     <wire from="(670,870)" to="(670,1060)"/>
     <wire from="(670,870)" to="(690,870)"/>
@@ -1208,8 +1950,16 @@
     <wire from="(700,1300)" to="(860,1300)"/>
     <wire from="(710,1510)" to="(710,1660)"/>
     <wire from="(710,1660)" to="(800,1660)"/>
+    <wire from="(720,2840)" to="(730,2840)"/>
+    <wire from="(720,3410)" to="(740,3410)"/>
+    <wire from="(720,3470)" to="(720,3590)"/>
+    <wire from="(720,3470)" to="(740,3470)"/>
+    <wire from="(720,3590)" to="(1320,3590)"/>
     <wire from="(730,1090)" to="(1010,1090)"/>
     <wire from="(730,1090)" to="(730,1380)"/>
+    <wire from="(730,2820)" to="(730,2840)"/>
+    <wire from="(730,2820)" to="(750,2820)"/>
+    <wire from="(740,2410)" to="(810,2410)"/>
     <wire from="(750,1390)" to="(810,1390)"/>
     <wire from="(750,1430)" to="(810,1430)"/>
     <wire from="(750,1470)" to="(810,1470)"/>
@@ -1227,15 +1977,34 @@
     <wire from="(780,1410)" to="(810,1410)"/>
     <wire from="(780,1450)" to="(810,1450)"/>
     <wire from="(780,1490)" to="(810,1490)"/>
+    <wire from="(780,2010)" to="(780,2160)"/>
     <wire from="(790,1180)" to="(790,1350)"/>
     <wire from="(790,1350)" to="(810,1350)"/>
+    <wire from="(790,2840)" to="(790,2940)"/>
+    <wire from="(790,2840)" to="(820,2840)"/>
+    <wire from="(790,3210)" to="(1090,3210)"/>
+    <wire from="(790,3210)" to="(790,3350)"/>
+    <wire from="(790,3350)" to="(810,3350)"/>
+    <wire from="(790,3390)" to="(810,3390)"/>
     <wire from="(790,690)" to="(860,690)"/>
     <wire from="(790,710)" to="(860,710)"/>
     <wire from="(790,730)" to="(860,730)"/>
     <wire from="(790,750)" to="(860,750)"/>
     <wire from="(800,1640)" to="(800,1660)"/>
     <wire from="(800,1660)" to="(960,1660)"/>
+    <wire from="(800,2170)" to="(830,2170)"/>
+    <wire from="(800,2190)" to="(830,2190)"/>
+    <wire from="(800,2210)" to="(830,2210)"/>
+    <wire from="(800,2230)" to="(830,2230)"/>
+    <wire from="(800,2250)" to="(830,2250)"/>
+    <wire from="(800,2270)" to="(830,2270)"/>
+    <wire from="(800,2290)" to="(830,2290)"/>
+    <wire from="(800,2310)" to="(830,2310)"/>
+    <wire from="(800,2800)" to="(820,2800)"/>
+    <wire from="(800,3450)" to="(850,3450)"/>
     <wire from="(810,1590)" to="(840,1590)"/>
+    <wire from="(810,2330)" to="(810,2410)"/>
+    <wire from="(810,2330)" to="(830,2330)"/>
     <wire from="(810,770)" to="(810,1060)"/>
     <wire from="(810,770)" to="(860,770)"/>
     <wire from="(820,1630)" to="(840,1630)"/>
@@ -1244,25 +2013,709 @@
     <wire from="(840,790)" to="(840,910)"/>
     <wire from="(840,790)" to="(860,790)"/>
     <wire from="(840,910)" to="(1120,910)"/>
+    <wire from="(850,3450)" to="(850,3680)"/>
+    <wire from="(850,3450)" to="(950,3450)"/>
+    <wire from="(850,3680)" to="(2080,3680)"/>
     <wire from="(860,1300)" to="(860,1310)"/>
     <wire from="(860,290)" to="(930,290)"/>
+    <wire from="(860,3370)" to="(950,3370)"/>
     <wire from="(860,350)" to="(1170,350)"/>
+    <wire from="(870,2820)" to="(960,2820)"/>
+    <wire from="(870,3390)" to="(870,3500)"/>
+    <wire from="(870,3390)" to="(950,3390)"/>
+    <wire from="(890,2610)" to="(890,3190)"/>
+    <wire from="(890,3190)" to="(1110,3190)"/>
+    <wire from="(890,3190)" to="(890,3310)"/>
+    <wire from="(890,3310)" to="(950,3310)"/>
+    <wire from="(890,3410)" to="(890,3530)"/>
+    <wire from="(890,3410)" to="(950,3410)"/>
     <wire from="(900,1610)" to="(1010,1610)"/>
+    <wire from="(900,3440)" to="(900,3470)"/>
+    <wire from="(900,3440)" to="(910,3440)"/>
+    <wire from="(900,3470)" to="(950,3470)"/>
     <wire from="(910,1380)" to="(940,1380)"/>
     <wire from="(910,1420)" to="(940,1420)"/>
     <wire from="(910,1460)" to="(940,1460)"/>
     <wire from="(910,1500)" to="(940,1500)"/>
+    <wire from="(910,2580)" to="(910,2900)"/>
+    <wire from="(910,2900)" to="(1210,2900)"/>
+    <wire from="(910,2900)" to="(910,3440)"/>
     <wire from="(910,560)" to="(910,610)"/>
     <wire from="(930,140)" to="(1180,140)"/>
     <wire from="(930,140)" to="(930,190)"/>
+    <wire from="(930,2170)" to="(980,2170)"/>
+    <wire from="(930,2190)" to="(950,2190)"/>
+    <wire from="(930,2210)" to="(980,2210)"/>
+    <wire from="(930,2230)" to="(950,2230)"/>
+    <wire from="(930,2250)" to="(980,2250)"/>
+    <wire from="(930,2270)" to="(950,2270)"/>
+    <wire from="(930,2290)" to="(980,2290)"/>
+    <wire from="(930,2310)" to="(950,2310)"/>
+    <wire from="(930,3230)" to="(1070,3230)"/>
+    <wire from="(930,3230)" to="(930,3330)"/>
+    <wire from="(930,3330)" to="(950,3330)"/>
+    <wire from="(930,3430)" to="(930,3620)"/>
+    <wire from="(930,3430)" to="(950,3430)"/>
+    <wire from="(930,3620)" to="(1350,3620)"/>
     <wire from="(960,1510)" to="(960,1660)"/>
     <wire from="(960,1660)" to="(990,1660)"/>
+    <wire from="(960,2720)" to="(1210,2720)"/>
+    <wire from="(960,2720)" to="(960,2820)"/>
     <wire from="(960,650)" to="(980,650)"/>
     <wire from="(960,690)" to="(990,690)"/>
     <wire from="(960,710)" to="(990,710)"/>
+    <wire from="(970,2320)" to="(970,2490)"/>
     <wire from="(970,240)" to="(1070,240)"/>
+    <wire from="(970,2490)" to="(1160,2490)"/>
     <wire from="(990,1500)" to="(990,1660)"/>
     <wire from="(990,1660)" to="(1250,1660)"/>
+  </circuit>
+  <circuit name="rom_char">
+    <a name="appearance" val="custom"/>
+    <a name="circuit" val="rom_char"/>
+    <a name="circuitnamedboxfixedsize" val="true"/>
+    <a name="simulationFrequency" val="1.0"/>
+    <appear>
+      <polyline fill="none" points="30,260 49,260" stroke="#000000" stroke-width="2"/>
+      <polyline fill="none" points="130,180 111,180" stroke="#000000" stroke-width="2"/>
+      <text dominant-baseline="central" font-family="SansSerif" font-size="12" text-anchor="start" x="53" y="298">A11</text>
+      <text dominant-baseline="central" font-family="SansSerif" font-size="12" text-anchor="start" x="53" y="179">A5</text>
+      <text dominant-baseline="central" font-family="SansSerif" font-size="12" text-anchor="start" x="53" y="259">A9</text>
+      <text dominant-baseline="central" font-family="SansSerif" font-size="12" text-anchor="end" x="108" y="260">D7</text>
+      <polyline fill="none" points="30,120 49,120" stroke="#000000" stroke-width="2"/>
+      <polyline fill="none" points="130,260 111,260" stroke="#000000" stroke-width="2"/>
+      <polyline fill="none" points="30,240 50,240" stroke="#000000" stroke-width="2"/>
+      <polyline fill="none" points="30,200 49,200" stroke="#000000" stroke-width="2"/>
+      <polyline fill="none" points="30,160 50,160" stroke="#000000" stroke-width="2"/>
+      <text dominant-baseline="central" font-family="SansSerif" font-size="12" text-anchor="end" x="108" y="240">D6</text>
+      <text dominant-baseline="central" font-family="SansSerif" font-size="12" text-anchor="middle" x="80" y="10">2732A</text>
+      <text dominant-baseline="central" font-family="SansSerif" font-size="12" text-anchor="start" x="53" y="239">A8</text>
+      <polyline fill="none" points="130,120 111,120" stroke="#000000" stroke-width="2"/>
+      <polyline fill="none" points="130,220 111,220" stroke="#000000" stroke-width="2"/>
+      <text dominant-baseline="central" font-family="SansSerif" font-size="12" text-anchor="start" x="53" y="159">A4</text>
+      <text dominant-baseline="central" font-family="SansSerif" font-size="12" text-anchor="start" x="53" y="199">A6</text>
+      <polyline fill="none" points="130,240 110,240" stroke="#000000" stroke-width="2"/>
+      <text dominant-baseline="central" font-family="SansSerif" font-size="12" text-anchor="end" x="107" y="120">D0</text>
+      <polyline fill="none" points="30,180 50,180" stroke="#000000" stroke-width="2"/>
+      <polyline fill="none" points="30,280 49,280" stroke="#000000" stroke-width="2"/>
+      <polyline fill="none" points="130,160 110,160" stroke="#000000" stroke-width="2"/>
+      <polyline fill="none" points="30,300 49,300" stroke="#000000" stroke-width="2"/>
+      <text dominant-baseline="central" font-family="SansSerif" font-size="12" text-anchor="start" x="52" y="59">CE</text>
+      <polyline fill="none" points="30,80 50,80" stroke="#000000" stroke-width="2"/>
+      <polyline fill="none" points="30,220 50,220" stroke="#000000" stroke-width="2"/>
+      <rect fill="none" height="300" stroke="#000000" stroke-width="2" width="60" x="50" y="20"/>
+      <text dominant-baseline="central" font-family="SansSerif" font-size="12" text-anchor="end" x="108" y="220">D5</text>
+      <polyline fill="none" points="130,140 111,140" stroke="#000000" stroke-width="2"/>
+      <polyline fill="none" points="30,100 50,100" stroke="#000000" stroke-width="2"/>
+      <text dominant-baseline="central" font-family="SansSerif" font-size="12" text-anchor="start" x="53" y="279">A10</text>
+      <text dominant-baseline="central" font-family="SansSerif" font-size="12" text-anchor="start" x="53" y="219">A7</text>
+      <text dominant-baseline="central" font-family="SansSerif" font-size="12" text-anchor="end" x="108" y="200">D4</text>
+      <polyline fill="none" points="30,140 50,140" stroke="#000000" stroke-width="2"/>
+      <text dominant-baseline="central" font-family="SansSerif" font-size="12" text-anchor="start" x="53" y="139">A3</text>
+      <text dominant-baseline="central" font-family="SansSerif" font-size="12" text-anchor="end" x="107" y="140">D1</text>
+      <text dominant-baseline="central" font-family="SansSerif" font-size="12" text-anchor="start" x="53" y="99">A1</text>
+      <polyline fill="none" points="130,200 111,200" stroke="#000000" stroke-width="2"/>
+      <text dominant-baseline="central" font-family="SansSerif" font-size="12" text-anchor="end" x="106" y="160">D2</text>
+      <text dominant-baseline="central" font-family="SansSerif" font-size="12" text-anchor="start" x="53" y="119">A2</text>
+      <text dominant-baseline="central" font-family="SansSerif" font-size="12" text-anchor="end" x="108" y="180">D3</text>
+      <text dominant-baseline="central" font-family="SansSerif" font-size="12" text-anchor="start" x="52" y="40">OE</text>
+      <text dominant-baseline="central" font-family="SansSerif" font-size="12" text-anchor="start" x="53" y="79">A0</text>
+      <ellipse cx="47" cy="40" fill="none" rx="3" ry="3" stroke="#000000" stroke-width="2"/>
+      <ellipse cx="47" cy="60" fill="none" rx="3" ry="3" stroke="#000000" stroke-width="2"/>
+      <polyline fill="none" points="30,40 43,40" stroke="#000000" stroke-width="2"/>
+      <polyline fill="none" points="30,60 43,60" stroke="#000000" stroke-width="2"/>
+      <circ-anchor facing="east" height="6" width="6" x="127" y="117"/>
+      <circ-port height="10" pin="550,210" width="10" x="125" y="115"/>
+      <circ-port height="10" pin="550,230" width="10" x="125" y="135"/>
+      <circ-port height="10" pin="550,250" width="10" x="125" y="155"/>
+      <circ-port height="10" pin="550,270" width="10" x="125" y="175"/>
+      <circ-port height="10" pin="550,290" width="10" x="125" y="195"/>
+      <circ-port height="10" pin="550,310" width="10" x="125" y="215"/>
+      <circ-port height="10" pin="550,330" width="10" x="125" y="235"/>
+      <circ-port height="10" pin="550,350" width="10" x="125" y="255"/>
+      <circ-port height="8" pin="120,110" width="8" x="26" y="56"/>
+      <circ-port height="8" pin="120,160" width="8" x="26" y="76"/>
+      <circ-port height="8" pin="120,180" width="8" x="26" y="96"/>
+      <circ-port height="8" pin="120,200" width="8" x="26" y="116"/>
+      <circ-port height="8" pin="120,220" width="8" x="26" y="136"/>
+      <circ-port height="8" pin="120,240" width="8" x="26" y="156"/>
+      <circ-port height="8" pin="120,260" width="8" x="26" y="176"/>
+      <circ-port height="8" pin="120,280" width="8" x="26" y="196"/>
+      <circ-port height="8" pin="120,300" width="8" x="26" y="216"/>
+      <circ-port height="8" pin="120,320" width="8" x="26" y="236"/>
+      <circ-port height="8" pin="120,340" width="8" x="26" y="256"/>
+      <circ-port height="8" pin="120,360" width="8" x="26" y="276"/>
+      <circ-port height="8" pin="120,380" width="8" x="26" y="296"/>
+      <circ-port height="8" pin="120,70" width="8" x="26" y="36"/>
+    </appear>
+    <comp lib="0" loc="(120,110)" name="Pin">
+      <a name="appearance" val="NewPins"/>
+      <a name="label" val="CE"/>
+    </comp>
+    <comp lib="0" loc="(120,160)" name="Pin">
+      <a name="appearance" val="NewPins"/>
+      <a name="label" val="A0"/>
+    </comp>
+    <comp lib="0" loc="(120,180)" name="Pin">
+      <a name="appearance" val="NewPins"/>
+      <a name="label" val="A1"/>
+    </comp>
+    <comp lib="0" loc="(120,200)" name="Pin">
+      <a name="appearance" val="NewPins"/>
+      <a name="label" val="A2"/>
+    </comp>
+    <comp lib="0" loc="(120,220)" name="Pin">
+      <a name="appearance" val="NewPins"/>
+      <a name="label" val="A3"/>
+    </comp>
+    <comp lib="0" loc="(120,240)" name="Pin">
+      <a name="appearance" val="NewPins"/>
+      <a name="label" val="A4"/>
+    </comp>
+    <comp lib="0" loc="(120,260)" name="Pin">
+      <a name="appearance" val="NewPins"/>
+      <a name="label" val="A5"/>
+    </comp>
+    <comp lib="0" loc="(120,280)" name="Pin">
+      <a name="appearance" val="NewPins"/>
+      <a name="label" val="A6"/>
+    </comp>
+    <comp lib="0" loc="(120,300)" name="Pin">
+      <a name="appearance" val="NewPins"/>
+      <a name="label" val="A7"/>
+    </comp>
+    <comp lib="0" loc="(120,320)" name="Pin">
+      <a name="appearance" val="NewPins"/>
+      <a name="label" val="A8"/>
+    </comp>
+    <comp lib="0" loc="(120,340)" name="Pin">
+      <a name="appearance" val="NewPins"/>
+      <a name="label" val="A9"/>
+    </comp>
+    <comp lib="0" loc="(120,360)" name="Pin">
+      <a name="appearance" val="NewPins"/>
+      <a name="label" val="A10"/>
+    </comp>
+    <comp lib="0" loc="(120,380)" name="Pin">
+      <a name="appearance" val="NewPins"/>
+      <a name="label" val="A11"/>
+    </comp>
+    <comp lib="0" loc="(120,70)" name="Pin">
+      <a name="appearance" val="NewPins"/>
+      <a name="label" val="OE"/>
+    </comp>
+    <comp lib="0" loc="(140,150)" name="Splitter">
+      <a name="facing" val="west"/>
+      <a name="fanout" val="12"/>
+      <a name="incoming" val="12"/>
+      <a name="spacing" val="2"/>
+    </comp>
+    <comp lib="0" loc="(530,200)" name="Splitter">
+      <a name="appear" val="right"/>
+      <a name="fanout" val="8"/>
+      <a name="incoming" val="8"/>
+      <a name="spacing" val="2"/>
+    </comp>
+    <comp lib="0" loc="(550,210)" name="Pin">
+      <a name="appearance" val="NewPins"/>
+      <a name="facing" val="west"/>
+      <a name="label" val="D0"/>
+      <a name="output" val="true"/>
+    </comp>
+    <comp lib="0" loc="(550,230)" name="Pin">
+      <a name="appearance" val="NewPins"/>
+      <a name="facing" val="west"/>
+      <a name="label" val="D1"/>
+      <a name="output" val="true"/>
+    </comp>
+    <comp lib="0" loc="(550,250)" name="Pin">
+      <a name="appearance" val="NewPins"/>
+      <a name="facing" val="west"/>
+      <a name="label" val="D2"/>
+      <a name="output" val="true"/>
+    </comp>
+    <comp lib="0" loc="(550,270)" name="Pin">
+      <a name="appearance" val="NewPins"/>
+      <a name="facing" val="west"/>
+      <a name="label" val="D3"/>
+      <a name="output" val="true"/>
+    </comp>
+    <comp lib="0" loc="(550,290)" name="Pin">
+      <a name="appearance" val="NewPins"/>
+      <a name="facing" val="west"/>
+      <a name="label" val="D4"/>
+      <a name="output" val="true"/>
+    </comp>
+    <comp lib="0" loc="(550,310)" name="Pin">
+      <a name="appearance" val="NewPins"/>
+      <a name="facing" val="west"/>
+      <a name="label" val="D5"/>
+      <a name="output" val="true"/>
+    </comp>
+    <comp lib="0" loc="(550,330)" name="Pin">
+      <a name="appearance" val="NewPins"/>
+      <a name="facing" val="west"/>
+      <a name="label" val="D6"/>
+      <a name="output" val="true"/>
+    </comp>
+    <comp lib="0" loc="(550,350)" name="Pin">
+      <a name="appearance" val="NewPins"/>
+      <a name="facing" val="west"/>
+      <a name="label" val="D7"/>
+      <a name="output" val="true"/>
+    </comp>
+    <comp lib="1" loc="(260,90)" name="AND Gate">
+      <a name="negate0" val="true"/>
+      <a name="negate1" val="true"/>
+    </comp>
+    <comp lib="1" loc="(490,200)" name="Controlled Buffer">
+      <a name="control" val="left"/>
+      <a name="width" val="8"/>
+    </comp>
+    <comp lib="4" loc="(190,140)" name="ROM">
+      <a name="addrWidth" val="12"/>
+      <a name="appearance" val="logisim_evolution"/>
+      <a name="contents">addr/data: 12 8
+0 38 44 4c 54 64 44 38
+0 10 30 50 10 10 10 7c
+0 38 44 4 18 20 40 7c
+0 38 44 4 18 4 44 38
+0 8 18 28 48 7c 8 8
+0 7c 40 78 4 4 4 78
+0 38 40 40 78 44 44 38
+0 7c 4 8 4*10 0 38 44
+44 38 44 44 38 0 38 44
+44 3c 4 4 38 0 10 28
+44 44 7c 44 44 0 f8 44
+44 78 44 44 f8 0 38 44
+40 40 40 44 38 0 78 5*44
+78 0 7c 40 40 70 40 40
+7c 0 7c 40 40 70 40 40
+40 0 38 44 40 40 4c 44
+3c 0 44 44 44 7c 44 44
+44 0 38 5*10 38 0 5*4 44
+38 0 44 48 50 60 50 48
+44 0 6*40 7c 0 44 6c 54
+54 44 44 44 0 44 44 64
+54 4c 44 44 0 38 5*44 38
+0 78 44 44 78 40 40 40
+0 38 44 44 44 54 48 34
+0 78 44 44 78 50 48 44
+0 38 44 40 38 4 44 38
+0 7c 6*10 0 6*44 38 0 5*44
+28 10 0 44 44 44 54 54
+6c 44 0 44 44 28 10 28
+44 44 0 44 44 28 4*10 0
+7c 4 8 10 20 40 7c 14*0
+30 30 5*0 10 10 20 0 2
+4 8 10 20 40 80 0 0
+30 30 0 30 30 0 0 10
+28 44 5*0 10 3c 50 38 14
+78 10 26*0 ee 28 10 28 ee
+0 0 10 0 10 20 40 44
+38 0 0 10 10 7c 10 10
+5*0 7c 4*0 38 5*8 38 0 38
+5*20 38 0 10 54 38 fe 38
+54 10 0 10 38 7c fe 7c
+38 10 8*38 0 8 18 38 78
+38 18 8 0 20 30 38 3c
+38 30 20 0 0 0 18 18
+15*0 ff 7*0 66 5*0 e 8 10
+20 e0 0 0 0 e0 20 10
+8 e 0 80 40 20 10 8
+4 2 1 0 5*10 0 10 0
+0 28 7c 28 7c 28 0 0
+64 64 8 10 20 4c 4c 0
+30 48 28 10 2a 44 3a 0
+10 10 6*0 8 10 20 20 20
+10 8 0 20 10 8 8 8
+10 20 0 0 0 7c 0 7c
+0 0 0 80 40 20 10 8
+4 2 15*0 7c 0 0 10 28
+44 fe 4*0 48 48 48 74 80
+0 0 8 10 20 40 20 10
+8 0 20 10 8 4 8 10
+20 0 0 30 30 0 10 10
+20 0 38 44 4 8 10 0
+10 0 0 78 84 b4 b8 80
+78 0 10 3c 50 50 50 3c
+10 4*0 7c 4 0 0 0 10
+10 10 0 10 10 10 0 0
+5*10 0 0 10 10 8 5*0 c
+10 10 60 10 10 c 0 60
+10 10 c 10 10 60 0 0
+0 60 92 c 0 0 0 1c
+14 10 10 10 50 70 0 44
+44 44 7c 10 10 10 0 4
+4 4 7c 44 44 44 0 7*10
+0 6*80 0 0 6*c0 0 40 28
+14 2a 15 a 5 a 1 a
+14 2a 54 a8 50 a8 5 2
+5 2 1 0 0 0 50 a0
+50 a0 40 80 5*0 ff ff 6*38
+ff ff 0 0 0 38 38 38
+3f 3f 6*38 f8 f8 6*38 ff ff
+38 38 38 6*0 44 7c 0 6*e0
+0 0 6*f0 0 0 6*f8 0 0
+6*fc 0 0 6*fe 0 0 6*ff 0
+0 28 28 5*0 ff 6*0 10*ff 0
+7c 10 10 10 0 ff 0 0
+0 ff ff 6*0 3f 3f 6*38 3f
+3f 6*0 f8 f8 6*38 f8 f8 6*0
+1 2 5 2 5 0 0 80
+40 a0 50 a0 50 a 5 a
+15 2a 14 28 40 a8 50 a8
+54 2a 14 a 1 8*0 ff 6*81
+ff 8*0 ff c7 bb b3 ab 9b
+bb c7 ff ef cf af ef ef
+ef 83 ff c7 bb fb e7 df
+bf 83 ff c7 bb fb e7 fb
+bb c7 ff f7 e7 d7 b7 83
+f7 f7 ff 83 bf 87 fb fb
+fb 87 ff c7 bf bf 87 bb
+bb c7 ff 83 fb f7 4*ef ff
+c7 bb bb c7 bb bb c7 ff
+c7 bb bb c3 fb fb c7 ff
+ef d7 bb bb 83 bb bb ff
+7 bb bb 87 bb bb 7 ff
+c7 bb bf bf bf bb c7 ff
+87 5*bb 87 ff 83 bf bf 8f
+bf bf 83 ff 83 bf bf 8f
+bf bf bf ff c7 bb bf bf
+b3 bb c3 ff bb bb bb 83
+bb bb bb ff c7 5*ef c7 ff
+5*fb bb c7 ff bb b7 af 9f
+af b7 bb ff 6*bf 83 ff bb
+93 ab ab bb bb bb ff bb
+bb 9b ab b3 bb bb ff c7
+5*bb c7 ff 87 bb bb 87 bf
+bf bf ff c7 bb bb bb ab
+b7 cb ff 87 bb bb 87 af
+b7 bb ff c7 bb bf c7 fb
+bb c7 ff 83 6*ef ff 6*bb c7
+ff 5*bb d7 ef ff bb bb bb
+ab ab 93 bb ff bb bb d7
+ef d7 bb bb ff bb bb d7
+4*ef ff 83 fb f7 ef df bf
+83 14*ff cf cf 5*ff ef ef df
+ff fd fb f7 ef df bf 7f
+ff ff cf cf ff cf cf ff
+ff ef d7 bb 5*ff ef c3 af
+c7 eb 87 ef 26*ff 11 d7 ef
+d7 11 ff ff ef ff ef df
+bf bb c7 ff ff ef ef 83
+ef ef 5*ff 83 4*ff c7 5*f7 c7
+ff c7 5*df c7 ff ef ab c7
+1 c7 ab ef ff ef c7 83
+1 83 c7 ef 8*c7 ff f7 e7
+c7 87 c7 e7 f7 ff df cf
+c7 c3 c7 cf df ff ff ff
+e7 e7 15*ff 0 7*ff 99 5*ff f1
+f7 ef df 1f ff ff ff 1f
+df ef f7 f1 ff 7f bf df
+ef f7 fb fd fe ff 5*ef ff
+ef ff ff d7 83 d7 83 d7
+ff ff 9b 9b f7 ef df b3
+b3 ff cf b7 d7 ef d5 bb
+c5 ff ef ef 6*ff f7 ef df
+df df ef f7 ff df ef f7
+f7 f7 ef df ff ff ff 83
+ff 83 ff ff ff 7f bf df
+ef f7 fb fd 15*ff 83 ff ff
+ef d7 bb 1 4*ff b7 b7 b7
+8b 7f ff ff f7 ef df bf
+df ef f7 ff df ef f7 fb
+f7 ef df ff ff cf cf ff
+ef ef df ff c7 bb fb f7
+ef ff ef ff ff 87 7b 4b
+47 7f 87 ff ef c3 af af
+af c3 ef 4*ff 83 fb ff ff
+ff ef ef ef ff ef ef ef
+ff ff 5*ef ff ff ef ef f7
+5*ff f3 ef ef 9f ef ef f3
+ff 9f ef ef f3 ef ef 9f
+ff ff ff 9f 6d f3 ff ff
+ff e3 eb ef ef ef af 8f
+ff bb bb bb 83 ef ef ef
+ff fb fb fb 83 bb bb bb
+ff 7*ef ff 6*7f ff ff 6*3f ff
+bf d7 eb d5 ea f5 fa f5
+fe f5 eb d5 ab 57 af 57
+fa fd fa fd fe ff ff ff
+af 5f af 5f bf 7f 5*ff 0
+0 6*c7 0 0 ff ff ff c7
+c7 c7 c0 c0 6*c7 7 7 6*c7
+0 0 c7 c7 c7 6*ff bb 83
+ff 6*1f ff ff 6*f ff ff 6*7
+ff ff 6*3 ff ff 6*1 ff ff
+6*0 ff ff d7 d7 5*ff 0 6*ff
+10*0 ff 83 ef ef ef ff 0
+ff ff ff 0 0 6*ff c0 c0
+6*c7 c0 c0 6*ff 7 7 6*c7 7
+7 6*ff fe fd fa fd fa ff
+ff 7f bf 5f af 5f af f5
+fa f5 ea d5 eb d7 bf 57
+af 57 ab d5 eb f5 fe 9*0
+6*7e 10*0 11 4*22 33 0 0 11
+26 26 22 22 37 4 0 11
+22 22 26 26 37 4 4 15
+4*26 37 4 0 11 2a 2a 22
+22 3b 8 0 11 2e 2e 22
+22 3f c 0 11 2a 2a 26
+26 3f c 4 15 2e 2e 26
+26 3f c 0 11 22 22 2a
+2a 3b 8 0 11 26 26 2a
+2a 3f c 0 11 22 22 2e
+2e 3f c 4 15 26 26 2e
+2e 3f c 8 19 4*2a 3b 8
+8 19 2e 2e 2a 2a 3f c
+8 19 2a 2a 2e 2e 3f c
+c 1d 4*2e 3f c 0 11 62
+62 22 22 73 40 0 11 66
+66 22 22 77 44 0 11 62
+62 26 26 77 44 4 15 66
+66 26 26 77 44 0 11 6a
+6a 22 22 7b 48 0 11 6e
+6e 22 22 7f 4c 0 11 6a
+6a 26 26 7f 4c 4 15 6e
+6e 26 26 7f 4c 0 11 62
+62 2a 2a 7b 48 0 11 66
+66 2a 2a 7f 4c 0 11 62
+62 2e 2e 7f 4c 4 15 66
+66 2e 2e 7f 4c 8 19 6a
+6a 2a 2a 7b 48 8 19 6e
+6e 2a 2a 7f 4c 8 19 6a
+6a 2e 2e 7f 4c c 1d 6e
+6e 2e 2e 7f 4c 0 11 22
+22 62 62 73 40 0 11 26
+26 62 62 77 44 0 11 22
+22 66 66 77 44 4 15 26
+26 66 66 77 44 0 11 2a
+2a 62 62 7b 48 0 11 2e
+2e 62 62 7f 4c 0 11 2a
+2a 66 66 7f 4c 4 15 2e
+2e 66 66 7f 4c 0 11 22
+22 6a 6a 7b 48 0 11 26
+26 6a 6a 7f 4c 0 11 22
+22 6e 6e 7f 4c 4 15 26
+26 6e 6e 7f 4c 8 19 2a
+2a 6a 6a 7b 48 8 19 2e
+2e 6a 6a 7f 4c 8 19 2a
+2a 6e 6e 7f 4c c 1d 2e
+2e 6e 6e 7f 4c 40 51 4*62
+73 40 40 51 66 66 62 62
+77 44 40 51 62 62 66 66
+77 44 44 55 4*66 77 44 40
+51 6a 6a 62 62 7b 48 40
+51 6e 6e 62 62 7f 4c 40
+51 6a 6a 66 66 7f 4c 44
+55 6e 6e 66 66 7f 4c 40
+51 62 62 6a 6a 7b 48 40
+51 66 66 6a 6a 7f 4c 40
+51 62 62 6e 6e 7f 4c 44
+55 66 66 6e 6e 7f 4c 48
+59 4*6a 7b 48 48 59 6e 6e
+6a 6a 7f 4c 48 59 6a 6a
+6e 6e 7f 4c 4c 5d 4*6e 7f
+4c 0 11 a2 a2 22 22 b3
+80 0 11 a6 a6 22 22 b7
+84 0 11 a2 a2 26 26 b7
+84 4 15 a6 a6 26 26 b7
+84 0 11 aa aa 22 22 bb
+88 0 11 ae ae 22 22 bf
+8c 0 11 aa aa 26 26 bf
+8c 4 15 ae ae 26 26 bf
+8c 0 11 a2 a2 2a 2a bb
+88 0 11 a6 a6 2a 2a bf
+8c 0 11 a2 a2 2e 2e bf
+8c 4 15 a6 a6 2e 2e bf
+8c 8 19 aa aa 2a 2a bb
+88 8 19 ae ae 2a 2a bf
+8c 8 19 aa aa 2e 2e bf
+8c c 1d ae ae 2e 2e bf
+8c 0 11 e2 e2 22 22 f3
+c0 0 11 e6 e6 22 22 f7
+c4 0 11 e2 e2 26 26 f7
+c4 4 15 e6 e6 26 26 f7
+c4 0 11 ea ea 22 22 fb
+c8 0 11 ee ee 22 22 ff
+cc 0 11 ea ea 26 26 ff
+cc 4 15 ee ee 26 26 ff
+cc 0 11 e2 e2 2a 2a fb
+c8 0 11 e6 e6 2a 2a ff
+cc 0 11 e2 e2 2e 2e ff
+cc 4 15 e6 e6 2e 2e ff
+cc 8 19 ea ea 2a 2a fb
+c8 8 19 ee ee 2a 2a ff
+cc 8 19 ea ea 2e 2e ff
+cc c 1d ee ee 2e 2e ff
+cc 0 11 a2 a2 62 62 f3
+c0 0 11 a6 a6 62 62 f7
+c4 0 11 a2 a2 66 66 f7
+c4 4 15 a6 a6 66 66 f7
+c4 0 11 aa aa 62 62 fb
+c8 0 11 ae ae 62 62 ff
+cc 0 11 aa aa 66 66 ff
+cc 4 15 ae ae 66 66 ff
+cc 0 11 a2 a2 6a 6a fb
+c8 0 11 a6 a6 6a 6a ff
+cc 0 11 a2 a2 6e 6e ff
+cc 4 15 a6 a6 6e 6e ff
+cc 8 19 aa aa 6a 6a fb
+c8 8 19 ae ae 6a 6a ff
+cc 8 19 aa aa 6e 6e ff
+cc c 1d ae ae 6e 6e ff
+cc 40 51 e2 e2 62 62 f3
+c0 40 51 e6 e6 62 62 f7
+c4 40 51 e2 e2 66 66 f7
+c4 44 55 e6 e6 66 66 f7
+c4 40 51 ea ea 62 62 fb
+c8 40 51 ee ee 62 62 ff
+cc 40 51 ea ea 66 66 ff
+cc 44 55 ee ee 66 66 ff
+cc 40 51 e2 e2 6a 6a fb
+c8 40 51 e6 e6 6a 6a ff
+cc 40 51 e2 e2 6e 6e ff
+cc 44 55 e6 e6 6e 6e ff
+cc 48 59 ea ea 6a 6a fb
+c8 48 59 ee ee 6a 6a ff
+cc 48 59 ea ea 6e 6e ff
+cc 4c 5d ee ee 6e 6e ff
+cc 0 11 22 22 a2 a2 b3
+80 0 11 26 26 a2 a2 b7
+84 0 11 22 22 a6 a6 b7
+84 4 15 26 26 a6 a6 b7
+84 0 11 2a 2a a2 a2 bb
+88 0 11 2e 2e a2 a2 bf
+8c 0 11 2a 2a a6 a6 bf
+8c 4 15 2e 2e a6 a6 bf
+8c 0 11 22 22 aa aa bb
+88 0 11 26 26 aa aa bf
+8c 0 11 22 22 ae ae bf
+8c 4 15 26 26 ae ae bf
+8c 8 19 2a 2a aa aa bb
+88 8 19 2e 2e aa aa bf
+8c 8 19 2a 2a ae ae bf
+8c c 1d 2e 2e ae ae bf
+8c 0 11 62 62 a2 a2 f3
+c0 0 11 66 66 a2 a2 f7
+c4 0 11 62 62 a6 a6 f7
+c4 4 15 66 66 a6 a6 f7
+c4 0 11 6a 6a a2 a2 fb
+c8 0 11 6e 6e a2 a2 ff
+cc 0 11 6a 6a a6 a6 ff
+cc 4 15 6e 6e a6 a6 ff
+cc 0 11 62 62 aa aa fb
+c8 0 11 66 66 aa aa ff
+cc 0 11 62 62 ae ae ff
+cc 4 15 66 66 ae ae ff
+cc 8 19 6a 6a aa aa fb
+c8 8 19 6e 6e aa aa ff
+cc 8 19 6a 6a ae ae ff
+cc c 1d 6e 6e ae ae ff
+cc 0 11 22 22 e2 e2 f3
+c0 0 11 26 26 e2 e2 f7
+c4 0 11 22 22 e6 e6 f7
+c4 4 15 26 26 e6 e6 f7
+c4 0 11 2a 2a e2 e2 fb
+c8 0 11 2e 2e e2 e2 ff
+cc 0 11 2a 2a e6 e6 ff
+cc 4 15 2e 2e e6 e6 ff
+cc 0 11 22 22 ea ea fb
+c8 0 11 26 26 ea ea ff
+cc 0 11 22 22 ee ee ff
+cc 4 15 26 26 ee ee ff
+cc 8 19 2a 2a ea ea fb
+c8 8 19 2e 2e ea ea ff
+cc 8 19 2a 2a ee ee ff
+cc c 1d 2e 2e ee ee ff
+cc 40 51 62 62 e2 e2 f3
+c0 40 51 66 66 e2 e2 f7
+c4 40 51 62 62 e6 e6 f7
+c4 44 55 66 66 e6 e6 f7
+c4 40 51 6a 6a e2 e2 fb
+c8 40 51 6e 6e e2 e2 ff
+cc 40 51 6a 6a e6 e6 ff
+cc 44 55 6e 6e e6 e6 ff
+cc 40 51 62 62 ea ea fb
+c8 40 51 66 66 ea ea ff
+cc 40 51 62 62 ee ee ff
+cc 44 55 66 66 ee ee ff
+cc 48 59 6a 6a ea ea fb
+c8 48 59 6e 6e ea ea ff
+cc 48 59 6a 6a ee ee ff
+cc 4c 5d 6e 6e ee ee ff
+cc 80 91 4*a2 b3 80 80 91
+a6 a6 a2 a2 b7 84 80 91
+a2 a2 a6 a6 b7 84 84 95
+4*a6 b7 84 80 91 aa aa a2
+a2 bb 88 80 91 ae ae a2
+a2 bf 8c 80 91 aa aa a6
+a6 bf 8c 84 95 ae ae a6
+a6 bf 8c 80 91 a2 a2 aa
+aa bb 88 80 91 a6 a6 aa
+aa bf 8c 80 91 a2 a2 ae
+ae bf 8c 84 95 a6 a6 ae
+ae bf 8c 88 99 4*aa bb 88
+88 99 ae ae aa aa bf 8c
+88 99 aa aa ae ae bf 8c
+8c 9d 4*ae bf 8c 80 91 e2
+e2 a2 a2 f3 c0 80 91 e6
+e6 a2 a2 f7 c4 80 91 e2
+e2 a6 a6 f7 c4 84 95 e6
+e6 a6 a6 f7 c4 80 91 ea
+ea a2 a2 fb c8 80 91 ee
+ee a2 a2 ff cc 80 91 ea
+ea a6 a6 ff cc 84 95 ee
+ee a6 a6 ff cc 80 91 e2
+e2 aa aa fb c8 80 91 e6
+e6 aa aa ff cc 80 91 e2
+e2 ae ae ff cc 84 95 e6
+e6 ae ae ff cc 88 99 ea
+ea aa aa fb c8 88 99 ee
+ee aa aa ff cc 88 99 ea
+ea ae ae ff cc 8c 9d ee
+ee ae ae ff cc 80 91 a2
+a2 e2 e2 f3 c0 80 91 a6
+a6 e2 e2 f7 c4 80 91 a2
+a2 e6 e6 f7 c4 84 95 a6
+a6 e6 e6 f7 c4 80 91 aa
+aa e2 e2 fb c8 80 91 ae
+ae e2 e2 ff cc 80 91 aa
+aa e6 e6 ff cc 84 95 ae
+ae e6 e6 ff cc 80 91 a2
+a2 ea ea fb c8 80 91 a6
+a6 ea ea ff cc 80 91 a2
+a2 ee ee ff cc 84 95 a6
+a6 ee ee ff cc 88 99 aa
+aa ea ea fb c8 88 99 ae
+ae ea ea ff cc 88 99 aa
+aa ee ee ff cc 8c 9d ae
+ae ee ee ff cc c0 d1 4*e2
+f3 c0 c0 d1 e6 e6 e2 e2
+f7 c4 c0 d1 e2 e2 e6 e6
+f7 c4 c4 d5 4*e6 f7 c4 c0
+d1 ea ea e2 e2 fb c8 c0
+d1 ee ee e2 e2 ff cc c0
+d1 ea ea e6 e6 ff cc c4
+d5 ee ee e6 e6 ff cc c0
+d1 e2 e2 ea ea fb c8 c0
+d1 e6 e6 ea ea ff cc c0
+d1 e2 e2 ee ee ff cc c4
+d5 e6 e6 ee ee ff cc c8
+d9 4*ea fb c8 c8 d9 ee ee
+ea ea ff cc c8 d9 ea ea
+ee ee ff cc cc dd 4*ee ff
+cc
+</a>
+    </comp>
+    <wire from="(120,110)" to="(200,110)"/>
+    <wire from="(120,70)" to="(200,70)"/>
+    <wire from="(140,150)" to="(190,150)"/>
+    <wire from="(260,90)" to="(480,90)"/>
+    <wire from="(430,200)" to="(470,200)"/>
+    <wire from="(480,90)" to="(480,190)"/>
+    <wire from="(490,200)" to="(530,200)"/>
   </circuit>
   <circuit name="rom_drom">
     <a name="appearance" val="custom"/>
@@ -1272,8 +2725,6 @@
     <appear>
       <rect fill="none" height="380" stroke="#000000" stroke-width="2" width="60" x="50" y="30"/>
       <text dominant-baseline="central" font-family="SansSerif" font-size="12" text-anchor="middle" x="80" y="20">2764_3</text>
-      <polyline fill="none" points="30,50 50,50" stroke="#000000" stroke-width="2"/>
-      <polyline fill="none" points="30,70 50,70" stroke="#000000" stroke-width="2"/>
       <polyline fill="none" points="30,90 50,90" stroke="#000000" stroke-width="2"/>
       <polyline fill="none" points="30,110 50,110" stroke="#000000" stroke-width="2"/>
       <polyline fill="none" points="30,130 49,130" stroke="#000000" stroke-width="2"/>
@@ -1324,6 +2775,10 @@
       <text dominant-baseline="central" font-family="SansSerif" font-size="12" text-anchor="end" x="108" y="230">D5</text>
       <text dominant-baseline="central" font-family="SansSerif" font-size="12" text-anchor="end" x="108" y="250">D6</text>
       <text dominant-baseline="central" font-family="SansSerif" font-size="12" text-anchor="end" x="108" y="270">D7</text>
+      <ellipse cx="47" cy="50" fill="none" rx="3" ry="3" stroke="#000000" stroke-width="2"/>
+      <ellipse cx="47" cy="70" fill="none" rx="3" ry="3" stroke="#000000" stroke-width="2"/>
+      <polyline fill="none" points="30,50 43,50" stroke="#000000" stroke-width="2"/>
+      <polyline fill="none" points="30,70 44,70" stroke="#000000" stroke-width="2"/>
       <circ-anchor facing="east" height="6" width="6" x="127" y="127"/>
       <circ-port height="10" pin="600,250" width="10" x="125" y="125"/>
       <circ-port height="10" pin="600,270" width="10" x="125" y="145"/>
@@ -2064,5 +3519,1202 @@ f4 ed a0 18 f8 79 2f 4f
     <wire from="(480,240)" to="(520,240)"/>
     <wire from="(530,130)" to="(530,230)"/>
     <wire from="(540,240)" to="(580,240)"/>
+  </circuit>
+  <circuit name="pal_3358">
+    <a name="appearance" val="custom"/>
+    <a name="circuit" val="pal_3358"/>
+    <a name="circuitnamedboxfixedsize" val="true"/>
+    <a name="simulationFrequency" val="1.0"/>
+    <appear>
+      <rect fill="none" height="220" stroke="#000000" stroke-width="2" width="60" x="40" y="40"/>
+      <text dominant-baseline="central" font-family="SansSerif" font-size="12" text-anchor="end" x="97" y="60">B0</text>
+      <text dominant-baseline="central" font-family="SansSerif" font-size="12" text-anchor="end" x="97" y="80">B1</text>
+      <text dominant-baseline="central" font-family="SansSerif" font-size="12" text-anchor="end" x="96" y="100">B2</text>
+      <text dominant-baseline="central" font-family="SansSerif" font-size="12" text-anchor="end" x="97" y="119">B3</text>
+      <text dominant-baseline="central" font-family="SansSerif" font-size="12" text-anchor="end" x="97" y="139">B4</text>
+      <text dominant-baseline="central" font-family="SansSerif" font-size="12" text-anchor="end" x="97" y="160">B5</text>
+      <text dominant-baseline="central" font-family="SansSerif" font-size="12" text-anchor="end" x="97" y="180">B6</text>
+      <text dominant-baseline="central" font-family="SansSerif" font-size="12" text-anchor="end" x="97" y="200">B7</text>
+      <text dominant-baseline="central" font-family="SansSerif" font-size="12" text-anchor="start" x="42" y="59">I9</text>
+      <text dominant-baseline="central" font-family="SansSerif" font-size="12" text-anchor="start" x="42" y="80">I8</text>
+      <text dominant-baseline="central" font-family="SansSerif" font-size="12" text-anchor="start" x="42" y="100">I7</text>
+      <text dominant-baseline="central" font-family="SansSerif" font-size="12" text-anchor="start" x="42" y="120">I6</text>
+      <text dominant-baseline="central" font-family="SansSerif" font-size="12" text-anchor="start" x="42" y="139">I5</text>
+      <text dominant-baseline="central" font-family="SansSerif" font-size="12" text-anchor="start" x="42" y="159">I4</text>
+      <text dominant-baseline="central" font-family="SansSerif" font-size="12" text-anchor="start" x="42" y="180">I3</text>
+      <text dominant-baseline="central" font-family="SansSerif" font-size="12" text-anchor="start" x="42" y="199">I2</text>
+      <text dominant-baseline="central" font-family="SansSerif" font-size="12" text-anchor="start" x="42" y="220">I1</text>
+      <text dominant-baseline="central" font-family="SansSerif" font-size="12" text-anchor="start" x="42" y="240">I0</text>
+      <text dominant-baseline="central" font-family="SansSerif" font-size="12" text-anchor="middle" x="69" y="32">PAL16L8A</text>
+      <polyline fill="none" points="20,60 40,60" stroke="#000000" stroke-width="2"/>
+      <polyline fill="none" points="20,80 40,80" stroke="#000000" stroke-width="2"/>
+      <polyline fill="none" points="20,100 40,100" stroke="#000000" stroke-width="2"/>
+      <polyline fill="none" points="20,120 40,120" stroke="#000000" stroke-width="2"/>
+      <polyline fill="none" points="20,140 40,140" stroke="#000000" stroke-width="2"/>
+      <polyline fill="none" points="20,160 40,160" stroke="#000000" stroke-width="2"/>
+      <polyline fill="none" points="20,180 40,180" stroke="#000000" stroke-width="2"/>
+      <polyline fill="none" points="20,200 40,200" stroke="#000000" stroke-width="2"/>
+      <polyline fill="none" points="20,220 40,220" stroke="#000000" stroke-width="2"/>
+      <polyline fill="none" points="20,240 40,240" stroke="#000000" stroke-width="2"/>
+      <polyline fill="none" points="120,60 100,60" stroke="#000000" stroke-width="2"/>
+      <polyline fill="none" points="120,80 100,80" stroke="#000000" stroke-width="2"/>
+      <polyline fill="none" points="120,100 101,100" stroke="#000000" stroke-width="2"/>
+      <polyline fill="none" points="120,120 100,120" stroke="#000000" stroke-width="2"/>
+      <polyline fill="none" points="120,140 101,140" stroke="#000000" stroke-width="2"/>
+      <polyline fill="none" points="120,160 101,160" stroke="#000000" stroke-width="2"/>
+      <polyline fill="none" points="120,180 100,180" stroke="#000000" stroke-width="2"/>
+      <polyline fill="none" points="120,200 101,200" stroke="#000000" stroke-width="2"/>
+      <circ-anchor facing="east" height="6" width="6" x="117" y="57"/>
+      <circ-port height="10" pin="260,100" width="10" x="115" y="75"/>
+      <circ-port height="10" pin="260,120" width="10" x="115" y="95"/>
+      <circ-port height="10" pin="260,140" width="10" x="115" y="115"/>
+      <circ-port height="10" pin="260,160" width="10" x="115" y="135"/>
+      <circ-port height="10" pin="260,180" width="10" x="115" y="155"/>
+      <circ-port height="10" pin="260,200" width="10" x="115" y="175"/>
+      <circ-port height="10" pin="260,220" width="10" x="115" y="195"/>
+      <circ-port height="10" pin="260,80" width="10" x="115" y="55"/>
+      <circ-port height="8" pin="90,100" width="8" x="16" y="216"/>
+      <circ-port height="8" pin="90,120" width="8" x="16" y="196"/>
+      <circ-port height="8" pin="90,140" width="8" x="16" y="176"/>
+      <circ-port height="8" pin="90,160" width="8" x="16" y="156"/>
+      <circ-port height="8" pin="90,180" width="8" x="16" y="136"/>
+      <circ-port height="8" pin="90,200" width="8" x="16" y="116"/>
+      <circ-port height="8" pin="90,220" width="8" x="16" y="96"/>
+      <circ-port height="8" pin="90,240" width="8" x="16" y="76"/>
+      <circ-port height="8" pin="90,260" width="8" x="16" y="56"/>
+      <circ-port height="8" pin="90,80" width="8" x="16" y="236"/>
+    </appear>
+    <comp lib="0" loc="(110,70)" name="Splitter">
+      <a name="facing" val="west"/>
+      <a name="fanout" val="10"/>
+      <a name="incoming" val="10"/>
+      <a name="spacing" val="2"/>
+    </comp>
+    <comp lib="0" loc="(240,70)" name="Splitter">
+      <a name="appear" val="right"/>
+      <a name="fanout" val="8"/>
+      <a name="incoming" val="8"/>
+      <a name="spacing" val="2"/>
+    </comp>
+    <comp lib="0" loc="(260,100)" name="Pin">
+      <a name="appearance" val="NewPins"/>
+      <a name="facing" val="west"/>
+      <a name="label" val="B1"/>
+      <a name="output" val="true"/>
+    </comp>
+    <comp lib="0" loc="(260,120)" name="Pin">
+      <a name="appearance" val="NewPins"/>
+      <a name="facing" val="west"/>
+      <a name="label" val="B2"/>
+      <a name="output" val="true"/>
+    </comp>
+    <comp lib="0" loc="(260,140)" name="Pin">
+      <a name="appearance" val="NewPins"/>
+      <a name="facing" val="west"/>
+      <a name="label" val="B3"/>
+      <a name="output" val="true"/>
+    </comp>
+    <comp lib="0" loc="(260,160)" name="Pin">
+      <a name="appearance" val="NewPins"/>
+      <a name="facing" val="west"/>
+      <a name="label" val="B4"/>
+      <a name="output" val="true"/>
+    </comp>
+    <comp lib="0" loc="(260,180)" name="Pin">
+      <a name="appearance" val="NewPins"/>
+      <a name="facing" val="west"/>
+      <a name="label" val="B5"/>
+      <a name="output" val="true"/>
+    </comp>
+    <comp lib="0" loc="(260,200)" name="Pin">
+      <a name="appearance" val="NewPins"/>
+      <a name="facing" val="west"/>
+      <a name="label" val="B6"/>
+      <a name="output" val="true"/>
+    </comp>
+    <comp lib="0" loc="(260,220)" name="Pin">
+      <a name="appearance" val="NewPins"/>
+      <a name="facing" val="west"/>
+      <a name="label" val="B7"/>
+      <a name="output" val="true"/>
+    </comp>
+    <comp lib="0" loc="(260,80)" name="Pin">
+      <a name="appearance" val="NewPins"/>
+      <a name="facing" val="west"/>
+      <a name="label" val="B0"/>
+      <a name="output" val="true"/>
+    </comp>
+    <comp lib="0" loc="(90,100)" name="Pin">
+      <a name="appearance" val="NewPins"/>
+      <a name="label" val="I1"/>
+    </comp>
+    <comp lib="0" loc="(90,120)" name="Pin">
+      <a name="appearance" val="NewPins"/>
+      <a name="label" val="I2"/>
+    </comp>
+    <comp lib="0" loc="(90,140)" name="Pin">
+      <a name="appearance" val="NewPins"/>
+      <a name="label" val="I3"/>
+    </comp>
+    <comp lib="0" loc="(90,160)" name="Pin">
+      <a name="appearance" val="NewPins"/>
+      <a name="label" val="I4"/>
+    </comp>
+    <comp lib="0" loc="(90,180)" name="Pin">
+      <a name="appearance" val="NewPins"/>
+      <a name="label" val="I5"/>
+    </comp>
+    <comp lib="0" loc="(90,200)" name="Pin">
+      <a name="appearance" val="NewPins"/>
+      <a name="label" val="I6"/>
+    </comp>
+    <comp lib="0" loc="(90,220)" name="Pin">
+      <a name="appearance" val="NewPins"/>
+      <a name="label" val="I7"/>
+    </comp>
+    <comp lib="0" loc="(90,240)" name="Pin">
+      <a name="appearance" val="NewPins"/>
+      <a name="label" val="I8"/>
+    </comp>
+    <comp lib="0" loc="(90,260)" name="Pin">
+      <a name="appearance" val="NewPins"/>
+      <a name="label" val="I9"/>
+    </comp>
+    <comp lib="0" loc="(90,80)" name="Pin">
+      <a name="appearance" val="NewPins"/>
+      <a name="label" val="I0"/>
+    </comp>
+    <comp lib="1" loc="(150,70)" name="PLA">
+      <a name="in_width" val="10"/>
+      <a name="label" val="pla_3358"/>
+      <a name="out_width" val="8"/>
+      <a name="table">0000000000 11010111
+0000000001 11010111
+0000000010 11010111
+0000000011 11010111
+0000000100 11010111
+0000000101 11010111
+0000000110 11010111
+0000000111 11010111
+0000001000 11010111
+0000001001 11010111
+0000001010 11010111
+0000001011 11010111
+0000001100 11010111
+0000001101 11010111
+0000001110 11010111
+0000001111 11010111
+0000010000 11010111
+0000010001 11010111
+0000010010 11010111
+0000010011 11010111
+0000010100 11010111
+0000010101 11010111
+0000010110 11010111
+0000010111 11010111
+0000011000 11010111
+0000011001 11010111
+0000011010 11010111
+0000011011 11010111
+0000011100 11010111
+0000011101 11010111
+0000011110 11010111
+0000011111 11010111
+0000100000 11000111
+0000100001 11000111
+0000100010 11000111
+0000100011 11000111
+0000100100 11000111
+0000100101 11000111
+0000100110 11000111
+0000100111 11000111
+0000101000 11000111
+0000101001 11000111
+0000101010 11000111
+0000101011 11000111
+0000101100 11000111
+0000101101 11000111
+0000101110 11000111
+0000101111 11000111
+0000110000 11000111
+0000110001 11000111
+0000110010 11000111
+0000110011 11000111
+0000110100 11000111
+0000110101 11000111
+0000110110 11000111
+0000110111 11000111
+0000111000 11000111
+0000111001 11000111
+0000111010 11000111
+0000111011 11000111
+0000111100 11000111
+0000111101 11000111
+0000111110 11000111
+0000111111 11000111
+0001000000 11010111
+0001000001 11010111
+0001000010 11010111
+0001000011 11010111
+0001000100 11010111
+0001000101 11010111
+0001000110 11010111
+0001000111 11010111
+0001001000 11010111
+0001001001 11010111
+0001001010 11010111
+0001001011 11010111
+0001001100 11010111
+0001001101 11010111
+0001001110 11010111
+0001001111 11010111
+0001010000 11010111
+0001010001 11010111
+0001010010 11010111
+0001010011 11010111
+0001010100 11010111
+0001010101 11010111
+0001010110 11010111
+0001010111 11010111
+0001011000 11010111
+0001011001 11010111
+0001011010 11010111
+0001011011 11010111
+0001011100 11010111
+0001011101 11010111
+0001011110 11010111
+0001011111 11010111
+0001100000 11000111
+0001100001 11000111
+0001100010 11000111
+0001100011 11000111
+0001100100 11000111
+0001100101 11000111
+0001100110 11000111
+0001100111 11000111
+0001101000 11000111
+0001101001 11000111
+0001101010 11000111
+0001101011 11000111
+0001101100 11000111
+0001101101 11000111
+0001101110 11000111
+0001101111 11000111
+0001110000 11000111
+0001110001 11000111
+0001110010 11000111
+0001110011 11000111
+0001110100 11000111
+0001110101 11000111
+0001110110 11000111
+0001110111 11000111
+0001111000 11000111
+0001111001 11000111
+0001111010 11000111
+0001111011 11000111
+0001111100 11000111
+0001111101 11000111
+0001111110 11000111
+0001111111 11000111
+0010000000 11010111
+0010000001 11010111
+0010000010 11010111
+0010000011 11010111
+0010000100 11010111
+0010000101 11010111
+0010000110 11010111
+0010000111 11010111
+0010001000 11010111
+0010001001 11010111
+0010001010 11010111
+0010001011 11010111
+0010001100 11010111
+0010001101 11010111
+0010001110 11010111
+0010001111 11010111
+0010010000 11010111
+0010010001 11010111
+0010010010 11010111
+0010010011 11010111
+0010010100 11010111
+0010010101 11010111
+0010010110 11010111
+0010010111 11010111
+0010011000 11010111
+0010011001 11010111
+0010011010 11010111
+0010011011 11010111
+0010011100 11010111
+0010011101 11010111
+0010011110 11010111
+0010011111 11010111
+0010100000 11000111
+0010100001 11000111
+0010100010 11000111
+0010100011 11000111
+0010100100 11000111
+0010100101 11000111
+0010100110 11000111
+0010100111 11000111
+0010101000 11000111
+0010101001 11000111
+0010101010 11000111
+0010101011 11000111
+0010101100 11000111
+0010101101 11000111
+0010101110 11000111
+0010101111 11000111
+0010110000 11000111
+0010110001 11000111
+0010110010 11000111
+0010110011 11000111
+0010110100 11000111
+0010110101 11000111
+0010110110 11000111
+0010110111 11000111
+0010111000 11000111
+0010111001 11000111
+0010111010 11000111
+0010111011 11000111
+0010111100 11000111
+0010111101 11000111
+0010111110 11000111
+0010111111 11000111
+0011000000 11010111
+0011000001 11010111
+0011000010 11010111
+0011000011 11010111
+0011000100 11010111
+0011000101 11010111
+0011000110 11010111
+0011000111 11010111
+0011001000 11010111
+0011001001 11010111
+0011001010 11010111
+0011001011 11010111
+0011001100 11010111
+0011001101 11010111
+0011001110 11010111
+0011001111 11010111
+0011010000 11010111
+0011010001 11010111
+0011010010 11010111
+0011010011 11010111
+0011010100 11010111
+0011010101 11010111
+0011010110 11010111
+0011010111 11010111
+0011011000 11010111
+0011011001 11010111
+0011011010 11010111
+0011011011 11010111
+0011011100 11010111
+0011011101 11010111
+0011011110 11010111
+0011011111 11010111
+0011100000 11000111
+0011100001 11000111
+0011100010 11000111
+0011100011 11000111
+0011100100 11000111
+0011100101 11000111
+0011100110 11000111
+0011100111 11000111
+0011101000 11000111
+0011101001 11000111
+0011101010 11000111
+0011101011 11000111
+0011101100 11000111
+0011101101 11000111
+0011101110 11000111
+0011101111 11000111
+0011110000 11000111
+0011110001 11000111
+0011110010 11000111
+0011110011 11000111
+0011110100 11000111
+0011110101 11000111
+0011110110 11000111
+0011110111 11000111
+0011111000 11000111
+0011111001 11000111
+0011111010 11000111
+0011111011 11000111
+0011111100 11000111
+0011111101 11000111
+0011111110 11000111
+0011111111 11000111
+0100000000 11010111
+0100000001 11010111
+0100000010 11010111
+0100000011 11010111
+0100000100 11010111
+0100000101 11010111
+0100000110 11010111
+0100000111 11010111
+0100001000 11010111
+0100001001 11010111
+0100001010 11010111
+0100001011 11010111
+0100001100 11010111
+0100001101 11010111
+0100001110 11010111
+0100001111 11010111
+0100010000 11010111
+0100010001 11010111
+0100010010 11010111
+0100010011 11010111
+0100010100 11010111
+0100010101 11010111
+0100010110 11010111
+0100010111 11010111
+0100011000 11010111
+0100011001 11010111
+0100011010 11010111
+0100011011 11010111
+0100011100 11010111
+0100011101 11010111
+0100011110 11010111
+0100011111 11010111
+0100100000 11000111
+0100100001 11000111
+0100100010 11000111
+0100100011 11000111
+0100100100 11000111
+0100100101 11000111
+0100100110 11000111
+0100100111 11000111
+0100101000 11000111
+0100101001 11000111
+0100101010 11000111
+0100101011 11000111
+0100101100 11000111
+0100101101 11000111
+0100101110 11000111
+0100101111 11000111
+0100110000 11000111
+0100110001 11000111
+0100110010 11000111
+0100110011 11000111
+0100110100 11000111
+0100110101 11000111
+0100110110 11000111
+0100110111 11000111
+0100111000 11000111
+0100111001 11000111
+0100111010 11000111
+0100111011 11000111
+0100111100 11000111
+0100111101 11000111
+0100111110 11000111
+0100111111 11000111
+0101000000 11010111
+0101000001 11010111
+0101000010 11010111
+0101000011 11010111
+0101000100 11010111
+0101000101 11010111
+0101000110 11010111
+0101000111 11010111
+0101001000 11010111
+0101001001 11010111
+0101001010 11010111
+0101001011 11010111
+0101001100 11010111
+0101001101 11010111
+0101001110 11010111
+0101001111 11010111
+0101010000 11010111
+0101010001 11010111
+0101010010 11010111
+0101010011 11010111
+0101010100 11010111
+0101010101 11010111
+0101010110 11010111
+0101010111 11010111
+0101011000 11010111
+0101011001 11010111
+0101011010 11010111
+0101011011 11010111
+0101011100 11010111
+0101011101 11010111
+0101011110 11010111
+0101011111 11010111
+0101100000 11000111
+0101100001 11000111
+0101100010 11000111
+0101100011 11000111
+0101100100 11000111
+0101100101 11000111
+0101100110 11000111
+0101100111 11000111
+0101101000 11000111
+0101101001 11000111
+0101101010 11000111
+0101101011 11000111
+0101101100 11000111
+0101101101 11000111
+0101101110 11000111
+0101101111 11000111
+0101110000 11000111
+0101110001 11000111
+0101110010 11000111
+0101110011 11000111
+0101110100 11000111
+0101110101 11000111
+0101110110 11000111
+0101110111 11000111
+0101111000 11000111
+0101111001 11000111
+0101111010 11000111
+0101111011 11000111
+0101111100 11000111
+0101111101 11000111
+0101111110 11000111
+0101111111 11000111
+0110000000 11010111
+0110000001 11010111
+0110000010 11010111
+0110000011 11010111
+0110000100 11010111
+0110000101 11010111
+0110000110 11010111
+0110000111 11010111
+0110001000 11010111
+0110001001 11010111
+0110001010 11010111
+0110001011 11010111
+0110001100 11010111
+0110001101 11010111
+0110001110 11010111
+0110001111 11010111
+0110010000 11010111
+0110010001 11010111
+0110010010 11010111
+0110010011 11010111
+0110010100 11010111
+0110010101 11010111
+0110010110 11010111
+0110010111 11010111
+0110011000 11010111
+0110011001 11010111
+0110011010 11010111
+0110011011 11010111
+0110011100 11010111
+0110011101 11010111
+0110011110 11010111
+0110011111 11010111
+0110100000 11000111
+0110100001 11000111
+0110100010 11000111
+0110100011 11000111
+0110100100 11000111
+0110100101 11000111
+0110100110 11000111
+0110100111 11000111
+0110101000 11000111
+0110101001 11000111
+0110101010 11000111
+0110101011 11000111
+0110101100 11000111
+0110101101 11000111
+0110101110 11000111
+0110101111 11000111
+0110110000 11000111
+0110110001 11000111
+0110110010 11000111
+0110110011 11000111
+0110110100 11000111
+0110110101 11000111
+0110110110 11000111
+0110110111 11000111
+0110111000 11000111
+0110111001 11000111
+0110111010 11000111
+0110111011 11000111
+0110111100 11000111
+0110111101 11000111
+0110111110 11000111
+0110111111 11000111
+0111000000 11010111
+0111000001 11010111
+0111000010 11010111
+0111000011 11010111
+0111000100 11010111
+0111000101 11010111
+0111000110 11010111
+0111000111 11010111
+0111001000 11010111
+0111001001 11010111
+0111001010 11010111
+0111001011 11010111
+0111001100 11010111
+0111001101 11010111
+0111001110 11010111
+0111001111 11010111
+0111010000 11010111
+0111010001 11010111
+0111010010 11010111
+0111010011 11010111
+0111010100 11010111
+0111010101 11010111
+0111010110 11010111
+0111010111 11010111
+0111011000 11010111
+0111011001 11010111
+0111011010 11010111
+0111011011 11010111
+0111011100 11010111
+0111011101 11010111
+0111011110 11010111
+0111011111 11010111
+0111100000 11000111
+0111100001 11000111
+0111100010 11000111
+0111100011 11000111
+0111100100 11000111
+0111100101 11000111
+0111100110 11000111
+0111100111 11000111
+0111101000 11000111
+0111101001 11000111
+0111101010 11000111
+0111101011 11000111
+0111101100 11000111
+0111101101 11000111
+0111101110 11000111
+0111101111 11000111
+0111110000 11000111
+0111110001 11000111
+0111110010 11000111
+0111110011 11000111
+0111110100 11000111
+0111110101 11000111
+0111110110 11000111
+0111110111 11000111
+0111111000 11000111
+0111111001 11000111
+0111111010 11000111
+0111111011 11000111
+0111111100 11000111
+0111111101 11000111
+0111111110 11000111
+0111111111 11000111
+1000000000 11010111
+1000000001 11010111
+1000000010 11010111
+1000000011 11010111
+1000000100 11010111
+1000000101 11010111
+1000000110 11010111
+1000000111 11010111
+1000001000 11010111
+1000001001 11010111
+1000001010 11010111
+1000001011 11010111
+1000001100 11010111
+1000001101 11010111
+1000001110 11010111
+1000001111 11010111
+1000010000 11010111
+1000010001 11010111
+1000010010 11010111
+1000010011 11010111
+1000010100 11010111
+1000010101 11010111
+1000010110 11010111
+1000010111 11010111
+1000011000 11010111
+1000011001 11010111
+1000011010 11010111
+1000011011 11010111
+1000011100 11010111
+1000011101 11010111
+1000011110 11010111
+1000011111 11010111
+1000100000 11000111
+1000100001 11000111
+1000100010 11000111
+1000100011 11000111
+1000100100 11000111
+1000100101 11000111
+1000100110 11000111
+1000100111 11000111
+1000101000 11000111
+1000101001 11000111
+1000101010 11000111
+1000101011 11000111
+1000101100 11000111
+1000101101 11000111
+1000101110 11000111
+1000101111 11000111
+1000110000 11000111
+1000110001 11000111
+1000110010 11000111
+1000110011 11000111
+1000110100 11000111
+1000110101 11000111
+1000110110 11000111
+1000110111 11000111
+1000111000 11000111
+1000111001 11000111
+1000111010 11000111
+1000111011 11000111
+1000111100 11000111
+1000111101 11000111
+1000111110 11000111
+1000111111 11000111
+1001000000 11010111
+1001000001 11010111
+1001000010 11010111
+1001000011 11010111
+1001000100 11010111
+1001000101 11010111
+1001000110 11010111
+1001000111 11010111
+1001001000 11010111
+1001001001 11010111
+1001001010 11010111
+1001001011 11010111
+1001001100 11010111
+1001001101 11010111
+1001001110 11010111
+1001001111 11010111
+1001010000 11010111
+1001010001 11010111
+1001010010 11010111
+1001010011 11010111
+1001010100 11010111
+1001010101 11010111
+1001010110 11010111
+1001010111 11010111
+1001011000 11010111
+1001011001 11010111
+1001011010 11010111
+1001011011 11010111
+1001011100 11010111
+1001011101 11010111
+1001011110 11010111
+1001011111 11010111
+1001100000 11000111
+1001100001 11000111
+1001100010 11000111
+1001100011 11000111
+1001100100 11000111
+1001100101 11000111
+1001100110 11000111
+1001100111 11000111
+1001101000 11000111
+1001101001 11000111
+1001101010 11000111
+1001101011 11000111
+1001101100 11000111
+1001101101 11000111
+1001101110 11000111
+1001101111 11000111
+1001110000 11000111
+1001110001 11000111
+1001110010 11000111
+1001110011 11000111
+1001110100 11000111
+1001110101 11000111
+1001110110 11000111
+1001110111 11000111
+1001111000 11000111
+1001111001 11000111
+1001111010 11000111
+1001111011 11000111
+1001111100 11000111
+1001111101 11000111
+1001111110 11000111
+1001111111 11000111
+1010000000 11010111
+1010000001 11010111
+1010000010 11010111
+1010000011 11010111
+1010000100 11010111
+1010000101 11010111
+1010000110 11010111
+1010000111 11010111
+1010001000 11010111
+1010001001 11010111
+1010001010 11010111
+1010001011 11010111
+1010001100 11010111
+1010001101 11010111
+1010001110 11010111
+1010001111 11010111
+1010010000 11010111
+1010010001 11010111
+1010010010 11010111
+1010010011 11010111
+1010010100 11010111
+1010010101 11010111
+1010010110 11010111
+1010010111 11010111
+1010011000 11010111
+1010011001 11010111
+1010011010 11010111
+1010011011 11010111
+1010011100 11010111
+1010011101 11010111
+1010011110 11010111
+1010011111 11010111
+1010100000 11000111
+1010100001 11000111
+1010100010 11000111
+1010100011 11000111
+1010100100 11000111
+1010100101 11000111
+1010100110 11000111
+1010100111 11000111
+1010101000 11000111
+1010101001 11000111
+1010101010 11000111
+1010101011 11000111
+1010101100 11000111
+1010101101 11000111
+1010101110 11000111
+1010101111 11000111
+1010110000 11000111
+1010110001 11000111
+1010110010 11000111
+1010110011 11000111
+1010110100 11000111
+1010110101 11000111
+1010110110 11000111
+1010110111 11000111
+1010111000 11000111
+1010111001 11000111
+1010111010 11000111
+1010111011 11000111
+1010111100 11000111
+1010111101 11000111
+1010111110 11000111
+1010111111 11000111
+1011000000 11010111
+1011000001 11010111
+1011000010 11010111
+1011000011 11010111
+1011000100 11010111
+1011000101 11010111
+1011000110 11010111
+1011000111 11010111
+1011001000 11010111
+1011001001 11010111
+1011001010 11010111
+1011001011 11010111
+1011001100 11010111
+1011001101 11010111
+1011001110 11010111
+1011001111 11010111
+1011010000 11010111
+1011010001 11010111
+1011010010 11010111
+1011010011 11010111
+1011010100 11010111
+1011010101 11010111
+1011010110 11010111
+1011010111 11010111
+1011011000 11010111
+1011011001 11010111
+1011011010 11010111
+1011011011 11010111
+1011011100 11010111
+1011011101 11010111
+1011011110 11010111
+1011011111 11010111
+1011100000 11000111
+1011100001 11000111
+1011100010 11000111
+1011100011 11000111
+1011100100 11000111
+1011100101 11000111
+1011100110 11000111
+1011100111 11000111
+1011101000 11000111
+1011101001 11000111
+1011101010 11000111
+1011101011 11000111
+1011101100 11000111
+1011101101 11000111
+1011101110 11000111
+1011101111 11000111
+1011110000 11000111
+1011110001 11000111
+1011110010 11000111
+1011110011 11000111
+1011110100 11000111
+1011110101 11000111
+1011110110 11000111
+1011110111 11000111
+1011111000 11000111
+1011111001 11000111
+1011111010 11000111
+1011111011 11000111
+1011111100 11000111
+1011111101 11000111
+1011111110 11000111
+1011111111 11000111
+1100000000 11010111
+1100000001 11010111
+1100000010 11010111
+1100000011 11010111
+1100000100 11010111
+1100000101 11010111
+1100000110 11010111
+1100000111 11010111
+1100001000 11010111
+1100001001 11010111
+1100001010 11010111
+1100001011 11010111
+1100001100 11010111
+1100001101 11010111
+1100001110 11010111
+1100001111 11010111
+1100010000 11010111
+1100010001 11010111
+1100010010 11010111
+1100010011 11010111
+1100010100 11010111
+1100010101 11010111
+1100010110 11010111
+1100010111 11010111
+1100011000 11010111
+1100011001 11010111
+1100011010 11010111
+1100011011 11010111
+1100011100 11010111
+1100011101 11010111
+1100011110 11010111
+1100011111 11010111
+1100100000 11000111
+1100100001 11000111
+1100100010 11000111
+1100100011 11000111
+1100100100 11000111
+1100100101 11000111
+1100100110 11000111
+1100100111 11000111
+1100101000 11000111
+1100101001 11000111
+1100101010 11000111
+1100101011 11000111
+1100101100 11000111
+1100101101 11000111
+1100101110 11000111
+1100101111 11000111
+1100110000 11000111
+1100110001 11000111
+1100110010 11000111
+1100110011 11000111
+1100110100 11000111
+1100110101 11000111
+1100110110 11000111
+1100110111 11000111
+1100111000 11000111
+1100111001 11000111
+1100111010 11000111
+1100111011 11000111
+1100111100 11000111
+1100111101 11000111
+1100111110 11000111
+1100111111 11000111
+1101000000 11010111
+1101000001 11010111
+1101000010 11010111
+1101000011 11010111
+1101000100 11010111
+1101000101 11010111
+1101000110 11010111
+1101000111 11010111
+1101001000 11010111
+1101001001 11010111
+1101001010 11010111
+1101001011 11010111
+1101001100 11010111
+1101001101 11010111
+1101001110 11010111
+1101001111 11010111
+1101010000 11010111
+1101010001 11010111
+1101010010 11010111
+1101010011 11010111
+1101010100 11010111
+1101010101 11010111
+1101010110 11010111
+1101010111 11010111
+1101011000 11010111
+1101011001 11010111
+1101011010 11010111
+1101011011 11010111
+1101011100 11010111
+1101011101 11010111
+1101011110 11010111
+1101011111 11010111
+1101100000 11000111
+1101100001 11000111
+1101100010 11000111
+1101100011 11000111
+1101100100 11000111
+1101100101 11000111
+1101100110 11000111
+1101100111 11000111
+1101101000 11000111
+1101101001 11000111
+1101101010 11000111
+1101101011 11000111
+1101101100 11000111
+1101101101 11000111
+1101101110 11000111
+1101101111 11000111
+1101110000 11000111
+1101110001 11000111
+1101110010 11000111
+1101110011 11000111
+1101110100 11000111
+1101110101 11000111
+1101110110 11000111
+1101110111 11000111
+1101111000 11000111
+1101111001 11000111
+1101111010 11000111
+1101111011 11000111
+1101111100 11000111
+1101111101 11000111
+1101111110 11000111
+1101111111 11000111
+1110000000 11010111
+1110000001 11010111
+1110000010 11010111
+1110000011 11010111
+1110000100 11010111
+1110000101 11010111
+1110000110 11010111
+1110000111 11010111
+1110001000 11010111
+1110001001 11010111
+1110001010 11010111
+1110001011 11010111
+1110001100 11010111
+1110001101 11010111
+1110001110 11010111
+1110001111 11010111
+1110010000 11010111
+1110010001 11010111
+1110010010 11010111
+1110010011 11010111
+1110010100 11010111
+1110010101 11010111
+1110010110 11010111
+1110010111 11010111
+1110011000 11010111
+1110011001 11010111
+1110011010 11010111
+1110011011 11010111
+1110011100 11010111
+1110011101 11010111
+1110011110 11010111
+1110011111 11010111
+1110100000 11000111
+1110100001 11000111
+1110100010 11000111
+1110100011 11000111
+1110100100 11000111
+1110100101 11000111
+1110100110 11000111
+1110100111 11000111
+1110101000 11000111
+1110101001 11000111
+1110101010 11000111
+1110101011 11000111
+1110101100 11000111
+1110101101 11000111
+1110101110 11000111
+1110101111 11000111
+1110110000 11000111
+1110110001 11000111
+1110110010 11000111
+1110110011 11000111
+1110110100 11000111
+1110110101 11000111
+1110110110 11000111
+1110110111 11000111
+1110111000 11000111
+1110111001 11000111
+1110111010 11000111
+1110111011 11000111
+1110111100 11000111
+1110111101 11000111
+1110111110 11000111
+1110111111 11000111
+1111000000 11010111
+1111000001 11010111
+1111000010 11010111
+1111000011 11010111
+1111000100 11010111
+1111000101 11010111
+1111000110 11010111
+1111000111 11010111
+1111001000 11010111
+1111001001 11010111
+1111001010 11010111
+1111001011 11010111
+1111001100 11010111
+1111001101 11010111
+1111001110 11010111
+1111001111 11010111
+1111010000 11010111
+1111010001 11010111
+1111010010 11010111
+1111010011 11010111
+1111010100 11010111
+1111010101 11010111
+1111010110 11010111
+1111010111 11010111
+1111011000 11010111
+1111011001 11010111
+1111011010 11010111
+1111011011 11010111
+1111011100 11010111
+1111011101 11010111
+1111011110 11010111
+1111011111 11010111
+1111100000 11000111
+1111100001 11000111
+1111100010 11000111
+1111100011 11000111
+1111100100 11000111
+1111100101 11000111
+1111100110 11000111
+1111100111 11000111
+1111101000 11000111
+1111101001 11000111
+1111101010 11000111
+1111101011 11000111
+1111101100 11000111
+1111101101 11000111
+1111101110 11000111
+1111101111 11000111
+1111110000 11000111
+1111110001 11000111
+1111110010 11000111
+1111110011 11000111
+1111110100 11000111
+1111110101 11000111
+1111110110 11000111
+1111110111 11000111
+1111111000 11000111
+1111111001 11000111
+1111111010 11000111
+1111111011 11000111
+1111111100 11000111
+1111111101 11000111
+1111111110 11000111
+1111111111 11000111
+</a>
+    </comp>
+    <wire from="(110,70)" to="(150,70)"/>
+    <wire from="(200,70)" to="(240,70)"/>
   </circuit>
 </project>

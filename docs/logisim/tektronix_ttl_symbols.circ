@@ -3,6 +3,9 @@
   This file is intended to be loaded by Logisim-evolution v3.8.0dev(https://github.com/logisim-evolution/).
 
   <lib desc="#Wiring" name="0">
+    <tool name="Splitter">
+      <a name="appear" val="right"/>
+    </tool>
     <tool name="Pin">
       <a name="appearance" val="classic"/>
     </tool>
@@ -55,7 +58,7 @@
     <tool lib="4" name="Register"/>
   </toolbar>
   <circuit name="ttl_74157">
-    <a name="appearance" val="logisim_evolution"/>
+    <a name="appearance" val="custom"/>
     <a name="circuit" val="ttl_74157"/>
     <a name="circuitnamedboxfixedsize" val="true"/>
     <a name="simulationFrequency" val="1.0"/>
@@ -392,8 +395,160 @@
     <wire from="(460,70)" to="(460,170)"/>
     <wire from="(530,190)" to="(550,190)"/>
   </circuit>
+  <circuit name="ttl_74166">
+    <a name="appearance" val="custom"/>
+    <a name="circuit" val="ttl_74166"/>
+    <a name="circuitnamedboxfixedsize" val="true"/>
+    <a name="simulationFrequency" val="1.0"/>
+    <appear>
+      <rect fill="none" height="280" stroke="#000000" stroke-width="2" width="60" x="40" y="40"/>
+      <text dominant-baseline="central" font-family="SansSerif" font-size="12" text-anchor="middle" x="71" y="33">74LS166</text>
+      <ellipse cx="38" cy="220" fill="none" rx="2" ry="2" stroke="#000000" stroke-width="2"/>
+      <polyline fill="none" points="20,60 40,60" stroke="#000000" stroke-width="2"/>
+      <polyline fill="none" points="20,80 40,80" stroke="#000000" stroke-width="2"/>
+      <polyline fill="none" points="20,100 40,100" stroke="#000000" stroke-width="2"/>
+      <polyline fill="none" points="20,120 40,120" stroke="#000000" stroke-width="2"/>
+      <polyline fill="none" points="20,140 40,140" stroke="#000000" stroke-width="2"/>
+      <polyline fill="none" points="20,160 40,160" stroke="#000000" stroke-width="2"/>
+      <polyline fill="none" points="20,180 40,180" stroke="#000000" stroke-width="2"/>
+      <polyline fill="none" points="20,200 40,200" stroke="#000000" stroke-width="2"/>
+      <polyline fill="none" points="20,220 36,220" stroke="#000000" stroke-width="2"/>
+      <polyline fill="none" points="20,240 39,240" stroke="#000000" stroke-width="2"/>
+      <polyline fill="none" points="20,260 40,260" stroke="#000000" stroke-width="2"/>
+      <polyline fill="none" points="20,280 40,280" stroke="#000000" stroke-width="2"/>
+      <polyline fill="none" points="20,300 39,300" stroke="#000000" stroke-width="2"/>
+      <polyline fill="none" points="120,200 100,200" stroke="#000000" stroke-width="2"/>
+      <text dominant-baseline="central" font-family="SansSerif" font-size="12" text-anchor="start" x="43" y="60">A</text>
+      <text dominant-baseline="central" font-family="SansSerif" font-size="12" text-anchor="start" x="43" y="79">B</text>
+      <text dominant-baseline="central" font-family="SansSerif" font-size="12" text-anchor="start" x="43" y="99">C</text>
+      <text dominant-baseline="central" font-family="SansSerif" font-size="12" text-anchor="start" x="43" y="120">D</text>
+      <text dominant-baseline="central" font-family="SansSerif" font-size="12" text-anchor="start" x="42" y="139">E</text>
+      <text dominant-baseline="central" font-family="SansSerif" font-size="12" text-anchor="start" x="43" y="159">F</text>
+      <text dominant-baseline="central" font-family="SansSerif" font-size="12" text-anchor="start" x="43" y="179">G</text>
+      <text dominant-baseline="central" font-family="SansSerif" font-size="12" text-anchor="start" x="42" y="200">H</text>
+      <text dominant-baseline="central" font-family="SansSerif" font-size="12" text-anchor="start" x="42" y="220">CLR</text>
+      <text dominant-baseline="central" font-family="SansSerif" font-size="12" text-anchor="start" x="43" y="240">SER</text>
+      <text dominant-baseline="central" font-family="SansSerif" font-size="12" text-anchor="start" x="43" y="260">CKINH</text>
+      <text dominant-baseline="central" font-family="SansSerif" font-size="12" text-anchor="start" x="43" y="300">SH/LD</text>
+      <polyline fill="none" points="41,285 45,280" stroke="#000000" stroke-width="2"/>
+      <polyline fill="none" points="45,280 41,276" stroke="#000000" stroke-width="2"/>
+      <circ-anchor facing="east" height="6" width="6" x="117" y="197"/>
+      <circ-port height="10" pin="560,320" width="10" x="115" y="195"/>
+      <circ-port height="8" pin="160,120" width="8" x="16" y="276"/>
+      <circ-port height="8" pin="160,160" width="8" x="16" y="256"/>
+      <circ-port height="8" pin="340,100" width="8" x="16" y="216"/>
+      <circ-port height="8" pin="340,120" width="8" x="16" y="296"/>
+      <circ-port height="8" pin="380,160" width="8" x="16" y="236"/>
+      <circ-port height="8" pin="380,180" width="8" x="16" y="56"/>
+      <circ-port height="8" pin="380,200" width="8" x="16" y="76"/>
+      <circ-port height="8" pin="380,220" width="8" x="16" y="96"/>
+      <circ-port height="8" pin="380,240" width="8" x="16" y="116"/>
+      <circ-port height="8" pin="380,260" width="8" x="16" y="136"/>
+      <circ-port height="8" pin="380,280" width="8" x="16" y="156"/>
+      <circ-port height="8" pin="380,300" width="8" x="16" y="176"/>
+      <circ-port height="8" pin="380,320" width="8" x="16" y="196"/>
+    </appear>
+    <comp lib="0" loc="(160,120)" name="Pin">
+      <a name="appearance" val="NewPins"/>
+      <a name="label" val="CLK"/>
+    </comp>
+    <comp lib="0" loc="(160,160)" name="Pin">
+      <a name="appearance" val="NewPins"/>
+      <a name="label" val="CLK_INH"/>
+    </comp>
+    <comp lib="0" loc="(340,100)" name="Pin">
+      <a name="appearance" val="NewPins"/>
+      <a name="label" val="CLR"/>
+    </comp>
+    <comp lib="0" loc="(340,120)" name="Pin">
+      <a name="appearance" val="NewPins"/>
+      <a name="label" val="SH_LD"/>
+    </comp>
+    <comp lib="0" loc="(380,160)" name="Pin">
+      <a name="appearance" val="NewPins"/>
+      <a name="label" val="SER"/>
+    </comp>
+    <comp lib="0" loc="(380,180)" name="Pin">
+      <a name="appearance" val="NewPins"/>
+      <a name="label" val="A"/>
+    </comp>
+    <comp lib="0" loc="(380,200)" name="Pin">
+      <a name="appearance" val="NewPins"/>
+      <a name="label" val="B"/>
+    </comp>
+    <comp lib="0" loc="(380,220)" name="Pin">
+      <a name="appearance" val="NewPins"/>
+      <a name="label" val="C"/>
+    </comp>
+    <comp lib="0" loc="(380,240)" name="Pin">
+      <a name="appearance" val="NewPins"/>
+      <a name="label" val="D"/>
+    </comp>
+    <comp lib="0" loc="(380,260)" name="Pin">
+      <a name="appearance" val="NewPins"/>
+      <a name="label" val="E"/>
+    </comp>
+    <comp lib="0" loc="(380,280)" name="Pin">
+      <a name="appearance" val="NewPins"/>
+      <a name="label" val="F"/>
+    </comp>
+    <comp lib="0" loc="(380,300)" name="Pin">
+      <a name="appearance" val="NewPins"/>
+      <a name="label" val="G"/>
+    </comp>
+    <comp lib="0" loc="(380,320)" name="Pin">
+      <a name="appearance" val="NewPins"/>
+      <a name="label" val="H"/>
+    </comp>
+    <comp lib="0" loc="(530,180)" name="NoConnect"/>
+    <comp lib="0" loc="(530,200)" name="NoConnect"/>
+    <comp lib="0" loc="(530,220)" name="NoConnect"/>
+    <comp lib="0" loc="(530,240)" name="NoConnect"/>
+    <comp lib="0" loc="(530,260)" name="NoConnect"/>
+    <comp lib="0" loc="(530,280)" name="NoConnect"/>
+    <comp lib="0" loc="(530,300)" name="NoConnect"/>
+    <comp lib="0" loc="(560,320)" name="Pin">
+      <a name="appearance" val="NewPins"/>
+      <a name="facing" val="west"/>
+      <a name="label" val="QH"/>
+      <a name="output" val="true"/>
+    </comp>
+    <comp lib="1" loc="(240,140)" name="AND Gate">
+      <a name="negate1" val="true"/>
+    </comp>
+    <comp lib="1" loc="(390,100)" name="NOT Gate"/>
+    <comp lib="1" loc="(390,120)" name="NOT Gate"/>
+    <comp lib="4" loc="(410,90)" name="Shift Register">
+      <a name="appearance" val="logisim_evolution"/>
+    </comp>
+    <wire from="(160,120)" to="(190,120)"/>
+    <wire from="(160,160)" to="(180,160)"/>
+    <wire from="(240,140)" to="(410,140)"/>
+    <wire from="(340,100)" to="(360,100)"/>
+    <wire from="(340,120)" to="(350,120)"/>
+    <wire from="(350,120)" to="(350,130)"/>
+    <wire from="(350,120)" to="(360,120)"/>
+    <wire from="(350,130)" to="(410,130)"/>
+    <wire from="(360,100)" to="(360,110)"/>
+    <wire from="(380,160)" to="(390,160)"/>
+    <wire from="(380,180)" to="(410,180)"/>
+    <wire from="(380,200)" to="(410,200)"/>
+    <wire from="(380,220)" to="(410,220)"/>
+    <wire from="(380,240)" to="(410,240)"/>
+    <wire from="(380,260)" to="(410,260)"/>
+    <wire from="(380,280)" to="(410,280)"/>
+    <wire from="(380,300)" to="(410,300)"/>
+    <wire from="(380,320)" to="(410,320)"/>
+    <wire from="(390,100)" to="(400,100)"/>
+    <wire from="(390,120)" to="(410,120)"/>
+    <wire from="(390,160)" to="(390,170)"/>
+    <wire from="(390,170)" to="(410,170)"/>
+    <wire from="(400,100)" to="(400,110)"/>
+    <wire from="(400,110)" to="(410,110)"/>
+    <wire from="(530,320)" to="(560,320)"/>
+  </circuit>
   <circuit name="ttl_74244_joined">
-    <a name="appearance" val="logisim_evolution"/>
+    <a name="appearance" val="custom"/>
     <a name="circuit" val="ttl_74244_joined"/>
     <a name="circuitnamedboxfixedsize" val="true"/>
     <a name="simulationFrequency" val="1.0"/>
@@ -554,6 +709,243 @@
     <wire from="(180,70)" to="(180,90)"/>
     <wire from="(190,100)" to="(220,100)"/>
   </circuit>
+  <circuit name="ttl_74273">
+    <a name="appearance" val="custom"/>
+    <a name="circuit" val="ttl_74273"/>
+    <a name="circuitnamedboxfixedsize" val="true"/>
+    <a name="simulationFrequency" val="1.0"/>
+    <appear>
+      <polyline fill="none" points="30,70 50,70" stroke="#000000" stroke-width="2"/>
+      <polyline fill="none" points="30,150 49,150" stroke="#000000" stroke-width="2"/>
+      <polyline fill="none" points="130,70 110,70" stroke="#000000" stroke-width="2"/>
+      <polyline fill="none" points="130,130 111,130" stroke="#000000" stroke-width="2"/>
+      <text dominant-baseline="central" font-family="SansSerif" font-size="12" text-anchor="start" x="52" y="150">D</text>
+      <text dominant-baseline="central" font-family="SansSerif" font-size="12" text-anchor="end" x="107" y="170">Q</text>
+      <polyline fill="none" points="130,190 110,190" stroke="#000000" stroke-width="2"/>
+      <ellipse cx="47" cy="50" fill="none" rx="3" ry="3" stroke="#000000" stroke-width="2"/>
+      <polyline fill="none" points="130,150 110,150" stroke="#000000" stroke-width="2"/>
+      <polyline fill="none" points="30,130 50,130" stroke="#000000" stroke-width="2"/>
+      <text dominant-baseline="central" font-family="SansSerif" font-size="12" text-anchor="start" x="52" y="110">D</text>
+      <rect fill="none" height="220" stroke="#000000" stroke-width="2" width="60" x="50" y="30"/>
+      <text dominant-baseline="central" font-family="SansSerif" font-size="12" text-anchor="end" x="107" y="90">Q</text>
+      <polyline fill="none" points="130,90 111,90" stroke="#000000" stroke-width="2"/>
+      <polyline fill="none" points="30,110 50,110" stroke="#000000" stroke-width="2"/>
+      <text dominant-baseline="central" font-family="SansSerif" font-size="12" text-anchor="end" x="108" y="150">Q</text>
+      <text dominant-baseline="central" font-family="SansSerif" font-size="12" text-anchor="start" x="53" y="90">D</text>
+      <polyline fill="none" points="51,225 55,230" stroke="#000000" stroke-width="2"/>
+      <polyline fill="none" points="30,50 44,50" stroke="#000000" stroke-width="2"/>
+      <polyline fill="none" points="130,170 111,170" stroke="#000000" stroke-width="2"/>
+      <text dominant-baseline="central" font-family="SansSerif" font-size="12" text-anchor="end" x="107" y="130">Q</text>
+      <text dominant-baseline="central" font-family="SansSerif" font-size="12" text-anchor="start" x="52" y="209">D</text>
+      <polyline fill="none" points="30,190 50,190" stroke="#000000" stroke-width="2"/>
+      <polyline fill="none" points="30,210 50,210" stroke="#000000" stroke-width="2"/>
+      <text dominant-baseline="central" font-family="SansSerif" font-size="12" text-anchor="start" x="52" y="170">D</text>
+      <text dominant-baseline="central" font-family="SansSerif" font-size="12" text-anchor="start" x="52" y="130">D</text>
+      <text dominant-baseline="central" font-family="SansSerif" font-size="12" text-anchor="end" x="107" y="190">Q</text>
+      <polyline fill="none" points="51,234 55,230" stroke="#000000" stroke-width="2"/>
+      <text dominant-baseline="central" font-family="SansSerif" font-size="12" text-anchor="end" x="107" y="210">Q</text>
+      <text dominant-baseline="central" font-family="SansSerif" font-size="12" text-anchor="end" x="107" y="70">Q</text>
+      <text dominant-baseline="central" font-family="SansSerif" font-size="12" text-anchor="end" x="107" y="110">Q</text>
+      <polyline fill="none" points="30,90 50,90" stroke="#000000" stroke-width="2"/>
+      <polyline fill="none" points="30,170 49,170" stroke="#000000" stroke-width="2"/>
+      <polyline fill="none" points="130,110 110,110" stroke="#000000" stroke-width="2"/>
+      <text dominant-baseline="central" font-family="SansSerif" font-size="12" text-anchor="middle" x="79" y="23">74LS273</text>
+      <polyline fill="none" points="130,210 110,210" stroke="#000000" stroke-width="2"/>
+      <text dominant-baseline="central" font-family="SansSerif" font-size="12" text-anchor="start" x="52" y="70">D</text>
+      <text dominant-baseline="central" font-family="SansSerif" font-size="12" text-anchor="start" x="52" y="190">D</text>
+      <polyline fill="none" points="30,230 50,230" stroke="#000000" stroke-width="2"/>
+      <text dominant-baseline="central" font-family="SansSerif" font-size="12" text-anchor="start" x="52" y="50">CLR</text>
+      <polyline fill="none" points="53,45 75,45" stroke="#000000"/>
+      <circ-anchor facing="east" height="6" width="6" x="127" y="67"/>
+      <circ-port height="10" pin="330,140" width="10" x="125" y="65"/>
+      <circ-port height="10" pin="330,220" width="10" x="125" y="85"/>
+      <circ-port height="10" pin="330,300" width="10" x="125" y="105"/>
+      <circ-port height="10" pin="330,380" width="10" x="125" y="125"/>
+      <circ-port height="10" pin="330,460" width="10" x="125" y="145"/>
+      <circ-port height="10" pin="330,540" width="10" x="125" y="165"/>
+      <circ-port height="10" pin="330,620" width="10" x="125" y="185"/>
+      <circ-port height="10" pin="330,700" width="10" x="125" y="205"/>
+      <circ-port height="8" pin="120,100" width="8" x="26" y="226"/>
+      <circ-port height="8" pin="120,70" width="8" x="26" y="46"/>
+      <circ-port height="8" pin="270,140" width="8" x="26" y="66"/>
+      <circ-port height="8" pin="270,220" width="8" x="26" y="86"/>
+      <circ-port height="8" pin="270,300" width="8" x="26" y="106"/>
+      <circ-port height="8" pin="270,380" width="8" x="26" y="126"/>
+      <circ-port height="8" pin="270,460" width="8" x="26" y="146"/>
+      <circ-port height="8" pin="270,540" width="8" x="26" y="166"/>
+      <circ-port height="8" pin="270,620" width="8" x="26" y="186"/>
+      <circ-port height="8" pin="270,700" width="8" x="26" y="206"/>
+    </appear>
+    <comp lib="0" loc="(120,100)" name="Pin">
+      <a name="appearance" val="NewPins"/>
+      <a name="label" val="CLK"/>
+    </comp>
+    <comp lib="0" loc="(120,70)" name="Pin">
+      <a name="appearance" val="NewPins"/>
+      <a name="label" val="CLR"/>
+    </comp>
+    <comp lib="0" loc="(270,140)" name="Pin">
+      <a name="appearance" val="NewPins"/>
+      <a name="label" val="D1"/>
+    </comp>
+    <comp lib="0" loc="(270,220)" name="Pin">
+      <a name="appearance" val="NewPins"/>
+      <a name="label" val="D2"/>
+    </comp>
+    <comp lib="0" loc="(270,300)" name="Pin">
+      <a name="appearance" val="NewPins"/>
+      <a name="label" val="D3"/>
+    </comp>
+    <comp lib="0" loc="(270,380)" name="Pin">
+      <a name="appearance" val="NewPins"/>
+      <a name="label" val="D4"/>
+    </comp>
+    <comp lib="0" loc="(270,460)" name="Pin">
+      <a name="appearance" val="NewPins"/>
+      <a name="label" val="D5"/>
+    </comp>
+    <comp lib="0" loc="(270,540)" name="Pin">
+      <a name="appearance" val="NewPins"/>
+      <a name="label" val="D6"/>
+    </comp>
+    <comp lib="0" loc="(270,620)" name="Pin">
+      <a name="appearance" val="NewPins"/>
+      <a name="label" val="D7"/>
+    </comp>
+    <comp lib="0" loc="(270,700)" name="Pin">
+      <a name="appearance" val="NewPins"/>
+      <a name="label" val="D8"/>
+    </comp>
+    <comp lib="0" loc="(300,130)" name="NoConnect"/>
+    <comp lib="0" loc="(300,210)" name="NoConnect"/>
+    <comp lib="0" loc="(300,290)" name="NoConnect"/>
+    <comp lib="0" loc="(300,370)" name="NoConnect"/>
+    <comp lib="0" loc="(300,450)" name="NoConnect"/>
+    <comp lib="0" loc="(300,530)" name="NoConnect"/>
+    <comp lib="0" loc="(300,610)" name="NoConnect"/>
+    <comp lib="0" loc="(300,690)" name="NoConnect"/>
+    <comp lib="0" loc="(330,140)" name="Pin">
+      <a name="appearance" val="NewPins"/>
+      <a name="facing" val="west"/>
+      <a name="label" val="Q1"/>
+      <a name="output" val="true"/>
+    </comp>
+    <comp lib="0" loc="(330,180)" name="NoConnect"/>
+    <comp lib="0" loc="(330,220)" name="Pin">
+      <a name="appearance" val="NewPins"/>
+      <a name="facing" val="west"/>
+      <a name="label" val="Q2"/>
+      <a name="output" val="true"/>
+    </comp>
+    <comp lib="0" loc="(330,260)" name="NoConnect"/>
+    <comp lib="0" loc="(330,300)" name="Pin">
+      <a name="appearance" val="NewPins"/>
+      <a name="facing" val="west"/>
+      <a name="label" val="Q3"/>
+      <a name="output" val="true"/>
+    </comp>
+    <comp lib="0" loc="(330,340)" name="NoConnect"/>
+    <comp lib="0" loc="(330,380)" name="Pin">
+      <a name="appearance" val="NewPins"/>
+      <a name="facing" val="west"/>
+      <a name="label" val="Q4"/>
+      <a name="output" val="true"/>
+    </comp>
+    <comp lib="0" loc="(330,420)" name="NoConnect"/>
+    <comp lib="0" loc="(330,460)" name="Pin">
+      <a name="appearance" val="NewPins"/>
+      <a name="facing" val="west"/>
+      <a name="label" val="Q5"/>
+      <a name="output" val="true"/>
+    </comp>
+    <comp lib="0" loc="(330,500)" name="NoConnect"/>
+    <comp lib="0" loc="(330,540)" name="Pin">
+      <a name="appearance" val="NewPins"/>
+      <a name="facing" val="west"/>
+      <a name="label" val="Q6"/>
+      <a name="output" val="true"/>
+    </comp>
+    <comp lib="0" loc="(330,580)" name="NoConnect"/>
+    <comp lib="0" loc="(330,620)" name="Pin">
+      <a name="appearance" val="NewPins"/>
+      <a name="facing" val="west"/>
+      <a name="label" val="Q7"/>
+      <a name="output" val="true"/>
+    </comp>
+    <comp lib="0" loc="(330,660)" name="NoConnect"/>
+    <comp lib="0" loc="(330,700)" name="Pin">
+      <a name="appearance" val="NewPins"/>
+      <a name="facing" val="west"/>
+      <a name="label" val="Q8"/>
+      <a name="output" val="true"/>
+    </comp>
+    <comp lib="0" loc="(330,740)" name="NoConnect"/>
+    <comp lib="1" loc="(170,70)" name="NOT Gate"/>
+    <comp lib="4" loc="(280,130)" name="D Flip-Flop">
+      <a name="appearance" val="logisim_evolution"/>
+    </comp>
+    <comp lib="4" loc="(280,210)" name="D Flip-Flop">
+      <a name="appearance" val="logisim_evolution"/>
+    </comp>
+    <comp lib="4" loc="(280,290)" name="D Flip-Flop">
+      <a name="appearance" val="logisim_evolution"/>
+    </comp>
+    <comp lib="4" loc="(280,370)" name="D Flip-Flop">
+      <a name="appearance" val="logisim_evolution"/>
+    </comp>
+    <comp lib="4" loc="(280,450)" name="D Flip-Flop">
+      <a name="appearance" val="logisim_evolution"/>
+    </comp>
+    <comp lib="4" loc="(280,530)" name="D Flip-Flop">
+      <a name="appearance" val="logisim_evolution"/>
+    </comp>
+    <comp lib="4" loc="(280,610)" name="D Flip-Flop">
+      <a name="appearance" val="logisim_evolution"/>
+    </comp>
+    <comp lib="4" loc="(280,690)" name="D Flip-Flop">
+      <a name="appearance" val="logisim_evolution"/>
+    </comp>
+    <wire from="(120,100)" to="(140,100)"/>
+    <wire from="(120,70)" to="(140,70)"/>
+    <wire from="(140,100)" to="(140,180)"/>
+    <wire from="(140,180)" to="(140,260)"/>
+    <wire from="(140,180)" to="(270,180)"/>
+    <wire from="(140,260)" to="(140,340)"/>
+    <wire from="(140,260)" to="(270,260)"/>
+    <wire from="(140,340)" to="(140,420)"/>
+    <wire from="(140,340)" to="(270,340)"/>
+    <wire from="(140,420)" to="(140,500)"/>
+    <wire from="(140,420)" to="(270,420)"/>
+    <wire from="(140,500)" to="(140,580)"/>
+    <wire from="(140,500)" to="(270,500)"/>
+    <wire from="(140,580)" to="(140,660)"/>
+    <wire from="(140,580)" to="(270,580)"/>
+    <wire from="(140,660)" to="(140,740)"/>
+    <wire from="(140,660)" to="(270,660)"/>
+    <wire from="(140,740)" to="(270,740)"/>
+    <wire from="(170,70)" to="(180,70)"/>
+    <wire from="(180,200)" to="(180,280)"/>
+    <wire from="(180,200)" to="(300,200)"/>
+    <wire from="(180,280)" to="(180,360)"/>
+    <wire from="(180,280)" to="(300,280)"/>
+    <wire from="(180,360)" to="(180,440)"/>
+    <wire from="(180,360)" to="(300,360)"/>
+    <wire from="(180,440)" to="(180,520)"/>
+    <wire from="(180,440)" to="(300,440)"/>
+    <wire from="(180,520)" to="(180,600)"/>
+    <wire from="(180,520)" to="(300,520)"/>
+    <wire from="(180,600)" to="(180,680)"/>
+    <wire from="(180,600)" to="(300,600)"/>
+    <wire from="(180,680)" to="(300,680)"/>
+    <wire from="(180,70)" to="(180,200)"/>
+    <wire from="(300,190)" to="(300,200)"/>
+    <wire from="(300,270)" to="(300,280)"/>
+    <wire from="(300,350)" to="(300,360)"/>
+    <wire from="(300,430)" to="(300,440)"/>
+    <wire from="(300,510)" to="(300,520)"/>
+    <wire from="(300,590)" to="(300,600)"/>
+    <wire from="(300,670)" to="(300,680)"/>
+  </circuit>
   <circuit name="ttl_74279_sr">
     <a name="appearance" val="custom"/>
     <a name="circuit" val="ttl_74279_sr"/>
@@ -678,7 +1070,7 @@
     <wire from="(300,140)" to="(330,140)"/>
   </circuit>
   <circuit name="ttl_74283">
-    <a name="appearance" val="logisim_evolution"/>
+    <a name="appearance" val="custom"/>
     <a name="circuit" val="ttl_74283"/>
     <a name="circuitnamedboxfixedsize" val="true"/>
     <a name="simulationFrequency" val="1.0"/>
@@ -831,7 +1223,7 @@
     <wire from="(250,220)" to="(290,220)"/>
   </circuit>
   <circuit name="ttl_74374">
-    <a name="appearance" val="logisim_evolution"/>
+    <a name="appearance" val="custom"/>
     <a name="circuit" val="ttl_74374"/>
     <a name="circuitnamedboxfixedsize" val="true"/>
     <a name="simulationFrequency" val="1.0"/>
@@ -1528,7 +1920,7 @@
     <wire from="(90,340)" to="(260,340)"/>
   </circuit>
   <circuit name="mem_6116P_2">
-    <a name="appearance" val="logisim_evolution"/>
+    <a name="appearance" val="custom"/>
     <a name="circuit" val="mem_6116P_2"/>
     <a name="circuitnamedboxfixedsize" val="true"/>
     <a name="simulationFrequency" val="1.0"/>
