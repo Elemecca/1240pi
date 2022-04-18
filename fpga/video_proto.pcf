@@ -1,0 +1,8 @@
+
+set_io clk_pixel R9
+set_io clk_pixel_out T11
+
+set_io video T13
+set_io hdrive T14
+set_io vdrive_green T16
+set_io clk_char_out T15

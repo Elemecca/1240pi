@@ -1,4 +1,16 @@
 
+# KiCAD backups
 /board/*/*-backups/
 /board/*.bak
+
+# FreeCAD backups
 /board/local.3dshapes/*.FCStd1
+
+# Lattice iCECube2 build output
+/fpga/*/*.log
+/fpga/*/*.bak
+/fpga/*/*/
+
+# Lattice Diamond Programmer configs
+/fpga/*/*.xcf
+
