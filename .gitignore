@@ -1,3 +1,4 @@
 
 /board/*/*-backups/
+/board/*.bak
 /board/local.3dshapes/*.FCStd1

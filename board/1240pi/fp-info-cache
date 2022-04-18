@@ -1,4 +1,4 @@
-20112700833837619
+20120945186711979
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -57574,6 +57574,41 @@ Yellow 5381 Series LED
 0
 2
 2
+Local
+Abracon_ARJM11D7-502-AB-EW2
+ARJM11D7-502-AB-EW2-3
+Connector
+0
+16
+16
+Local
+CardEdge_50x2
+
+
+0
+100
+100
+Local
+OSHW
+Imported from /home/sam/Downloads/oshw.svg
+svg2mod
+0
+0
+0
+Local
+RaspberryPi_CM4
+Raspberry Pi 4 Compute Module
+Raspberry Pi 4 Compute Module
+0
+200
+200
+Local
+Switchcraft_RAVHD19ETR
+
+
+0
+19
+19
 Module
 A20_OLINUXINO_LIME2
 A20 Olinuxino LIME2, 1.2GHz, 512-1024MB RAM, Micro-SD, NAND or eMMC, 1000Mbit Ethernet
