@@ -2,6 +2,7 @@
 # KiCAD backups
 /board/*/*-backups/
 /board/*.bak
+/board/*/#auto_saved_files#
 
 # FreeCAD backups
 /board/local.3dshapes/*.FCStd1
