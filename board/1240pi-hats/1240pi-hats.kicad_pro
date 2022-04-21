@@ -457,6 +457,10 @@
     [
       "600cca17-1832-4150-bdc4-60308bd69c4d",
       "Display"
+    ],
+    [
+      "93c3fd30-89aa-4f2c-a472-3cf6e18bbdfb",
+      "IO Processor"
     ]
   ],
   "text_variables": {}

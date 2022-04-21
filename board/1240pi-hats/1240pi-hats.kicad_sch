@@ -5,9 +5,11 @@
   (paper "USLetter")
 
   (title_block
-    (title "1240-Pi Mod Hats")
-    (date "2022-04-20")
+    (title "1240-Pi Modification Boards")
+    (date "2022-04-21")
     (rev "1.0")
+    (company "© 2022 Sam Hanes, licensed under CERN-OHL-P v2")
+    (comment 1 "https://github.com/Elemecca/1240pi")
   )
 
   (lib_symbols
@@ -26,9 +28,22 @@
     )
   )
 
+  (sheet (at 38.1 63.5) (size 38.1 12.7) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid) (color 0 0 0 0))
+    (fill (color 0 0 0 0.0000))
+    (uuid 93c3fd30-89aa-4f2c-a472-3cf6e18bbdfb)
+    (property "Sheet name" "IO Processor" (id 0) (at 38.1 62.7884 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheet file" "io_proc.kicad_sch" (id 1) (at 38.1 76.7846 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+  )
+
   (sheet_instances
     (path "/" (page "1"))
     (path "/600cca17-1832-4150-bdc4-60308bd69c4d" (page "2"))
+    (path "/93c3fd30-89aa-4f2c-a472-3cf6e18bbdfb" (page "3"))
   )
 
   (symbol_instances
@@ -37,6 +52,12 @@
     )
     (path "/600cca17-1832-4150-bdc4-60308bd69c4d/3702cd3c-879c-4c20-9276-eeaab458842a"
       (reference "#FLG0102") (unit 1) (value "PWR_FLAG") (footprint "")
+    )
+    (path "/93c3fd30-89aa-4f2c-a472-3cf6e18bbdfb/541631f1-5c6b-4984-b80b-da5d814ddc2a"
+      (reference "#FLG0103") (unit 1) (value "PWR_FLAG") (footprint "")
+    )
+    (path "/93c3fd30-89aa-4f2c-a472-3cf6e18bbdfb/b59ec72b-cbb3-4a84-b409-cb1a12e8909e"
+      (reference "#FLG0104") (unit 1) (value "PWR_FLAG") (footprint "")
     )
     (path "/600cca17-1832-4150-bdc4-60308bd69c4d/33dc1d17-3c43-484e-a994-57309880e165"
       (reference "#PWR0101") (unit 1) (value "GND") (footprint "")
@@ -51,10 +72,31 @@
       (reference "#PWR0104") (unit 1) (value "GND") (footprint "")
     )
     (path "/600cca17-1832-4150-bdc4-60308bd69c4d/80a0843d-8e1d-4eab-9068-32674a47fe97"
-      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+      (reference "#PWR0105") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/93c3fd30-89aa-4f2c-a472-3cf6e18bbdfb/34c1fa01-b507-49e3-9b9f-c468b6e77596"
+      (reference "#PWR0106") (unit 1) (value "~") (footprint "")
+    )
+    (path "/93c3fd30-89aa-4f2c-a472-3cf6e18bbdfb/534827d0-458c-4104-bc6d-0255ad697b4c"
+      (reference "#PWR0107") (unit 1) (value "+5V") (footprint "")
+    )
+    (path "/93c3fd30-89aa-4f2c-a472-3cf6e18bbdfb/805d731d-4180-4b8e-bf12-b88ccec030b8"
+      (reference "#PWR0108") (unit 1) (value "+5V") (footprint "")
+    )
+    (path "/93c3fd30-89aa-4f2c-a472-3cf6e18bbdfb/57c4d56d-de84-4172-ae0f-4c05a32da8d4"
+      (reference "#PWR0109") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/93c3fd30-89aa-4f2c-a472-3cf6e18bbdfb/53181a90-a010-4b72-99ae-37b5bd3dc882"
+      (reference "#PWR0110") (unit 1) (value "+5V") (footprint "")
+    )
+    (path "/93c3fd30-89aa-4f2c-a472-3cf6e18bbdfb/2aecf130-835d-43a0-a6c9-612e14e7a782"
+      (reference "#PWR0111") (unit 1) (value "GND") (footprint "")
     )
     (path "/600cca17-1832-4150-bdc4-60308bd69c4d/75a11c0c-9043-4723-93bf-97178f7d2b90"
       (reference "J1") (unit 1) (value "Conn_02x05_Odd_Even") (footprint "Connector_PinHeader_2.54mm:PinHeader_2x05_P2.54mm_Vertical")
+    )
+    (path "/93c3fd30-89aa-4f2c-a472-3cf6e18bbdfb/f05fcee9-4158-40f8-b265-71b19b598390"
+      (reference "J21") (unit 1) (value "Conn_02x16_Odd_Even") (footprint "Connector_PinHeader_2.54mm:PinHeader_2x16_P2.54mm_Vertical")
     )
     (path "/600cca17-1832-4150-bdc4-60308bd69c4d/fc642cd8-7c35-4e61-a3f8-93bdddadf08c"
       (reference "P208") (unit 1) (value "Header") (footprint "Package_DIP:DIP-14_W7.62mm")
@@ -86,8 +128,20 @@
     (path "/600cca17-1832-4150-bdc4-60308bd69c4d/39c70d9c-b85f-4aab-b4a8-2cffd6c147e7"
       (reference "P415") (unit 3) (value "Header") (footprint "Package_DIP:DIP-14_W7.62mm")
     )
+    (path "/93c3fd30-89aa-4f2c-a472-3cf6e18bbdfb/8ad53c83-e421-4c0e-b4e0-361c324d4d58"
+      (reference "P445") (unit 1) (value "Header") (footprint "Package_DIP:DIP-40_W15.24mm")
+    )
+    (path "/93c3fd30-89aa-4f2c-a472-3cf6e18bbdfb/6c1a4460-5fc9-4b10-afd6-ed10a018878d"
+      (reference "Q21") (unit 1) (value "Q_PMOS_SGD") (footprint "Package_TO_SOT_THT:TO-92_Wide")
+    )
     (path "/600cca17-1832-4150-bdc4-60308bd69c4d/b91e8f31-48aa-4060-962c-f4d34479a4e2"
       (reference "R1") (unit 1) (value "4k7") (footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
+    )
+    (path "/93c3fd30-89aa-4f2c-a472-3cf6e18bbdfb/39bc262a-7fca-4f46-a771-f7dcdf7ac0b0"
+      (reference "R21") (unit 1) (value "10k") (footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
+    )
+    (path "/93c3fd30-89aa-4f2c-a472-3cf6e18bbdfb/e1046c61-4f21-4849-8a9a-39f81b175891"
+      (reference "R22") (unit 1) (value "10k") (footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
     )
     (path "/600cca17-1832-4150-bdc4-60308bd69c4d/e66d8f6f-aa8b-48d8-bb2b-bde00dc24d64"
       (reference "U1") (unit 1) (value "74F126") (footprint "Package_DIP:DIP-14_W7.62mm")
@@ -133,6 +187,9 @@
     )
     (path "/600cca17-1832-4150-bdc4-60308bd69c4d/42f494a0-47c8-45e5-8a63-e37ff542165c"
       (reference "U415") (unit 3) (value "74S74") (footprint "Package_DIP:DIP-14_W7.62mm")
+    )
+    (path "/93c3fd30-89aa-4f2c-a472-3cf6e18bbdfb/3a29e5d6-689f-46d7-a623-bc932a7056da"
+      (reference "U445") (unit 1) (value "Z80") (footprint "Package_DIP:DIP-40_W15.24mm_Socket")
     )
   )
 )
