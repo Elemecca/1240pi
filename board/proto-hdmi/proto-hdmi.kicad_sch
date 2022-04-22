@@ -5,9 +5,9 @@
   (paper "USLetter")
 
   (title_block
-    (title "HDMI Adapter for Lattice ICE40HX8K-B-EVN")
+    (title "HDMI Expansion for Olimex ICE40HX8K-EVB")
     (date "2022-04-19")
-    (rev "1.0")
+    (rev "0.1")
     (company "© 2022 Sam Hanes, licensed under CERN-OHL-P v2")
     (comment 1 "https://github.com/Elemecca/1240pi")
   )
