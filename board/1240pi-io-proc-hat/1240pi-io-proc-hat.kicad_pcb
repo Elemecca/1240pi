@@ -11,6 +11,7 @@
     (rev "1.0")
     (company "© 2022 Sam Hanes, licensed under CERN-OHL-P v2")
     (comment 1 "https://github.com/Elemecca/1240pi")
+    (comment 4 "AISLER Project ID: UZHORLNP")
   )
 
   (layers
@@ -22,7 +23,6 @@
     (37 "F.SilkS" user "F.Silkscreen")
     (38 "B.Mask" user)
     (39 "F.Mask" user)
-    (40 "Dwgs.User" user "User.Drawings")
     (44 "Edge.Cuts" user)
     (45 "Margin" user)
     (46 "B.CrtYd" user "B.Courtyard")
@@ -45,7 +45,6 @@
       (dielectric_constraints no)
     )
     (pad_to_mask_clearance 0)
-    (solder_mask_min_width 0.1)
     (pcbplotparams
       (layerselection 0x00010fc_ffffffff)
       (disableapertmacros false)
@@ -473,7 +472,7 @@
     (at 153.67 58.42 -90)
     (descr "Open Source Hardware Symbol")
     (tags "Logo Symbol OSHW")
-    (attr exclude_from_pos_files exclude_from_bom)
+    (attr board_only exclude_from_pos_files exclude_from_bom)
     (fp_text reference "REF**" (at 0 0 90) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 23ad3401-86e7-43a8-a98f-ef716b6bccd1)

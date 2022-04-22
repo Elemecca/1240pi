@@ -2726,7 +2726,7 @@
   (symbol (lib_id "power:GND") (at 195.58 129.54 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 2aecf130-835d-43a0-a6c9-612e14e7a782)
-    (property "Reference" "#PWR?" (id 0) (at 195.58 135.89 0)
+    (property "Reference" "#PWR0104" (id 0) (at 195.58 135.89 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (id 1) (at 195.58 133.35 0))
@@ -2742,7 +2742,7 @@
   (symbol (lib_id "power:GND") (at 137.16 146.05 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 34c1fa01-b507-49e3-9b9f-c468b6e77596)
-    (property "Reference" "#PWR?" (id 0) (at 137.16 152.4 0)
+    (property "Reference" "#PWR0106" (id 0) (at 137.16 152.4 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (id 1) (at 137.16 149.86 0))
@@ -2834,7 +2834,7 @@
   (symbol (lib_id "power:+5V") (at 46.99 181.61 270) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 53181a90-a010-4b72-99ae-37b5bd3dc882)
-    (property "Reference" "#PWR?" (id 0) (at 43.18 181.61 0)
+    (property "Reference" "#PWR0103" (id 0) (at 43.18 181.61 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (id 1) (at 50.546 181.61 0))
@@ -2850,7 +2850,7 @@
   (symbol (lib_id "power:+5V") (at 137.16 43.18 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 534827d0-458c-4104-bc6d-0255ad697b4c)
-    (property "Reference" "#PWR?" (id 0) (at 137.16 46.99 0)
+    (property "Reference" "#PWR0105" (id 0) (at 137.16 46.99 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (id 1) (at 137.16 39.624 0))
@@ -2866,7 +2866,7 @@
   (symbol (lib_id "power:PWR_FLAG") (at 68.58 152.4 180) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 541631f1-5c6b-4984-b80b-da5d814ddc2a)
-    (property "Reference" "#FLG?" (id 0) (at 68.58 154.305 0)
+    (property "Reference" "#FLG0102" (id 0) (at 68.58 154.305 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "PWR_FLAG" (id 1) (at 68.58 156.21 0))
@@ -2882,7 +2882,7 @@
   (symbol (lib_id "power:GND") (at 58.42 151.13 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 57c4d56d-de84-4172-ae0f-4c05a32da8d4)
-    (property "Reference" "#PWR?" (id 0) (at 58.42 157.48 0)
+    (property "Reference" "#PWR0102" (id 0) (at 58.42 157.48 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (id 1) (at 58.42 154.94 0))
@@ -2901,7 +2901,7 @@
     (property "Reference" "Q21" (id 0) (at 133.35 57.1499 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "~" (id 1) (at 133.35 59.6899 0)
+    (property "Value" "" (id 1) (at 133.35 59.6899 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "Package_TO_SOT_THT:TO-92_Wide" (id 2) (at 134.62 60.96 0)
@@ -2918,7 +2918,7 @@
   (symbol (lib_id "power:+5V") (at 58.42 62.23 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 805d731d-4180-4b8e-bf12-b88ccec030b8)
-    (property "Reference" "#PWR?" (id 0) (at 58.42 66.04 0)
+    (property "Reference" "#PWR0101" (id 0) (at 58.42 66.04 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (id 1) (at 58.42 58.674 0))
@@ -2991,7 +2991,7 @@
   (symbol (lib_id "power:PWR_FLAG") (at 68.58 62.23 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid b59ec72b-cbb3-4a84-b409-cb1a12e8909e)
-    (property "Reference" "#FLG?" (id 0) (at 68.58 60.325 0)
+    (property "Reference" "#FLG0101" (id 0) (at 68.58 60.325 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "PWR_FLAG" (id 1) (at 68.58 58.42 0))
@@ -3069,29 +3069,29 @@
   )
 
   (symbol_instances
-    (path "/541631f1-5c6b-4984-b80b-da5d814ddc2a"
-      (reference "#FLG?") (unit 1) (value "PWR_FLAG") (footprint "")
-    )
     (path "/b59ec72b-cbb3-4a84-b409-cb1a12e8909e"
-      (reference "#FLG?") (unit 1) (value "PWR_FLAG") (footprint "")
+      (reference "#FLG0101") (unit 1) (value "PWR_FLAG") (footprint "")
     )
-    (path "/2aecf130-835d-43a0-a6c9-612e14e7a782"
-      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
-    )
-    (path "/34c1fa01-b507-49e3-9b9f-c468b6e77596"
-      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
-    )
-    (path "/53181a90-a010-4b72-99ae-37b5bd3dc882"
-      (reference "#PWR?") (unit 1) (value "+5V") (footprint "")
-    )
-    (path "/534827d0-458c-4104-bc6d-0255ad697b4c"
-      (reference "#PWR?") (unit 1) (value "+5V") (footprint "")
-    )
-    (path "/57c4d56d-de84-4172-ae0f-4c05a32da8d4"
-      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+    (path "/541631f1-5c6b-4984-b80b-da5d814ddc2a"
+      (reference "#FLG0102") (unit 1) (value "PWR_FLAG") (footprint "")
     )
     (path "/805d731d-4180-4b8e-bf12-b88ccec030b8"
-      (reference "#PWR?") (unit 1) (value "+5V") (footprint "")
+      (reference "#PWR0101") (unit 1) (value "+5V") (footprint "")
+    )
+    (path "/57c4d56d-de84-4172-ae0f-4c05a32da8d4"
+      (reference "#PWR0102") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/53181a90-a010-4b72-99ae-37b5bd3dc882"
+      (reference "#PWR0103") (unit 1) (value "+5V") (footprint "")
+    )
+    (path "/2aecf130-835d-43a0-a6c9-612e14e7a782"
+      (reference "#PWR0104") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/534827d0-458c-4104-bc6d-0255ad697b4c"
+      (reference "#PWR0105") (unit 1) (value "+5V") (footprint "")
+    )
+    (path "/34c1fa01-b507-49e3-9b9f-c468b6e77596"
+      (reference "#PWR0106") (unit 1) (value "GND") (footprint "")
     )
     (path "/f05fcee9-4158-40f8-b265-71b19b598390"
       (reference "J21") (unit 1) (value "Header") (footprint "Connector_PinHeader_2.54mm:PinHeader_2x16_P2.54mm_Vertical")
@@ -3100,7 +3100,7 @@
       (reference "P445") (unit 1) (value "Header") (footprint "Package_DIP:DIP-40_W15.24mm")
     )
     (path "/6c1a4460-5fc9-4b10-afd6-ed10a018878d"
-      (reference "Q21") (unit 1) (value "~") (footprint "Package_TO_SOT_THT:TO-92_Wide")
+      (reference "Q21") (unit 1) (value "VP2106N3-G") (footprint "Package_TO_SOT_THT:TO-92_Wide")
     )
     (path "/39bc262a-7fca-4f46-a771-f7dcdf7ac0b0"
       (reference "R21") (unit 1) (value "10k") (footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
