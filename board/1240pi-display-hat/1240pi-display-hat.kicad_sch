@@ -5,7 +5,7 @@
   (paper "USLetter")
 
   (title_block
-    (title "1240-Pi Modification Boards")
+    (title "1240-Pi Display Board Mod")
     (date "2022-04-21")
     (rev "1.0")
     (company "© 2022 Sam Hanes, licensed under CERN-OHL-P v2")
@@ -1439,7 +1439,7 @@
     (property "Value" "" (id 1) (at 29.21 171.4499 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Package_DIP:DIP-14_W7.62mm" (id 2) (at 22.86 170.18 0)
+    (property "Footprint" "" (id 2) (at 22.86 170.18 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/74HC_HCT04.pdf" (id 3) (at 22.86 170.18 0)
@@ -1466,7 +1466,7 @@
     (uuid 1515e87a-84d7-4cbb-979b-ed34e71c4b3d)
     (property "Reference" "P208" (id 0) (at 251.46 165.1 0))
     (property "Value" "" (id 1) (at 251.46 167.64 0))
-    (property "Footprint" "Package_DIP:DIP-14_W7.62mm" (id 2) (at 251.46 173.99 0)
+    (property "Footprint" "" (id 2) (at 251.46 173.99 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/74HC_HCT04.pdf" (id 3) (at 251.46 173.99 0)
@@ -1509,7 +1509,7 @@
     (uuid 2a886ba3-86f4-4d5f-a754-dbda2fbf9643)
     (property "Reference" "P208" (id 0) (at 251.46 132.08 0))
     (property "Value" "" (id 1) (at 251.46 134.62 0))
-    (property "Footprint" "Package_DIP:DIP-14_W7.62mm" (id 2) (at 251.46 140.97 0)
+    (property "Footprint" "" (id 2) (at 251.46 140.97 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/74HC_HCT04.pdf" (id 3) (at 251.46 140.97 0)
@@ -1553,7 +1553,7 @@
     (property "Reference" "#FLG0102" (id 0) (at 33.02 147.955 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Value" "" (id 1) (at 33.02 144.78 0))
+    (property "Value" "~" (id 1) (at 33.02 144.78 0))
     (property "Footprint" "" (id 2) (at 33.02 149.86 0)
       (effects (font (size 1.27 1.27)) hide)
     )
@@ -1600,7 +1600,7 @@
     (property "Reference" "#FLG0101" (id 0) (at 33.02 192.405 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Value" "" (id 1) (at 33.02 195.58 0))
+    (property "Value" "~" (id 1) (at 33.02 195.58 0))
     (property "Footprint" "" (id 2) (at 33.02 190.5 0)
       (effects (font (size 1.27 1.27)) hide)
     )
@@ -1646,7 +1646,7 @@
     (uuid 4da2da3e-3334-444a-831d-d4a3a6e9f58f)
     (property "Reference" "P208" (id 0) (at 251.46 99.06 0))
     (property "Value" "" (id 1) (at 251.46 101.6 0))
-    (property "Footprint" "Package_DIP:DIP-14_W7.62mm" (id 2) (at 251.46 107.95 0)
+    (property "Footprint" "" (id 2) (at 251.46 107.95 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/74HC_HCT04.pdf" (id 3) (at 251.46 107.95 0)
@@ -1758,7 +1758,7 @@
     (uuid 6dbb9fa6-8855-4c67-961d-cb5dab718fa7)
     (property "Reference" "P208" (id 0) (at 73.66 110.49 0))
     (property "Value" "" (id 1) (at 73.66 113.03 0))
-    (property "Footprint" "Package_DIP:DIP-14_W7.62mm" (id 2) (at 73.66 118.11 0)
+    (property "Footprint" "" (id 2) (at 73.66 118.11 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/74HC_HCT04.pdf" (id 3) (at 73.66 118.11 0)
@@ -2161,7 +2161,7 @@
     (uuid d6d8f6e8-8ce2-4bfa-a4ce-1ad33f5433ef)
     (property "Reference" "P208" (id 0) (at 251.46 66.04 0))
     (property "Value" "" (id 1) (at 251.46 68.58 0))
-    (property "Footprint" "Package_DIP:DIP-14_W7.62mm" (id 2) (at 251.46 74.93 0)
+    (property "Footprint" "" (id 2) (at 251.46 74.93 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/74HC_HCT04.pdf" (id 3) (at 251.46 74.93 0)
@@ -2197,17 +2197,17 @@
     (pin "1" (uuid 6fc14fcd-c02c-446d-8399-8689609beedb))
     (pin "2" (uuid 0fb8e389-8b75-4f8b-9cdc-de4169b4780b))
     (pin "3" (uuid ecf2897d-7e6a-4adb-8ee3-f040bee472ba))
-    (pin "4" (uuid 7faff223-c76e-466d-949a-8beb3ba66cba))
-    (pin "5" (uuid 8a7d6e74-cac4-4c4b-908b-0f8e8865604d))
-    (pin "6" (uuid 50709241-b6ac-4a48-b030-02207b3458b7))
-    (pin "10" (uuid 5739e5ee-df49-43ac-b3e7-4acb544c14be))
-    (pin "8" (uuid c7afd539-60de-4b7d-991d-68ecabfc8273))
-    (pin "9" (uuid bf6b89de-3270-4250-87ae-73647a1dc957))
-    (pin "11" (uuid a32b1e7e-b3d0-480f-98cb-7cae844d82da))
-    (pin "12" (uuid 8c8d986a-0610-4977-bd47-7d8c7294b06e))
-    (pin "13" (uuid f5fd3460-a29b-4931-80d7-e9db454a9d01))
-    (pin "14" (uuid 2484d222-ebef-4de4-89be-bfc5d0dfdcde))
-    (pin "7" (uuid 2ff3916a-d796-4f7a-b777-fd4d1f473612))
+    (pin "4" (uuid 7faff223-c76e-466d-949a-8beb3ba66cbb))
+    (pin "5" (uuid 8a7d6e74-cac4-4c4b-908b-0f8e8865604e))
+    (pin "6" (uuid 50709241-b6ac-4a48-b030-02207b3458b8))
+    (pin "10" (uuid 5739e5ee-df49-43ac-b3e7-4acb544c14bf))
+    (pin "8" (uuid c7afd539-60de-4b7d-991d-68ecabfc8274))
+    (pin "9" (uuid bf6b89de-3270-4250-87ae-73647a1dc958))
+    (pin "11" (uuid a32b1e7e-b3d0-480f-98cb-7cae844d82db))
+    (pin "12" (uuid 8c8d986a-0610-4977-bd47-7d8c7294b06f))
+    (pin "13" (uuid f5fd3460-a29b-4931-80d7-e9db454a9d02))
+    (pin "14" (uuid 2484d222-ebef-4de4-89be-bfc5d0dfdcdf))
+    (pin "7" (uuid 2ff3916a-d796-4f7a-b777-fd4d1f473613))
   )
 
   (symbol (lib_id "74xx:74HC04") (at 43.18 170.18 0) (unit 7)
@@ -2246,7 +2246,7 @@
     (uuid fc642cd8-7c35-4e61-a3f8-93bdddadf08c)
     (property "Reference" "P208" (id 0) (at 251.46 33.02 0))
     (property "Value" "" (id 1) (at 251.46 35.56 0))
-    (property "Footprint" "Package_DIP:DIP-14_W7.62mm" (id 2) (at 251.46 41.91 0)
+    (property "Footprint" "" (id 2) (at 251.46 41.91 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/74HC_HCT04.pdf" (id 3) (at 251.46 41.91 0)
@@ -2266,5 +2266,114 @@
     (pin "13" (uuid 832b5a8c-7fe2-47ff-beee-cebf840750bb))
     (pin "14" (uuid 6e9883d7-9642-4425-a248-b92a09f0624c))
     (pin "7" (uuid b66731e7-61d5-4447-bf6a-e91a62b82298))
+  )
+
+  (sheet_instances
+    (path "/" (page "1"))
+  )
+
+  (symbol_instances
+    (path "/42c270aa-ca51-44e2-a7e1-5b3c2a82720f"
+      (reference "#FLG0101") (unit 1) (value "~") (footprint "")
+    )
+    (path "/3702cd3c-879c-4c20-9276-eeaab458842a"
+      (reference "#FLG0102") (unit 1) (value "~") (footprint "")
+    )
+    (path "/33dc1d17-3c43-484e-a994-57309880e165"
+      (reference "#PWR0101") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/29b6733f-e2ce-499b-a093-b144f7ab4e51"
+      (reference "#PWR0102") (unit 1) (value "+5V") (footprint "")
+    )
+    (path "/c489f835-fda8-4917-bdf1-fb025402198e"
+      (reference "#PWR0103") (unit 1) (value "+5V") (footprint "")
+    )
+    (path "/81f7c4ec-a1ba-4df2-9d04-990fde4df218"
+      (reference "#PWR0104") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/80a0843d-8e1d-4eab-9068-32674a47fe97"
+      (reference "#PWR0105") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/75a11c0c-9043-4723-93bf-97178f7d2b90"
+      (reference "J1") (unit 1) (value "Conn_02x05_Odd_Even") (footprint "Connector_PinHeader_2.54mm:PinHeader_2x05_P2.54mm_Vertical")
+    )
+    (path "/fc642cd8-7c35-4e61-a3f8-93bdddadf08c"
+      (reference "P208") (unit 1) (value "Header") (footprint "Package_DIP:DIP-14_W7.62mm")
+    )
+    (path "/d6d8f6e8-8ce2-4bfa-a4ce-1ad33f5433ef"
+      (reference "P208") (unit 2) (value "Header") (footprint "Package_DIP:DIP-14_W7.62mm")
+    )
+    (path "/1515e87a-84d7-4cbb-979b-ed34e71c4b3d"
+      (reference "P208") (unit 3) (value "Header") (footprint "Package_DIP:DIP-14_W7.62mm")
+    )
+    (path "/4da2da3e-3334-444a-831d-d4a3a6e9f58f"
+      (reference "P208") (unit 4) (value "Header") (footprint "Package_DIP:DIP-14_W7.62mm")
+    )
+    (path "/2a886ba3-86f4-4d5f-a754-dbda2fbf9643"
+      (reference "P208") (unit 5) (value "Header") (footprint "Package_DIP:DIP-14_W7.62mm")
+    )
+    (path "/6dbb9fa6-8855-4c67-961d-cb5dab718fa7"
+      (reference "P208") (unit 6) (value "Header") (footprint "Package_DIP:DIP-14_W7.62mm")
+    )
+    (path "/132a5e0b-6c8d-4520-993e-55bde96dc44f"
+      (reference "P208") (unit 7) (value "Header") (footprint "Package_DIP:DIP-14_W7.62mm")
+    )
+    (path "/c4cc4576-5c3f-48b7-b12d-d7ef5a85b073"
+      (reference "P415") (unit 1) (value "Header") (footprint "Package_DIP:DIP-14_W7.62mm")
+    )
+    (path "/5863b5cc-1809-4a29-9f24-007ee9486c34"
+      (reference "P415") (unit 2) (value "Header") (footprint "Package_DIP:DIP-14_W7.62mm")
+    )
+    (path "/39c70d9c-b85f-4aab-b4a8-2cffd6c147e7"
+      (reference "P415") (unit 3) (value "Header") (footprint "Package_DIP:DIP-14_W7.62mm")
+    )
+    (path "/b91e8f31-48aa-4060-962c-f4d34479a4e2"
+      (reference "R1") (unit 1) (value "10k") (footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
+    )
+    (path "/e66d8f6f-aa8b-48d8-bb2b-bde00dc24d64"
+      (reference "U1") (unit 1) (value "74F126") (footprint "Package_DIP:DIP-14_W7.62mm")
+    )
+    (path "/ce51fc0a-4f8f-4d4f-913f-78fb93f99c89"
+      (reference "U1") (unit 2) (value "74F126") (footprint "Package_DIP:DIP-14_W7.62mm")
+    )
+    (path "/b4a11166-d330-4bf6-972c-79ef30a58405"
+      (reference "U1") (unit 3) (value "74F126") (footprint "Package_DIP:DIP-14_W7.62mm")
+    )
+    (path "/977427f6-7f40-4ace-b36e-af6819e8bcc3"
+      (reference "U1") (unit 4) (value "74F126") (footprint "Package_DIP:DIP-14_W7.62mm")
+    )
+    (path "/6f10aa5a-83f3-444d-87f8-603ad7d62493"
+      (reference "U1") (unit 5) (value "74F126") (footprint "Package_DIP:DIP-14_W7.62mm")
+    )
+    (path "/b7cfe9de-6558-4664-81e0-75eb115c6f77"
+      (reference "U208") (unit 1) (value "74F04") (footprint "Package_DIP:DIP-14_W7.62mm")
+    )
+    (path "/6dd15017-af57-4398-a4e6-e46969184433"
+      (reference "U208") (unit 2) (value "74F04") (footprint "Package_DIP:DIP-14_W7.62mm")
+    )
+    (path "/5973b297-5c9e-42b1-b43b-91699dc9bd68"
+      (reference "U208") (unit 3) (value "74F04") (footprint "Package_DIP:DIP-14_W7.62mm")
+    )
+    (path "/61948ac7-7ba3-46c6-8b79-aff5a868c2a6"
+      (reference "U208") (unit 4) (value "74F04") (footprint "Package_DIP:DIP-14_W7.62mm")
+    )
+    (path "/06ebc70e-0b3e-4883-a3b6-63466eb95a8b"
+      (reference "U208") (unit 5) (value "74F04") (footprint "Package_DIP:DIP-14_W7.62mm")
+    )
+    (path "/796ac916-f633-438b-b727-05869855ee39"
+      (reference "U208") (unit 6) (value "74F04") (footprint "Package_DIP:DIP-14_W7.62mm")
+    )
+    (path "/ee20cff8-9076-4d71-9010-6d3a4a592e6c"
+      (reference "U208") (unit 7) (value "74F04") (footprint "Package_DIP:DIP-14_W7.62mm")
+    )
+    (path "/940bfab3-cd6f-4f64-8731-c072194350a7"
+      (reference "U415") (unit 1) (value "74S74") (footprint "Package_DIP:DIP-14_W7.62mm")
+    )
+    (path "/bc15e106-ffe1-4d77-8e64-6edabb56b25e"
+      (reference "U415") (unit 2) (value "74S74") (footprint "Package_DIP:DIP-14_W7.62mm")
+    )
+    (path "/42f494a0-47c8-45e5-8a63-e37ff542165c"
+      (reference "U415") (unit 3) (value "74S74") (footprint "Package_DIP:DIP-14_W7.62mm")
+    )
   )
 )

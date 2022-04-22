@@ -1,4 +1,4 @@
-20172939104936548
+20174589693674153
 0Local
 Abracon_ARJM11D7-502-AB-EW2
 ARJM11D7-502-AB-EW2-3
@@ -48,6 +48,13 @@ Package_SC-74A
 0
 5
 5
+0Local
+Panel_Tab
+
+
+0
+0
+0
 0Local
 RaspberryPi_CM4
 Raspberry Pi 4 Compute Module
