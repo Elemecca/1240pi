@@ -1,4 +1,4 @@
-20174589817004175
+20179541869860520
 0Local
 Abracon_ARJM11D7-502-AB-EW2
 ARJM11D7-502-AB-EW2-3
@@ -13,6 +13,20 @@ CNC_2000-1-2-41-00-BK
 0
 23
 20
+0Local
+CTS_218-4
+
+
+0
+8
+8
+0Local
+CUI_DS04-254-SMT_03
+
+
+0
+6
+6
 0Local
 CUI_HD0419THTR
 HD04-19-TH-TR-2
@@ -62,6 +76,13 @@ Raspberry Pi 4 Compute Module
 0
 200
 200
+0Local
+ST_UFDFPN5
+
+
+0
+5
+5
 0Local
 Switchcraft_RAVHD19ETR
 

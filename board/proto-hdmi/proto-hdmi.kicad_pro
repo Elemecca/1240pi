@@ -438,6 +438,14 @@
     [
       "fde68ae6-821a-41a4-acaa-537d8cc9f461",
       ""
+    ],
+    [
+      "90192fd6-a099-42f6-a4b6-db64a36163fa",
+      "HDMI In"
+    ],
+    [
+      "0835e5dd-07f6-4583-955d-96fe9bbb7c49",
+      "HDMI Out"
     ]
   ],
   "text_variables": {
