@@ -1074,6 +1074,11 @@
     (effects (font (size 2.54 2.54)) (justify left bottom))
     (uuid 02ae104d-e48a-448d-989b-705b65fb936a)
   )
+  (text "Based on Figure 9 of Ju, J. (2003, October 30). Interfacing LVDS with other differential-I/O types. EDN.\nhttps://web.archive.org/web/20151123084833/https://m.eet.com/media/1135468/330072.pdf"
+    (at 13.97 201.93 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 10caafb9-9478-4d70-b568-ef7f8ce5e0e8)
+  )
   (text "Hotplug Detection" (at 205.74 158.75 0)
     (effects (font (size 2.54 2.54)) (justify left bottom))
     (uuid 13109f26-1840-44a9-a59c-49e3638b7d69)
@@ -1082,7 +1087,7 @@
     (effects (font (size 2.54 2.54)) (justify left bottom))
     (uuid 1dff9049-9315-4f86-833b-7772849ca759)
   )
-  (text "HDMI Power" (at 129.54 107.95 0)
+  (text "DDC Power" (at 129.54 107.95 0)
     (effects (font (size 2.54 2.54)) (justify left bottom))
     (uuid 496c32b3-75fc-442e-a9fb-55d1fda433cc)
   )
@@ -1090,13 +1095,13 @@
     (effects (font (size 2.54 2.54)) (justify left bottom))
     (uuid 5f2eb357-c5aa-4aa1-84ac-a2b6308922e6)
   )
-  (text "The HDMI +5V rail is powered with an 0.5A current\nlimit when ENABLE is driven high."
+  (text "The HDMI +5V rail is powered with an 200mA current\nlimit when ENABLE is driven high."
     (at 129.54 149.86 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 62779e02-ffbd-42b2-9fb3-a3652160d1e9)
   )
   (text "The DDC I^{2}C bus is connected to the FPGA through\na level shifter when ENABLE is driven high."
-    (at 130.81 200.66 0)
+    (at 129.54 201.93 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid b72e010f-43bb-4460-acdd-8543e2b8e634)
   )
