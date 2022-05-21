@@ -9,9 +9,8 @@
     (title "1240-Pi I/O Processor Mod")
     (date "2022-05-21")
     (rev "1.0")
-    (company "© 2022 Sam Hanes, licensed under CERN-OHL-S v2")
+    (company "© 2022 Sam Hanes, licensed under CERN-OHL-S v2+")
     (comment 1 "https://github.com/Elemecca/1240pi")
-    (comment 4 "AISLER Project ID: UZHORLNP")
   )
 
   (layers
@@ -1007,7 +1006,7 @@
   (gr_text "1240-Pi IO Proc Mod v${REVISION}" (at 140.208 76.2 270) (layer "F.SilkS") (tstamp 08e76222-c5ed-4e18-9be0-727ff0a365f2)
     (effects (font (size 1.2192 1.2192) (thickness 0.2032)) (justify left))
   )
-  (gr_text "https://github.com/Elemecca/1240pi\nLicensed under CERN-OHL-S v2" (at 137.668 76.2 -90) (layer "F.SilkS") (tstamp e55eb868-f589-4bd6-b0d1-070bdb0eee8c)
+  (gr_text "https://github.com/Elemecca/1240pi\nLicensed under CERN-OHL-S v2+" (at 137.668 76.2 -90) (layer "F.SilkS") (tstamp e55eb868-f589-4bd6-b0d1-070bdb0eee8c)
     (effects (font (size 0.8 0.8) (thickness 0.1)) (justify left))
   )
 
