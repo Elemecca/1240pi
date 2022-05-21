@@ -1,6 +1,7 @@
 
 # KiCAD backups
 /board/*/*-backups/
+/board/*/*-bak
 /board/*.bak
 /board/*/#auto_saved_files#
 
