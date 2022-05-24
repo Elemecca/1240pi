@@ -15,7 +15,7 @@
     (symbol "CardEdge_ROMPACK_0_1"
       (rectangle (start -7.62 7.62) (end 7.62 -86.36)
         (stroke (width 0) (type default) (color 0 0 0 0))
-        (fill (type none))
+        (fill (type background))
       )
     )
     (symbol "CardEdge_ROMPACK_1_1"
