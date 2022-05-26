@@ -122,6 +122,9 @@
     (path "/c94ef528-8972-4ef9-a49e-b78b8aa291c0/b6085359-c76d-4a6f-b9eb-967cf2fe3677"
       (reference "#PWR0123") (unit 1) (value "GND") (footprint "")
     )
+    (path "/c94ef528-8972-4ef9-a49e-b78b8aa291c0/7b41905c-981e-4f85-803c-e7fe72fc949e"
+      (reference "#PWR0124") (unit 1) (value "+3V3") (footprint "")
+    )
     (path "/c94ef528-8972-4ef9-a49e-b78b8aa291c0/c4f9994d-ced6-4321-9e64-99c0f7b22ad4"
       (reference "#PWR0125") (unit 1) (value "+3V3") (footprint "")
     )
@@ -254,6 +257,12 @@
     (path "/c94ef528-8972-4ef9-a49e-b78b8aa291c0/1498a925-cb47-43c5-b7e6-2d7cb9dbfe8e"
       (reference "#PWR0168") (unit 1) (value "+3V3") (footprint "")
     )
+    (path "/c94ef528-8972-4ef9-a49e-b78b8aa291c0/031ce307-defb-4f2a-bb70-5de859cae13f"
+      (reference "#PWR0169") (unit 1) (value "+3V3") (footprint "")
+    )
+    (path "/c94ef528-8972-4ef9-a49e-b78b8aa291c0/2f6667cb-2ac5-4721-8838-7ac633389f08"
+      (reference "#PWR0170") (unit 1) (value "+3V3") (footprint "")
+    )
     (path "/b09362f0-138c-401c-8136-03cd8118b133/f9da80db-6b97-4641-a46a-6d8b6da9dad8"
       (reference "C20") (unit 1) (value "2u2") (footprint "Capacitor_SMD:C_0603_1608Metric")
     )
@@ -317,6 +326,12 @@
     (path "/c94ef528-8972-4ef9-a49e-b78b8aa291c0/ad40c648-5481-4067-a2c5-aeb189a51f9f"
       (reference "R30") (unit 1) (value "10k") (footprint "Resistor_SMD:R_0603_1608Metric")
     )
+    (path "/c94ef528-8972-4ef9-a49e-b78b8aa291c0/24ebbb5e-c86f-47d9-958b-c15a56d721a5"
+      (reference "R31") (unit 1) (value "10k") (footprint "Resistor_SMD:R_0603_1608Metric")
+    )
+    (path "/c94ef528-8972-4ef9-a49e-b78b8aa291c0/24b1ff83-477d-46e8-87f8-6a44cdc6893f"
+      (reference "R32") (unit 1) (value "10k") (footprint "Resistor_SMD:R_0603_1608Metric")
+    )
     (path "/b09362f0-138c-401c-8136-03cd8118b133/81b2411e-06b8-4c49-8e9f-e485eabde5f6"
       (reference "U20") (unit 1) (value "74LVC245A") (footprint "Package_SO:TSSOP-20_4.4x6.5mm_P0.65mm")
     )
@@ -343,6 +358,12 @@
     )
     (path "/c94ef528-8972-4ef9-a49e-b78b8aa291c0/4a454ad9-4a18-49dd-b2c0-46d70a263f24"
       (reference "U34") (unit 1) (value "74LVC245A") (footprint "Package_SO:TSSOP-20_4.4x6.5mm_P0.65mm")
+    )
+    (path "/c94ef528-8972-4ef9-a49e-b78b8aa291c0/a92c7b53-fc26-4a72-900e-d215faf280cb"
+      (reference "U35") (unit 1) (value "74LVC1G32") (footprint "Package_TO_SOT_SMD:SOT-353_SC-70-5")
+    )
+    (path "/c94ef528-8972-4ef9-a49e-b78b8aa291c0/e0241881-dfce-4ff3-86b9-ded97621643c"
+      (reference "U36") (unit 1) (value "74LVC1G07") (footprint "0Local:Package_SC-74A")
     )
   )
 )
