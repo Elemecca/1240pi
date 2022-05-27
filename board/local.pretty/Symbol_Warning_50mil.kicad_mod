@@ -1,0 +1,20 @@
+(footprint "Symbol_Warning_50mil" (version 20211014) (generator pcbnew)
+  (layer "F.Cu")
+  (tedit 0)
+  (attr smd board_only exclude_from_pos_files exclude_from_bom)
+  (fp_text reference "REF**" (at 0 -0.5 unlocked) (layer "F.SilkS") hide
+    (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp c91c25d9-c6df-4a85-8ae1-4874b208eff3)
+  )
+  (fp_text value "Symbol_Warning_50mil" (at 0 1 unlocked) (layer "F.Fab") hide
+    (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp 1474145a-2968-418c-842a-c98851766c18)
+  )
+  (fp_line (start 0 -0.2032) (end 0 0.1016) (layer "F.SilkS") (width 0.127) (tstamp 0f968ea5-9847-4d09-b116-15e0b05bb89c))
+  (fp_line (start 0 0.2794) (end 0 0.2794) (layer "F.SilkS") (width 0.127) (tstamp a4606af2-7d20-427e-bc2b-d3f383b09cf6))
+  (fp_poly (pts
+      (xy 0.5842 0.4572)
+      (xy -0.5842 0.4572)
+      (xy 0 -0.5842)
+    ) (layer "F.SilkS") (width 0.127) (fill none) (tstamp 38b3ddb5-82eb-41fc-8122-45c2b0c3ac4d))
+)
