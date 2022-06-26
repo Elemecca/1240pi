@@ -1,4 +1,4 @@
-20182845898828963
+20189465603968231
 0Local
 Abracon_ARJM11D7-502-AB-EW2
 ARJM11D7-502-AB-EW2-3
@@ -6,6 +6,13 @@ Connector
 0
 16
 16
+0Local
+Amphenol_62684-50210
+
+
+0
+52
+51
 0Local
 Amphenol_SFV10R-1ST
 
@@ -56,6 +63,13 @@ CardEdge_50x2
 100
 100
 0Local
+DiodesInc_X1-DFN1010-6
+
+
+0
+6
+6
+0Local
 OSHW
 Imported from /home/sam/Downloads/oshw.svg
 svg2mod
@@ -104,6 +118,20 @@ Switchcraft_RAVHD19ETR
 0
 19
 19
+0Local
+Symbol_Bonsai_6.7mm
+
+
+0
+0
+0
+0Local
+Symbol_Warning_50mil
+
+
+0
+0
+0
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
