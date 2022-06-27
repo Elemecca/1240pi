@@ -302,7 +302,7 @@
         (name "VIN" (effects (font (size 1.27 1.27))))
         (number "6" (effects (font (size 1.27 1.27))))
       )
-      (pin power_in line (at 0 -7.62 90) (length 2.54) hide
+      (pin passive line (at 0 -7.62 90) (length 2.54) hide
         (name "EP" (effects (font (size 1.27 1.27))))
         (number "EP" (effects (font (size 1.27 1.27))))
       )
