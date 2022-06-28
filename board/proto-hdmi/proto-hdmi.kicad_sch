@@ -1842,7 +1842,7 @@
       (reference "SW1") (unit 1) (value "CTS_218-4LPSTR") (footprint "0Local:CTS_218-4")
     )
     (path "/90192fd6-a099-42f6-a4b6-db64a36163fa/a627ab25-ba94-4b85-80e0-61cf2e292a55"
-      (reference "U1") (unit 1) (value "NTS0302") (footprint "Package_SON:X2SON-8_1.4x1mm_P0.35mm")
+      (reference "U1") (unit 1) (value "NXP_NTS0302") (footprint "Package_SON:X2SON-8_1.4x1mm_P0.35mm")
     )
     (path "/0835e5dd-07f6-4583-955d-96fe9bbb7c49/3c65857a-cd94-4bda-aed7-27a2de6a0cfe"
       (reference "U2") (unit 1) (value "NXP_NTS0302") (footprint "Package_SON:X2SON-8_1.4x1mm_P0.35mm")

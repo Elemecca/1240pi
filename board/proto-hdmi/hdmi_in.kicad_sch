@@ -2495,7 +2495,7 @@
     (property "Reference" "U1" (id 0) (at 195.58 101.6 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Value" "NTS0302" (id 1) (at 195.58 104.14 0)
+    (property "Value" "NXP_NTS0302" (id 1) (at 195.58 104.14 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Footprint" "Package_SON:X2SON-8_1.4x1mm_P0.35mm" (id 2) (at 201.93 113.03 0)

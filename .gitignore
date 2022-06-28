@@ -5,6 +5,9 @@
 /board/*.bak
 /board/*/#auto_saved_files#
 
+# KiCAD outputs
+/board/*/dist/
+
 # FreeCAD backups
 /board/local.3dshapes/*.FCStd1
 
