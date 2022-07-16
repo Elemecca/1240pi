@@ -7,7 +7,7 @@
   (title_block
     (title "1240-Pi Display Board Mod")
     (date "2022-05-21")
-    (rev "1.0")
+    (rev "1.1")
     (company "© 2022 Sam Hanes, licensed under CERN-OHL-S v2+")
     (comment 1 "https://github.com/Elemecca/1240pi")
   )
