@@ -6,9 +6,9 @@
 
   (title_block
     (title "HDMI Expansion for Olimex ICE40HX8K-EVB")
-    (date "2022-04-19")
-    (rev "0.1")
-    (company "© 2022 Sam Hanes, licensed under CERN-OHL-P v2")
+    (date "2022-08-04")
+    (rev "0.2")
+    (company "© 2022 Sam Hanes, licensed under CERN-OHL-S v2")
     (comment 1 "https://github.com/Elemecca/1240pi")
   )
 
@@ -1633,6 +1633,18 @@
     )
     (path "/0835e5dd-07f6-4583-955d-96fe9bbb7c49/c12ab1b1-933a-4b6a-bf36-277c0d640cf2"
       (reference "#PWR0127") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/90192fd6-a099-42f6-a4b6-db64a36163fa/30df1c44-550a-494b-bfa5-5623040daa1e"
+      (reference "#PWR0128") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/90192fd6-a099-42f6-a4b6-db64a36163fa/d919e1cf-a0a2-48ed-b9b6-b9ecffb99930"
+      (reference "#PWR0129") (unit 1) (value "+3V3") (footprint "")
+    )
+    (path "/0835e5dd-07f6-4583-955d-96fe9bbb7c49/290bfb43-7d2e-4a38-9cd6-47cf852ce214"
+      (reference "#PWR0130") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/0835e5dd-07f6-4583-955d-96fe9bbb7c49/06716abf-7ed5-4fbb-9111-4bb8540dd69b"
+      (reference "#PWR0131") (unit 1) (value "+3V3") (footprint "")
     )
     (path "/90192fd6-a099-42f6-a4b6-db64a36163fa/9de6b0a9-ef1a-41ae-81c0-eed13db383f8"
       (reference "C1") (unit 1) (value "C") (footprint "Capacitor_SMD:C_0402_1005Metric")

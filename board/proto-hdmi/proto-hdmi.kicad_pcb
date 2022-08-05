@@ -7,9 +7,9 @@
   (paper "USLetter")
   (title_block
     (title "HDMI Expansion for Olimex ICE40HX8K-EVB")
-    (date "2022-04-19")
-    (rev "0.1")
-    (company "© 2022 Sam Hanes, licensed under CERN-OHL-P v2")
+    (date "2022-08-04")
+    (rev "0.2")
+    (company "© 2022 Sam Hanes, licensed under CERN-OHL-S v2")
     (comment 1 "https://github.com/Elemecca/1240pi")
   )
 
@@ -159,6 +159,10 @@
   (net 71 "+3V3")
   (net 72 "Net-(R30-Pad1)")
   (net 73 "unconnected-(U5-Pad3)")
+  (net 74 "unconnected-(U4-Pad1)")
+  (net 75 "unconnected-(U4-Pad5)")
+  (net 76 "unconnected-(U6-Pad1)")
+  (net 77 "unconnected-(U6-Pad5)")
 
   (footprint "Diode_SMD:D_0402_1005Metric" (layer "F.Cu")
     (tedit 5F68FEF0) (tstamp 00285115-56ef-45e8-8528-f99553a17b5e)
@@ -216,7 +220,7 @@
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 8a2de683-0cbb-47f9-b48d-61ac1c60565d)
     )
-    (fp_text value "150R" (at 0 1.17 90) (layer "F.Fab") hide
+    (fp_text value "${TMDS_R1}" (at 0 1.17 90) (layer "F.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 99f4f4aa-2f14-4bf9-b8a7-da1480e9e168)
     )
@@ -300,7 +304,7 @@
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp ed265626-f6f5-4029-beb9-f6ad275e86b5)
     )
-    (fp_text value "82R" (at 0 1.17 90) (layer "F.Fab") hide
+    (fp_text value "${TMDS_R2}" (at 0 1.17 90) (layer "F.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp a5e505c0-c0af-4f61-a9d4-cf031c548012)
     )
@@ -384,7 +388,7 @@
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 54801b85-fd78-4df4-a039-798d15f1a062)
     )
-    (fp_text value "50R" (at 0 1.17) (layer "F.Fab") hide
+    (fp_text value "${TMDS_R3}" (at 0 1.17) (layer "F.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 67ed65af-3dae-472c-882d-b64c8e40e12c)
     )
@@ -594,7 +598,7 @@
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 00cee9e9-3ab9-462f-b7e0-aead4b391d7a)
     )
-    (fp_text value "82R" (at 0 1.17 90) (layer "F.Fab") hide
+    (fp_text value "${TMDS_R2}" (at 0 1.17 90) (layer "F.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp c97cc8db-3536-43f9-a75c-262af882efc2)
     )
@@ -863,7 +867,7 @@
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp a5129eb7-d259-4824-8f60-442feba02c79)
     )
-    (fp_text value "50R" (at 0 1.17) (layer "F.Fab") hide
+    (fp_text value "${TMDS_R3}" (at 0 1.17) (layer "F.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 49956dd5-35c0-4b9f-8b2a-6f2b8918bd8c)
     )
@@ -905,7 +909,7 @@
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 2343b615-4ff2-46da-874d-4fa588219a3f)
     )
-    (fp_text value "82R" (at 0 1.17 90) (layer "F.Fab") hide
+    (fp_text value "${TMDS_R2}" (at 0 1.17 90) (layer "F.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 047c7cd2-a22a-4163-bdcc-06eb59680b3c)
     )
@@ -1031,7 +1035,7 @@
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 79094860-9de1-4089-9ad1-fb708c7e674c)
     )
-    (fp_text value "82R" (at 0 1.17 90) (layer "F.Fab") hide
+    (fp_text value "${TMDS_R2}" (at 0 1.17 90) (layer "F.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 40b12084-e9ea-4a47-a64f-d44ca516c9e8)
     )
@@ -1123,7 +1127,7 @@
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp fd955970-c990-4603-96b5-f465442bdb88)
     )
-    (fp_text value "50R" (at 0 1.17) (layer "F.Fab") hide
+    (fp_text value "${TMDS_R3}" (at 0 1.17) (layer "F.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp b0732623-9278-4ea6-a530-e8f3094216dc)
     )
@@ -1165,7 +1169,7 @@
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 334446cd-af18-48a8-bb73-a88f4d220620)
     )
-    (fp_text value "50R" (at 0 1.17) (layer "F.Fab") hide
+    (fp_text value "${TMDS_R3}" (at 0 1.17) (layer "F.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 978f5906-8b9c-49a6-9b77-25cbc28e396e)
     )
@@ -1207,7 +1211,7 @@
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp e525b640-a490-46b0-aa2a-5838f1d12b7d)
     )
-    (fp_text value "150R" (at 0 1.17 90) (layer "F.Fab") hide
+    (fp_text value "${TMDS_R1}" (at 0 1.17 90) (layer "F.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 56b75d3c-fa69-4f57-9aa5-64cfbf200c32)
     )
@@ -1375,7 +1379,7 @@
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 782b86fa-ef9f-4c16-a991-b44a80f0f0c3)
     )
-    (fp_text value "150R" (at 0 1.17 90) (layer "F.Fab") hide
+    (fp_text value "${TMDS_R1}" (at 0 1.17 90) (layer "F.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 3fc3a397-ec3a-4314-aa6a-44925ef4cbbe)
     )
@@ -1417,7 +1421,7 @@
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp ca6052ba-b6c7-4761-b3cb-c749f8cbf361)
     )
-    (fp_text value "82R" (at 0 1.17 90) (layer "F.Fab") hide
+    (fp_text value "${TMDS_R2}" (at 0 1.17 90) (layer "F.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 606cc23c-679a-4fa3-b3b1-c023026298b1)
     )
@@ -1501,7 +1505,7 @@
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 240fde71-00e0-458d-bf75-b4d973cb180b)
     )
-    (fp_text value "150R" (at 0 1.17 90) (layer "F.Fab") hide
+    (fp_text value "${TMDS_R1}" (at 0 1.17 90) (layer "F.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 20d6997e-64c7-454b-9573-baf26e1ad11b)
     )
@@ -1627,7 +1631,7 @@
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 5841a60a-7434-4694-9b2f-60c2321b8bd0)
     )
-    (fp_text value "82R" (at 0 1.17 90) (layer "F.Fab") hide
+    (fp_text value "${TMDS_R2}" (at 0 1.17 90) (layer "F.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 94f92a53-a887-4e67-921d-9685969e3c14)
     )
@@ -1669,7 +1673,7 @@
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 7b66c522-eb2b-4ac5-8fa6-badbd9e03844)
     )
-    (fp_text value "82R" (at 0 1.17 90) (layer "F.Fab") hide
+    (fp_text value "${TMDS_R2}" (at 0 1.17 90) (layer "F.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 0504c604-5989-41d4-98b3-73baf39661a4)
     )
@@ -1732,16 +1736,18 @@
     (fp_line (start -0.2 -0.75) (end -0.5 -0.45) (layer "F.Fab") (width 0.1) (tstamp 98ff61a0-d52b-40c3-bed0-01da892c0ad0))
     (fp_line (start -0.5 -0.45) (end -0.5 0.75) (layer "F.Fab") (width 0.1) (tstamp cbd6cf0e-99e6-44bc-97bd-0952965c9140))
     (fp_line (start 0.5 -0.75) (end -0.2 -0.75) (layer "F.Fab") (width 0.1) (tstamp ea2eed49-fb11-4f73-83f2-9d60b06a6d38))
-    (pad "1" smd rect (at -0.34 -0.5 270) (size 0.33 0.27) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp f722ea3c-0557-407a-b5bf-641f8a291a63))
+    (pad "1" smd rect (at -0.34 -0.5 270) (size 0.33 0.27) (layers "F.Cu" "F.Paste" "F.Mask")
+      (net 76 "unconnected-(U6-Pad1)") (pintype "no_connect") (tstamp f722ea3c-0557-407a-b5bf-641f8a291a63))
     (pad "2" smd rect (at -0.34 0 270) (size 0.33 0.27) (layers "F.Cu" "F.Paste" "F.Mask")
       (net 37 "/HDMI Out/HDMI_HPD") (pintype "input") (tstamp 8afd9c35-4e4d-476d-9e26-4a9f78600246))
     (pad "3" smd rect (at -0.34 0.5 270) (size 0.33 0.27) (layers "F.Cu" "F.Paste" "F.Mask")
-      (net 1 "GND") (pinfunction "GND") (pintype "power_in") (tstamp 0150a597-9ca4-4081-88d2-6ff7d09ea1a2))
+      (net 1 "GND") (pintype "power_in") (tstamp 0150a597-9ca4-4081-88d2-6ff7d09ea1a2))
     (pad "4" smd rect (at 0.34 0.5 270) (size 0.33 0.27) (layers "F.Cu" "F.Paste" "F.Mask")
       (net 60 "/OUT_DETECT") (pintype "output") (tstamp a294cc83-b7a3-4d8e-8390-ecf01eed960d))
     (pad "5" smd rect (at 0.34 0 270) (size 0.33 0.27) (layers "F.Cu" "F.Paste" "F.Mask")
-      (net 71 "+3V3") (pinfunction "VCC") (pintype "power_in") (tstamp 12a61f3b-c9a1-475a-b95a-228fd98d7166))
-    (pad "6" smd rect (at 0.34 -0.5 270) (size 0.33 0.27) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp e22a8115-21c4-4079-b548-13d39057d641))
+      (net 77 "unconnected-(U6-Pad5)") (pintype "no_connect") (tstamp 12a61f3b-c9a1-475a-b95a-228fd98d7166))
+    (pad "6" smd rect (at 0.34 -0.5 270) (size 0.33 0.27) (layers "F.Cu" "F.Paste" "F.Mask")
+      (net 71 "+3V3") (pintype "power_in") (tstamp e22a8115-21c4-4079-b548-13d39057d641))
     (model "${KICAD6_3DMODEL_DIR}/Package_TO_SOT_SMD.3dshapes/SOT-886.wrl"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
@@ -1762,7 +1768,7 @@
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 27c35e8b-315a-496f-813b-9dd8fc243144)
     )
-    (fp_text value "50R" (at 0 1.17) (layer "F.Fab") hide
+    (fp_text value "${TMDS_R3}" (at 0 1.17) (layer "F.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp b6346b0a-bb01-4e48-89f7-5054374e0d0d)
     )
@@ -1804,7 +1810,7 @@
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 9c8b409b-0d1b-49e5-8fed-acd83e0e8b3e)
     )
-    (fp_text value "150R" (at 0 1.17 90) (layer "F.Fab") hide
+    (fp_text value "${TMDS_R1}" (at 0 1.17 90) (layer "F.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 62b6b2b3-6ade-4e95-8062-936451a2172f)
     )
@@ -1846,7 +1852,7 @@
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp c96d62a9-0271-4045-b005-816f03f7573c)
     )
-    (fp_text value "82R" (at 0 1.17 90) (layer "F.Fab") hide
+    (fp_text value "${TMDS_R2}" (at 0 1.17 90) (layer "F.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 94767706-2970-4951-a4fe-b4e3dfa1e7c3)
     )
@@ -1970,39 +1976,41 @@
     (attr smd)
     (fp_text reference "U4" (at 0 -1.7 90) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
-      (tstamp 0f41a909-27c4-4be2-9d5e-9ae2108c8ff5)
+      (tstamp 0bb0f500-8d65-4600-a44c-0e04e2ef5270)
     )
     (fp_text value "74LVC1G17" (at 0 1.8 90) (layer "F.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)))
-      (tstamp 632acde9-b7fd-4f04-8cb4-d2cbb06b3595)
+      (tstamp a57e375a-0a0b-4dc4-ab9b-1c87f8343e3f)
     )
     (fp_text user "${REFERENCE}" (at 0 0) (layer "F.Fab")
       (effects (font (size 0.4 0.4) (thickness 0.0625)))
-      (tstamp a9ec539a-d80d-40cc-803c-12b6adefe42a)
+      (tstamp af49318e-88f4-45de-92e0-89cce36323dd)
     )
-    (fp_line (start -0.65 -0.5) (end -0.65 0.9) (layer "F.SilkS") (width 0.12) (tstamp 2bf3f24b-fd30-41a7-a274-9b519491916b))
-    (fp_line (start -0.65 0.9) (end 0.65 0.9) (layer "F.SilkS") (width 0.12) (tstamp 4831966c-bb32-4bc8-a400-0382a02ffa1c))
-    (fp_line (start 0.65 -0.9) (end -0.35 -0.9) (layer "F.SilkS") (width 0.12) (tstamp c264c438-a475-4ad4-9915-0f1e6ecf3053))
-    (fp_line (start 0.65 0.9) (end 0.65 -0.9) (layer "F.SilkS") (width 0.12) (tstamp e25ce415-914a-48fe-bf09-324317917b2e))
-    (fp_line (start -0.75 -1) (end -0.75 1) (layer "F.CrtYd") (width 0.05) (tstamp 4d4b0fcd-2c79-4fc3-b5fa-7a0741601344))
-    (fp_line (start 0.75 1) (end -0.75 1) (layer "F.CrtYd") (width 0.05) (tstamp 587a157d-dedf-4558-a037-1a94bbba1848))
-    (fp_line (start -0.75 -1) (end 0.75 -1) (layer "F.CrtYd") (width 0.05) (tstamp 9762c9ed-64d8-4f3e-baf6-f6ba6effc919))
-    (fp_line (start 0.75 1) (end 0.75 -1) (layer "F.CrtYd") (width 0.05) (tstamp c19dbe3c-ced0-48f7-a91d-777569cfb936))
-    (fp_line (start 0.5 0.75) (end 0.5 -0.75) (layer "F.Fab") (width 0.1) (tstamp 0867287d-2e6a-4d69-a366-c29f88198f2b))
-    (fp_line (start 0.5 -0.75) (end -0.2 -0.75) (layer "F.Fab") (width 0.1) (tstamp 1b54105e-6590-4d26-a763-ecfcf81eedc4))
-    (fp_line (start -0.5 0.75) (end 0.5 0.75) (layer "F.Fab") (width 0.1) (tstamp 75286985-9fa5-4d30-89c5-493b6e63cd66))
-    (fp_line (start -0.5 -0.45) (end -0.5 0.75) (layer "F.Fab") (width 0.1) (tstamp 78f88cf6-751c-4e9b-ae75-fb8b6d44ff39))
-    (fp_line (start -0.2 -0.75) (end -0.5 -0.45) (layer "F.Fab") (width 0.1) (tstamp afd3dbad-e7a8-4e4c-b77c-4065a69aefa2))
-    (pad "1" smd rect (at -0.34 -0.5 270) (size 0.33 0.27) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 4e66a44f-7fa6-4e16-bf9b-62ec864301a5))
+    (fp_line (start -0.65 -0.5) (end -0.65 0.9) (layer "F.SilkS") (width 0.12) (tstamp 16cf050e-6258-4542-a85c-cb704754c947))
+    (fp_line (start 0.65 -0.9) (end -0.35 -0.9) (layer "F.SilkS") (width 0.12) (tstamp 33442997-732a-4501-8916-f3389dd91347))
+    (fp_line (start -0.65 0.9) (end 0.65 0.9) (layer "F.SilkS") (width 0.12) (tstamp c958e818-39a6-490c-b869-3c1910124d2c))
+    (fp_line (start 0.65 0.9) (end 0.65 -0.9) (layer "F.SilkS") (width 0.12) (tstamp ea356972-d287-4ec7-9458-ed51a6da6781))
+    (fp_line (start 0.75 1) (end -0.75 1) (layer "F.CrtYd") (width 0.05) (tstamp 239c0206-83cd-478d-8381-d056e2757f05))
+    (fp_line (start 0.75 1) (end 0.75 -1) (layer "F.CrtYd") (width 0.05) (tstamp 5233caf7-4363-4fd8-9f2f-e8421abfd801))
+    (fp_line (start -0.75 -1) (end -0.75 1) (layer "F.CrtYd") (width 0.05) (tstamp 9bfcb7e9-a512-4e6f-a853-3b23a9f5b42b))
+    (fp_line (start -0.75 -1) (end 0.75 -1) (layer "F.CrtYd") (width 0.05) (tstamp f89cbc5d-058a-4022-9eff-3a1c1cf5e29f))
+    (fp_line (start -0.2 -0.75) (end -0.5 -0.45) (layer "F.Fab") (width 0.1) (tstamp 12329062-f4b0-4e36-8915-019dd5e69532))
+    (fp_line (start -0.5 0.75) (end 0.5 0.75) (layer "F.Fab") (width 0.1) (tstamp 753955dd-42a7-4210-bf0c-18a24d4b3e30))
+    (fp_line (start -0.5 -0.45) (end -0.5 0.75) (layer "F.Fab") (width 0.1) (tstamp be616624-0730-4a2a-9037-ecd0e840ef82))
+    (fp_line (start 0.5 -0.75) (end -0.2 -0.75) (layer "F.Fab") (width 0.1) (tstamp c1f62b01-cc0f-415e-a367-df007384a88c))
+    (fp_line (start 0.5 0.75) (end 0.5 -0.75) (layer "F.Fab") (width 0.1) (tstamp f5fbd128-15a3-433f-a401-4a0e41bb5a06))
+    (pad "1" smd rect (at -0.34 -0.5 270) (size 0.33 0.27) (layers "F.Cu" "F.Paste" "F.Mask")
+      (net 74 "unconnected-(U4-Pad1)") (pintype "no_connect") (tstamp 1e3ac481-5d63-4163-917d-f803070592b6))
     (pad "2" smd rect (at -0.34 0 270) (size 0.33 0.27) (layers "F.Cu" "F.Paste" "F.Mask")
-      (net 36 "/HDMI In/HDMI_+5V") (pintype "input") (tstamp 4412226e-d975-40a2-921f-502ff4129a95))
+      (net 36 "/HDMI In/HDMI_+5V") (pintype "input") (tstamp 9850f9a3-f597-472a-94eb-7de5d35b8a7d))
     (pad "3" smd rect (at -0.34 0.5 270) (size 0.33 0.27) (layers "F.Cu" "F.Paste" "F.Mask")
-      (net 1 "GND") (pinfunction "GND") (pintype "power_in") (tstamp 7447a6e7-8205-46ba-afca-d0fa8f90c95a))
+      (net 1 "GND") (pintype "power_in") (tstamp 9121b7dc-88c1-4d73-8ac7-e81920785fae))
     (pad "4" smd rect (at 0.34 0.5 270) (size 0.33 0.27) (layers "F.Cu" "F.Paste" "F.Mask")
-      (net 63 "/IN_DETECT") (pintype "output") (tstamp 53c85970-3e21-4fae-a84f-721cfc0513b5))
+      (net 63 "/IN_DETECT") (pintype "output") (tstamp df68d4f9-dc66-40cd-8394-ce93a5a033a4))
     (pad "5" smd rect (at 0.34 0 270) (size 0.33 0.27) (layers "F.Cu" "F.Paste" "F.Mask")
-      (net 71 "+3V3") (pinfunction "VCC") (pintype "power_in") (tstamp 34871042-9d5c-4e29-abdd-a168368c3c22))
-    (pad "6" smd rect (at 0.34 -0.5 270) (size 0.33 0.27) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp ef1b4b98-541b-4673-a04f-2043250fc40a))
+      (net 75 "unconnected-(U4-Pad5)") (pintype "no_connect") (tstamp 17d19d12-01f2-4f7b-a332-f8f4834c71e5))
+    (pad "6" smd rect (at 0.34 -0.5 270) (size 0.33 0.27) (layers "F.Cu" "F.Paste" "F.Mask")
+      (net 71 "+3V3") (pintype "power_in") (tstamp e0c841e5-c034-43dd-87ba-764d26a3130d))
     (model "${KICAD6_3DMODEL_DIR}/Package_TO_SOT_SMD.3dshapes/SOT-886.wrl"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
@@ -2023,7 +2031,7 @@
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp f25738b6-2e3e-47a0-886d-df7e307e8d85)
     )
-    (fp_text value "82R" (at 0 1.17 90) (layer "F.Fab") hide
+    (fp_text value "${TMDS_R2}" (at 0 1.17 90) (layer "F.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 5ff80365-2628-4483-bbb2-b09f05a4ed38)
     )
@@ -2319,7 +2327,7 @@
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 99e5628a-8c61-4f9d-aa6e-5b585271b505)
     )
-    (fp_text value "150R" (at 0 1.17 90) (layer "F.Fab") hide
+    (fp_text value "${TMDS_R1}" (at 0 1.17 90) (layer "F.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 9f289b4a-cc82-473b-9973-1ab4c36355f8)
     )
@@ -2361,7 +2369,7 @@
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 741e6598-04b9-4005-a079-9081c23103ab)
     )
-    (fp_text value "82R" (at 0 1.17 90) (layer "F.Fab") hide
+    (fp_text value "${TMDS_R2}" (at 0 1.17 90) (layer "F.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 0a1ac2c6-8da8-4410-b772-69afa2855077)
     )
@@ -2445,7 +2453,7 @@
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 5c5c0140-72d6-46b7-91ae-58dc1ce9fb32)
     )
-    (fp_text value "NTS0302" (at 0 2) (layer "F.Fab") hide
+    (fp_text value "NXP_NTS0302" (at 0 2) (layer "F.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 128c6ddb-040b-4e26-bd16-68a2091188ae)
     )
@@ -2500,7 +2508,7 @@
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 0e0a4b84-f32d-4d0d-bb01-e1a33da32acb)
     )
-    (fp_text value "150R" (at 0 1.17 90) (layer "F.Fab") hide
+    (fp_text value "${TMDS_R1}" (at 0 1.17 90) (layer "F.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp fe9073de-b4ae-429c-945b-a199d6313a17)
     )
@@ -2542,7 +2550,7 @@
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp c05417e5-cf67-4862-b7b2-88b1d46f33cc)
     )
-    (fp_text value "82R" (at 0 1.17 90) (layer "F.Fab") hide
+    (fp_text value "${TMDS_R2}" (at 0 1.17 90) (layer "F.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 3424bad1-6891-4b9c-9ba8-97b4b1f82891)
     )
@@ -2710,7 +2718,7 @@
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 776fdb81-16bd-40fc-866b-5d7c4f5af091)
     )
-    (fp_text value "82R" (at 0 1.17 90) (layer "F.Fab") hide
+    (fp_text value "${TMDS_R2}" (at 0 1.17 90) (layer "F.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 430b98dc-0155-464c-95fc-2bf720cc2dd3)
     )
@@ -2836,7 +2844,7 @@
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 1fcbe337-d147-4e02-846e-7f1ec4528bd0)
     )
-    (fp_text value "50R" (at 0 1.17) (layer "F.Fab") hide
+    (fp_text value "${TMDS_R3}" (at 0 1.17) (layer "F.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 75080b0b-6140-45af-8605-622af6de8bea)
     )
@@ -2962,7 +2970,7 @@
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp fe5cae38-576a-4b87-a6e1-5234426807e6)
     )
-    (fp_text value "82R" (at 0 1.17 90) (layer "F.Fab") hide
+    (fp_text value "${TMDS_R2}" (at 0 1.17 90) (layer "F.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 77c3c3ec-3277-4b10-b805-f4612ab8b2ce)
     )
@@ -3004,7 +3012,7 @@
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 5379d081-922a-4828-9d43-7b2f2572d06c)
     )
-    (fp_text value "50R" (at 0 1.17) (layer "F.Fab") hide
+    (fp_text value "${TMDS_R3}" (at 0 1.17) (layer "F.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 5d9cc826-4756-4365-b769-24e883398d0a)
     )
@@ -3088,7 +3096,7 @@
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp dc463df2-2692-4a08-9d95-1a693251e4f0)
     )
-    (fp_text value "82R" (at 0 1.17 90) (layer "F.Fab") hide
+    (fp_text value "${TMDS_R2}" (at 0 1.17 90) (layer "F.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 0739a502-7fa1-4e85-8cae-604fd21c9156)
     )
@@ -3334,7 +3342,7 @@
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 168a0226-3f44-46ec-a72a-15290137bd66)
     )
-    (fp_text value "50R" (at 0 1.17) (layer "F.Fab") hide
+    (fp_text value "${TMDS_R3}" (at 0 1.17) (layer "F.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp a1bbbcb7-3394-4d47-a7e2-c5aca5915b62)
     )
@@ -3376,7 +3384,7 @@
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 6dc94e99-9f34-426f-9afc-d407d65a791a)
     )
-    (fp_text value "82R" (at 0 1.17 90) (layer "F.Fab") hide
+    (fp_text value "${TMDS_R2}" (at 0 1.17 90) (layer "F.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp abfbef40-48dd-432b-b235-087378272b80)
     )
@@ -3460,7 +3468,7 @@
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 83bcd60d-b5e5-43ba-88fe-f1144bbe561c)
     )
-    (fp_text value "82R" (at 0 1.17 90) (layer "F.Fab") hide
+    (fp_text value "${TMDS_R2}" (at 0 1.17 90) (layer "F.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 8bf46da0-6ff5-4488-8ec0-a2375d936f6e)
     )
@@ -3544,7 +3552,7 @@
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp d205f026-5c37-4a8f-96d0-c67ab0976f34)
     )
-    (fp_text value "150R" (at 0 1.17 90) (layer "F.Fab") hide
+    (fp_text value "${TMDS_R1}" (at 0 1.17 90) (layer "F.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp f82b8be3-e209-4493-8527-8e48e4d9c1ce)
     )
@@ -7503,7 +7511,7 @@
   (gr_text "Source" (at 162.306 123.825001 90) (layer "B.SilkS") (tstamp 17dcab1c-f6e6-4deb-8131-da7a2acd6485)
     (effects (font (size 1.5 1.5) (thickness 0.3)) (justify mirror))
   )
-  (gr_text "for Olimex iCE40HX8K-EVB\nhttps://github.com/Elemecca/1240pi\nlicensed under CERN-OHL-P v2" (at 152.4 105.41 90) (layer "B.SilkS") (tstamp 9ceb8be1-026a-4bf6-abff-2ef66c6b4a4e)
+  (gr_text "for Olimex iCE40HX8K-EVB\nhttps://github.com/Elemecca/1240pi\nlicensed under CERN-OHL-S v2" (at 152.4 105.41 90) (layer "B.SilkS") (tstamp 9ceb8be1-026a-4bf6-abff-2ef66c6b4a4e)
     (effects (font (size 0.8 0.8) (thickness 0.15)) (justify left mirror))
   )
   (gr_text "HDMI Expansion v${REVISION}" (at 149.225 105.41 90) (layer "B.SilkS") (tstamp c6353cbe-245d-4c89-b020-f6755c0b8fdc)
@@ -8403,24 +8411,23 @@
   (segment (start 148.59 107.292) (end 148.59 106.172) (width 0.125) (layer "F.Cu") (net 70) (tstamp 36d96ffd-877c-4436-a153-599f8ca4784a))
   (segment (start 149.206 105.556) (end 149.206 105.3418) (width 0.125) (layer "F.Cu") (net 70) (tstamp 8665cd8c-61ff-426c-bc77-38de78e90a08))
   (segment (start 148.59 106.172) (end 149.206 105.556) (width 0.125) (layer "F.Cu") (net 70) (tstamp dfe0faa3-ae1d-46d4-828d-a2cc67b8aacd))
+  (segment (start 141.32 132.9) (end 140.5 132.08) (width 0.125) (layer "F.Cu") (net 71) (tstamp 088e4255-e5f3-4005-bd12-0532b6f45e41))
   (segment (start 162.56 95.123) (end 162.56 111.98) (width 0.5) (layer "F.Cu") (net 71) (tstamp 08db0705-a118-41af-b4bf-9255fb99db19))
   (segment (start 148.34 111.76) (end 162.34 111.76) (width 0.125) (layer "F.Cu") (net 71) (tstamp 0b58c76e-3aa8-46df-848f-d85225eae04f))
   (segment (start 161.036 129.794) (end 151.5745 129.794) (width 0.5) (layer "F.Cu") (net 71) (tstamp 10870d2b-7ee9-43d9-9c8e-eca189ccc1e7))
   (segment (start 145.715 105.393) (end 145.271 105.393) (width 0.125) (layer "F.Cu") (net 71) (tstamp 241a58fd-50b2-446d-9d02-109e926e0fa7))
+  (segment (start 145.487989 114.612011) (end 140.852011 114.612011) (width 0.125) (layer "F.Cu") (net 71) (tstamp 25438d4a-b450-4956-904b-d6c6ba783f4f))
   (segment (start 143.002 92.202) (end 142.96 92.244) (width 0.5) (layer "F.Cu") (net 71) (tstamp 2737304d-b141-4aa3-b516-988a05467ecc))
-  (segment (start 145.487989 114.612011) (end 148.34 111.76) (width 0.125) (layer "F.Cu") (net 71) (tstamp 2b3fcbcb-d944-4ed6-9062-270f823c57a8))
-  (segment (start 140.3422 132.9) (end 142.298 132.9) (width 0.125) (layer "F.Cu") (net 71) (tstamp 2f5af161-eecf-40d1-963e-e01e06c8b50b))
+  (segment (start 140.852011 114.612011) (end 140.5 114.26) (width 0.125) (layer "F.Cu") (net 71) (tstamp 2d426f8c-701f-4026-a2dc-d3a5cbff681f))
   (segment (start 142.227201 132.887189) (end 142.24 132.899988) (width 0.125) (layer "F.Cu") (net 71) (tstamp 2f8cfaf4-e5e6-4f26-a76b-f0ef75330593))
   (segment (start 151.5745 129.794) (end 150.78425 130.58425) (width 0.5) (layer "F.Cu") (net 71) (tstamp 37be78ce-5bb8-4322-a4ee-4e293c7e9a70))
   (segment (start 161.163 93.726) (end 162.56 95.123) (width 0.5) (layer "F.Cu") (net 71) (tstamp 40c46c92-bd16-4c04-b96a-0b907c3cbd81))
   (segment (start 145.271 105.393) (end 144.272 104.394) (width 0.125) (layer "F.Cu") (net 71) (tstamp 4230be92-9940-4051-91f8-d57b20b4d78a))
   (segment (start 142.901862 130.069) (end 142.901862 129.638138) (width 0.125) (layer "F.Cu") (net 71) (tstamp 4cd76207-cc2b-4597-a8d7-90befb073b2b))
   (segment (start 144.272 104.394) (end 143.51 104.394) (width 0.125) (layer "F.Cu") (net 71) (tstamp 613e93f2-b6c5-4709-8bd4-832e22b81d5e))
-  (segment (start 140 132.5578) (end 140.3422 132.9) (width 0.125) (layer "F.Cu") (net 71) (tstamp 6e816d4e-d200-48e5-bcf2-ec066ef5f8fc))
   (segment (start 144.4356 130.364) (end 144.872 130.364) (width 0.125) (layer "F.Cu") (net 71) (tstamp 6f3c5d4f-cb8f-4970-a1cf-84a1c58bca00))
   (segment (start 162.56 128.27) (end 161.036 129.794) (width 0.5) (layer "F.Cu") (net 71) (tstamp 74d09674-c545-478f-9606-8df59058e723))
   (segment (start 142.901862 130.069) (end 144.1406 130.069) (width 0.125) (layer "F.Cu") (net 71) (tstamp 7524e0bc-bc92-41ed-bbde-e7dfee13f68b))
-  (segment (start 140 114.26) (end 140 114.342) (width 0.125) (layer "F.Cu") (net 71) (tstamp 816eaece-2995-491e-ac83-9b15b56de08d))
   (segment (start 150.700003 132.899988) (end 142.24 132.899988) (width 0.2) (layer "F.Cu") (net 71) (tstamp 8342edaf-145d-4194-a55f-c7a757512380))
   (segment (start 144.96 92.202) (end 144.96 93.435) (width 0.5) (layer "F.Cu") (net 71) (tstamp 840237d5-1bb2-4ee9-bdec-ae5bb215aaa7))
   (segment (start 145.542 92.202) (end 149.86 92.202) (width 0.5) (layer "F.Cu") (net 71) (tstamp 880c81f5-1a4a-426f-af9d-99802f745893))
@@ -8431,19 +8438,19 @@
   (segment (start 142.227201 131.584799) (end 142.227201 132.887189) (width 0.125) (layer "F.Cu") (net 71) (tstamp 99e2262c-eb03-4006-85fb-942ff2239681))
   (segment (start 151.384 93.726) (end 161.163 93.726) (width 0.5) (layer "F.Cu") (net 71) (tstamp 9e397b6f-1ded-4ad7-abcc-7f77081bdd5e))
   (segment (start 144.1406 130.069) (end 144.4356 130.364) (width 0.125) (layer "F.Cu") (net 71) (tstamp a12185dd-2aeb-489d-9ba9-4c2b4a258bd0))
-  (segment (start 140 114.342) (end 140.270011 114.612011) (width 0.125) (layer "F.Cu") (net 71) (tstamp a563ebff-20ca-4b24-965d-d03f461b75b4))
   (segment (start 146.021209 109.441209) (end 148.34 111.76) (width 0.125) (layer "F.Cu") (net 71) (tstamp a5ccf9cd-2da0-4831-baa0-7fdeca8d40b8))
   (segment (start 150.7 130.6685) (end 150.7 132.9) (width 0.5) (layer "F.Cu") (net 71) (tstamp af893220-dfc5-4599-a9d6-8416d01b5357))
+  (segment (start 141.42 132.9) (end 142.298 132.9) (width 0.125) (layer "F.Cu") (net 71) (tstamp b0004d16-71eb-430e-94d1-0e537eecbbbc))
   (segment (start 143.383 92.202) (end 143.002 92.202) (width 0.5) (layer "F.Cu") (net 71) (tstamp b4dc4754-de4d-41d1-9ef5-247ccc9ba91d))
   (segment (start 149.86 92.202) (end 151.384 93.726) (width 0.5) (layer "F.Cu") (net 71) (tstamp be3cf131-8538-454c-b7f4-edc45b5bf1e6))
   (segment (start 162.34 111.76) (end 162.56 111.98) (width 0.125) (layer "F.Cu") (net 71) (tstamp c60a98d6-d723-45ec-8cb1-8d5ba884682a))
-  (segment (start 140 132.08) (end 140 132.5578) (width 0.125) (layer "F.Cu") (net 71) (tstamp c795d63a-ba74-43b9-a7db-dd7e8178a724))
+  (segment (start 148.34 111.76) (end 145.487989 114.612011) (width 0.125) (layer "F.Cu") (net 71) (tstamp cdb46dee-fa1a-4c10-acbf-d2cfe6276377))
   (segment (start 138.938 92.202) (end 143.383 92.202) (width 0.5) (layer "F.Cu") (net 71) (tstamp d03a469b-4205-49be-93d4-06f5acc25886))
-  (segment (start 140.270011 114.612011) (end 145.487989 114.612011) (width 0.125) (layer "F.Cu") (net 71) (tstamp d438f417-5e92-420b-807a-f31889ff36fe))
   (segment (start 150.78425 130.58425) (end 150.7 130.6685) (width 0.5) (layer "F.Cu") (net 71) (tstamp d9cf88fb-da04-4d82-b846-675882806eb8))
   (segment (start 143.383 92.202) (end 145.542 92.202) (width 0.5) (layer "F.Cu") (net 71) (tstamp e0550eda-814c-42e9-a307-e01ffedef1eb))
   (segment (start 142.901862 129.638138) (end 143.254 129.286) (width 0.125) (layer "F.Cu") (net 71) (tstamp e309d125-fddf-4a49-8937-9b1caa10ac0f))
   (segment (start 162.56 111.98) (end 162.56 128.27) (width 0.5) (layer "F.Cu") (net 71) (tstamp e42212a5-5419-4132-8c38-5139b3739f80))
+  (segment (start 141.42 132.9) (end 141.32 132.9) (width 0.125) (layer "F.Cu") (net 71) (tstamp e54ce624-d429-46ba-adc4-e72eb5bfee53))
   (segment (start 142.297988 132.899988) (end 142.298 132.9) (width 0.125) (layer "F.Cu") (net 71) (tstamp f21889a1-dfff-4fc0-bc57-e062310ecfec))
   (via (at 142.96 95.945) (size 0.6) (drill 0.2) (layers "F.Cu" "B.Cu") (net 71) (tstamp 06b7f3a1-03f6-4816-b030-04b586bd1e33))
   (via (at 146.021209 109.441209) (size 0.6) (drill 0.2) (layers "F.Cu" "B.Cu") (net 71) (tstamp 3b0d596f-edec-4fe5-a565-34272e8a80d8))
@@ -8468,6 +8475,7 @@
   (segment (start 148.578202 127.6) (end 148.9 127.921798) (width 0.125) (layer "F.Cu") (net 72) (tstamp 93e9e68c-8ab9-46cf-9d9c-e9f589feabcf))
   (segment (start 147.3 127.69) (end 147.39 127.6) (width 0.125) (layer "F.Cu") (net 72) (tstamp 9fb06821-2de5-448e-9ebd-e6e8afa4ddf4))
   (segment (start 147.39 127.6) (end 148.578202 127.6) (width 0.125) (layer "F.Cu") (net 72) (tstamp bace9b18-98e2-40a0-9656-4c63f72bfe5a))
+  (segment (start 140 114.26) (end 140 114.342) (width 0.125) (layer "F.Cu") (net 75) (tstamp 816eaece-2995-491e-ac83-9b15b56de08d))
 
   (zone (net 1) (net_name "GND") (layer "F.Cu") (tstamp e697a674-3bec-4a1c-8047-847d44b5debf) (hatch edge 0.508)
     (connect_pads thru_hole_only (clearance 0.3))
