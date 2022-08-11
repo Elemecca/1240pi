@@ -19,3 +19,8 @@
 # Lattice Diamond Programmer configs
 /fpga/*/*.xcf
 
+# Icestorm output
+/fpga/*.json
+/fpga/*.asc
+/fpga/*.bin
+
