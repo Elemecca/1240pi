@@ -3,7 +3,7 @@
  * Display is a 512x240 raster monochrome CRT.
  * Pixel clock is 19.6608 MHz
  * Line clock ~ 38.4 KHz
- * Field clod ~ 160 Hz
+ * Field clock ~ 160 Hz
  *
  *
  * 120 fields/sec
@@ -66,6 +66,21 @@ module VideoOut(
                 hblank <= 1;
             end
         end
+
+        if (hblank || vblank) begin
+            // blanking
+            video <= 0;
+        end else if (ctr_line < 2 || ctr_line > 238 || ctr_pixel < 2 || ctr_pixel > 510) begin
+            // 2px solid yellow border around the screen
+            video <= 1;
+        end else begin
+            // fill with 4px diagonal crosshatch - green falling, red rising
+            if (field_green) begin
+                video <= (ctr_pixel[1:0] == ctr_line[1:0]);
+            end else begin
+                video <= (ctr_pixel[1:0] == ~ctr_line[1:0]);
+            end
+        end
     end
 
     always @(posedge hblank) begin
@@ -88,7 +103,6 @@ module VideoOut(
 
     assign hdrive = !hblank;
     assign vdrive_green = field_green;
-    assign video = !hblank && !vblank && (ctr_pixel[3] ^ !ctr_line[3]);
     assign clk_pixel_out = clk_pixel;
     assign clk_char_out = !ctr_char[2];
 endmodule
