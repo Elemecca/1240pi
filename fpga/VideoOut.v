@@ -34,6 +34,7 @@ module VideoOut(
     output clk_char_out
 );
     reg hblank;
+    reg hsync;
     reg vblank;
     reg field_green;
     reg[7:0] ctr_line;   // 2^8 = 256 (240) lines/field
@@ -44,6 +45,7 @@ module VideoOut(
 
     initial begin
         hblank = 1;
+        hsync = 1;
         vblank = 1;
         field_green = 1;
         ctr_line = 8;
@@ -57,12 +59,18 @@ module VideoOut(
 
         if (hblank) begin
             ctr_hblank <= ctr_hblank + 1;
-            if (ctr_hblank == 0) begin
+            if (ctr_hblank == 120) begin
+                // hsync ends 1 char / 8 pix before blanking
+                hsync <= 0;
+            end else if (ctr_hblank == 0) begin
                 hblank <= 0;
             end
         end else begin
             ctr_pixel <= ctr_pixel + 1;
-            if (ctr_pixel == 0) begin
+            if (ctr_pixel == 504) begin
+                // hsync starts 1 char / 8 pix before blanking
+                hsync <= 1;
+            end else if (ctr_pixel == 0) begin
                 hblank <= 1;
             end
         end
@@ -101,7 +109,7 @@ module VideoOut(
         end
     end
 
-    assign hdrive = !hblank;
+    assign hdrive = !hsync;
     assign vdrive_green = field_green;
     assign clk_pixel_out = clk_pixel;
     assign clk_char_out = !ctr_char[2];
