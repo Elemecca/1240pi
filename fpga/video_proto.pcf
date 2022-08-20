@@ -1,7 +1,5 @@
 
 set_io clk_pixel C8
-set_io clk_pixel_out A11
-set_io clk_char_out A10
 
 set_io video B7
 set_io hdrive C7

@@ -29,9 +29,7 @@ module VideoOut(
     input clk_pixel,
     output hdrive,
     output vdrive_green,
-    output video,
-    output clk_pixel_out,
-    output clk_char_out
+    output video
 );
     reg hblank;
     reg hsync;
@@ -41,7 +39,6 @@ module VideoOut(
     reg[8:0] ctr_pixel;  // 2^9 = 512 pixels/line
     reg[6:0] ctr_hblank; // 2^7 = 128 pixels/hblank
     reg[3:0] ctr_vblank; // 2^4 = 16  lines/vblank
-    reg[2:0] ctr_char;
 
     initial begin
         hblank = 1;
@@ -111,6 +108,4 @@ module VideoOut(
 
     assign hdrive = !hsync;
     assign vdrive_green = field_green;
-    assign clk_pixel_out = clk_pixel;
-    assign clk_char_out = !ctr_char[2];
 endmodule
