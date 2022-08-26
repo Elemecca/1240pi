@@ -29,7 +29,8 @@ module VideoOut(
     input clk_pixel,
     output hdrive,
     output vdrive_green,
-    output video
+    output video,
+    output[7:0] pixel,
 );
     reg hblank;
     reg hsync;
@@ -75,7 +76,7 @@ module VideoOut(
         if (hblank || vblank) begin
             // blanking
             video <= 0;
-        end else if (ctr_line < 2 || ctr_line > 238 || ctr_pixel < 2 || ctr_pixel > 510) begin
+        end else if (ctr_line < 2 || ctr_line > 238 || ctr_pixel < 3 || ctr_pixel > 510) begin
             // 2px solid yellow border around the screen
             video <= 1;
         end else begin
@@ -85,6 +86,12 @@ module VideoOut(
             end else begin
                 video <= (ctr_pixel[1:0] == ~ctr_line[1:0]);
             end
+        end
+
+        if (hblank || vblank) begin
+            pixel <= 0;
+        end else begin
+            pixel <= ctr_pixel[8:1];
         end
     end
 

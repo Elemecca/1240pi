@@ -4,3 +4,13 @@ set_io clk_pixel C8
 set_io video B7
 set_io hdrive C7
 set_io vdrive_green A7
+
+set_io pixel[0] C14
+set_io pixel[1] B15
+set_io pixel[2] D13
+set_io pixel[3] B14
+set_io pixel[4] C12
+set_io pixel[5] E11
+set_io pixel[6] C13
+set_io pixel[7] A16
+
