@@ -1,4 +1,4 @@
-20417877524362542
+20421047422487828
 0Local
 Abracon_ARJM11D7-502-AB-EW2
 ARJM11D7-502-AB-EW2-3
@@ -69,6 +69,20 @@ DiodesInc_X1-DFN1010-6
 0
 6
 6
+0Local
+Nexperia_SOT764-1
+
+Nexperia SOT764-1 DHVQFN20
+0
+20
+20
+0Local
+Nexperia_SOT764-1_EP
+
+Nexperia SOT764-1 DHVQFN20
+0
+23
+21
 0Local
 OSHW
 Imported from /home/sam/Downloads/oshw.svg
