@@ -529,7 +529,7 @@
   )
 
   (no_connect (at 185.42 111.76) (uuid 9a9ce8ae-0626-414d-909a-082c7a1756ba))
-  (no_connect (at 185.42 109.22) (uuid 9a9ce8ae-0626-414d-909a-082c7a1756ba))
+  (no_connect (at 185.42 109.22) (uuid 9a9ce8ae-0626-414d-909a-082c7a1756bb))
 
   (wire (pts (xy 152.4 106.68) (xy 160.02 106.68))
     (stroke (width 0) (type default) (color 0 0 0 0))

@@ -25,6 +25,8 @@
       (xy -2.3 -9.7)
       (xy -2.3 -9.9)
     ) (layer "F.SilkS") (width 0.1) (fill solid) (tstamp de071834-08ec-4bed-b291-4f77f93da09b))
+  (fp_rect (start 1.19 -9.9) (end 0.75 9.9) (layer "Eco2.User") (width 0.05) (fill none) (tstamp 2367af1b-f905-43f4-bcce-66b702ad4d1c))
+  (fp_rect (start -1.19 -9.9) (end -0.75 9.9) (layer "Eco2.User") (width 0.05) (fill none) (tstamp 9e07895e-0fd4-4f2e-b7ee-4a141d2294e3))
   (fp_rect (start -2.39 -11.8) (end 2.39 11.8) (layer "F.CrtYd") (width 0.05) (fill none) (tstamp 36f23320-b07d-4192-a5a9-a7c71b56b354))
   (fp_rect (start -1.44 -11.3) (end 1.44 11.3) (layer "F.Fab") (width 0.1) (fill none) (tstamp 33bb4a48-7ce4-4526-8ac6-a44fc02c32a0))
   (fp_poly (pts
