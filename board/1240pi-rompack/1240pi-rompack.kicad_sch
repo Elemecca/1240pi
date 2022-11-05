@@ -3619,6 +3619,12 @@
     (path "/00afd8dd-5929-4826-a5a1-a78c8b58f254"
       (reference "#PWR0115") (unit 1) (value "GND") (footprint "")
     )
+    (path "/0ec83c48-0d15-4cb4-b67d-a472cab6ad18/6960c6d2-812b-4bfb-b415-ce46a29b684e"
+      (reference "#PWR?") (unit 1) (value "+3V3") (footprint "")
+    )
+    (path "/0ec83c48-0d15-4cb4-b67d-a472cab6ad18/81b2efda-b4dd-45de-ba3a-8ec3d8c5da5e"
+      (reference "#PWR?") (unit 1) (value "+3V3") (footprint "")
+    )
     (path "/8e577e1a-6946-4ecf-bc7a-64c4753e6a83/ac1bec4a-b215-4a0b-8de4-403dcba46494"
       (reference "C1") (unit 1) (value "100n") (footprint "Resistor_SMD:R_0402_1005Metric")
     )
@@ -3693,6 +3699,12 @@
     )
     (path "/557d6630-372d-4085-9364-bb77b12a009c/168af75f-e77e-4165-a215-0c5cc19e0b1d"
       (reference "R2") (unit 1) (value "470R") (footprint "Resistor_SMD:R_0603_1608Metric")
+    )
+    (path "/0ec83c48-0d15-4cb4-b67d-a472cab6ad18/16e9328c-e7dc-41c5-82ab-07df4250003f"
+      (reference "R?") (unit 1) (value "10k") (footprint "")
+    )
+    (path "/0ec83c48-0d15-4cb4-b67d-a472cab6ad18/4862e743-6a4e-4ea4-b8f8-f978fb2d1edd"
+      (reference "R?") (unit 1) (value "10k") (footprint "")
     )
     (path "/8e577e1a-6946-4ecf-bc7a-64c4753e6a83/b8ada009-63e4-4659-a0bd-20fc3da0566d"
       (reference "U1") (unit 1) (value "74LVC245A") (footprint "0Local:Nexperia_SOT764-1")
