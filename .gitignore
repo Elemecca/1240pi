@@ -4,6 +4,7 @@
 /board/*/*-bak
 /board/*.bak
 /board/*/#auto_saved_files#
+/board/*/_autosave*
 
 # KiCAD outputs
 /board/*/dist/
